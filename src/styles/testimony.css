@@ -1,0 +1,166 @@
+.WhatD {
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.Rtme {
+    width: 100%;
+    max-width: 1260px;
+    /* padding: 0 10px; */
+    margin: 0 auto;
+}
+
+.TheyAre {
+    color:#cad5d1;
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+
+.DonTake {
+    font-size: 28px;
+    padding: 0 10px;
+    font-weight: 800;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.seeWhat {
+font-size: 16px;
+    color: #e7efec;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.earnSayPp {
+    width: 100%;
+    padding: 10px 15px;
+    height: auto;
+    background: #15604d;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgb(40 155 116);
+}
+
+.popopo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: inherit;
+    border: 1px solid #289b74;
+    padding: 4px;
+}
+
+.amakaDiv {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.favourPath {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstTom {
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 60px 0 20px 0;
+}
+
+.HowFarBro {
+    
+    color: #e4efec;
+    font-family: monospace;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ILOVEK {
+    padding: 10px 15px;
+    color:#f1f1f1;
+    line-height: 20px;
+    font-size: 15px;
+   font-weight: 300;
+   letter-spacing: 1px;
+    
+        /* font-family: monospace; */
+}
+
+.homeChange {
+    margin-bottom: 8px;
+        border-radius: 8px;
+        background-color: inherit;
+        transition: all 0.5s;
+        border: 1px solid #289b74;
+        background-color: #15604d;
+        position: relative;
+        z-index: 10;
+}
+
+.Qac {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #218563;
+    margin-top: 8px;
+}
+
+.partnerShip {
+    color: #c5c5c5;
+    margin: 15px 5px 20px 5px;
+    line-height: 20px;
+    font-size: 16px;
+    min-height: 100px;
+    font-family: monospace;
+}
+
+.carousel-button-group {
+    position: absolute;
+    right: 6%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.postKin {
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.testimonyDiv {
+    /* background-color: #074535; */
+    padding: 10px;
+        background: linear-gradient(180deg, #4f9b82, #064032, #064033);
+}
