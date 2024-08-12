@@ -181,11 +181,11 @@ const ButtonTwo =({onClick})=>{
 >
  <div style={{padding:"4px 10px"}}>      
 <div className="earnSayPp">
-  <p className="partnerShip">"Through Wegotips partnership program I made 250k in just two weeks by referring 20friends to the platform."</p>
+  <p className="partnerShip">"Through Amad Assure partnership program I made 20k in just two weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Chukwubuike Amogu</div>
+      <div className="amakaDiv">-Chibuike Kingsley</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
@@ -193,11 +193,11 @@ const ButtonTwo =({onClick})=>{
 </div> 
  <div style={{padding:"4px 10px"}}>           
 <div className="earnSayPp">
-  <p className="partnerShip">"I made Over 1 Million in Less Than 30 Days by just following Wegotips.com prediction on Sports and Forex Trading.I would recommend wegotips to any body any time."</p>
+  <p className="partnerShip">"I made some percentage through Amad Assure services."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Amaka Ngozi</div>
+      <div className="amakaDiv">-Chibuike Kingsley</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
@@ -205,11 +205,11 @@ const ButtonTwo =({onClick})=>{
 </div>
 <div style={{padding:"4px 10px"}}>
 <div className="earnSayPp">
-  <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Wegotips is the most valuable prediction portal i have ever come across. I love your system."</p>
+  <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Amad Assure is the most valuable financial company i have ever come across. I love your system."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Amaka Amogu</div>
+      <div className="amakaDiv">-chibuike kingsley</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
@@ -230,7 +230,7 @@ const ButtonTwo =({onClick})=>{
              data-aos-easing="linear" style={{color:"#fff"}}>FAQ</div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop}>
-                <span>I have never traded the forex or crypto market before. How do I Start?</span>{" "}
+                <span>How do I start to save</span>{" "}
                 <span className="IconSpace">
                 {show? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -240,7 +240,7 @@ const ButtonTwo =({onClick})=>{
                     <div className="Qac"></div>
                 <p className="ILOVEK">
                   {" "}
-                  To start trading the forex or cryptocurrency market all you need to know is to understand the basics of trading like, how to Buy/Sell, How to set Stoploss and Takeprofit, How to spot support and Resistance. With this basic knowledge you can follow our Tipsters expert forecast and achieve success in the market.{" "}
+                  To start saving  follow the steps in get started above.{" "}
                 </p>
                 </div>
               ) : (
@@ -249,7 +249,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop1}>
-                <span>I don't know how to bet on sports. How do I start?</span>
+                <span>How I start to invest?</span>
                 <span className="IconSpace">
                 {show1? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -258,7 +258,7 @@ const ButtonTwo =({onClick})=>{
                 <div>
                   <div className="Qac"></div>
                 <p className="ILOVEK">
-                 You don't need to understand much about sport betting to bet. Once you are registered with our recommended bookmaker, subscribe to any tipster membership and copy their coupon code to place your bet with the bookmaker specified by the tipster.
+                 to start investment sign up with us read about the service you want to invest and deposit from you dashboard.
                 </p>
                 </div>
               ) : (
@@ -267,7 +267,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop2}>
-                <span> I don't Have an account with any forex platform. Can I get any recommendations? </span>
+                <span> What are the requirement for creating an account? </span>
                 <span className="IconSpace">
                   {show2? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -285,7 +285,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop3}>
-                <span> How much does it cost to subscribe monthly? </span>
+                <span> What are the subscription plans for logistics saving? </span>
                 <span className="IconSpace">
                   {show3? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -294,7 +294,7 @@ const ButtonTwo =({onClick})=>{
                 <div>
                   <div className="Qac"></div>
                 <p className="ILOVEK">
-                Purchasing a membership Subscription from any tipster is flexible. You can either buy daily, weekly or monthly subscription
+                 need feed back reply
                 </p>
                 </div>
               ) : (
@@ -322,7 +322,7 @@ const ButtonTwo =({onClick})=>{
           
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop6}>
-                <span> If my referral subscribes every month will I still get paid my referral commission? </span>
+                <span> How does the real Estate work? </span>
                 <span className="IconSpace">
                   {show6? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -331,7 +331,7 @@ const ButtonTwo =({onClick})=>{
                 <div>
                   <div className="Qac"></div>
                 <p className="ILOVEK">
-                  Yes, you earn upto 75% commission on any user your refer to our plaform.e.g if Tola refers Emeka and Emeka subscribe to our yearly affiliate program, Tola will recieve 75%( ₦7,500) and if it's a monthly subscription Tola will receive ₦750. if Emeka continue renewing his subscrption every mont or year Tola will keep earning his referral bonus for life.
+                  Needs feed back reply.
                 </p>
                 </div>
               ) : (
@@ -340,7 +340,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop7}>
-                <span>  Can i invest my money with your company so you trade & bet for me and pay me percentage monthly?</span>
+                <span> What are benefits of choosing Amad assure saving?</span>
                 <span className="IconSpace">
                   {show7? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -349,7 +349,7 @@ const ButtonTwo =({onClick})=>{
                 <div>
                   <div className="Qac"></div>
                 <p className="ILOVEK">
-                 We or our Tipsters do not accept or manage users trading/ betting funds, trade or bet for any user. We only forecast the forex, crypto, binary market & predicts games. Users are responsible for managing their money with any brokers or bookies of their choice.
+                 need feed back reply.
                 </p>
                 </div>
               ) : (

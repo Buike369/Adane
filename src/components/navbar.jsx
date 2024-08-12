@@ -1,5 +1,5 @@
 
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import "../styles/header.css"
 import "../styles/mobileHeader.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,25 +10,27 @@ const Header = () => {
   const [isChecked,setIsChecked] = useState(false)
   const [dropdown,setDropdown] = useState(false)
   const tr = window.location.pathname;
+  const [show22, setShow22] = useState("Sapap")
 
-   const [feedBack,setFeedBack]=useState("")
+   const [feedBack,setFeedBack]=useState(false)
+
       const [feedBack1,setFeedBack1]=useState("")
    const navbarItem = [{link:"/courses",text:"Explore",name:"navbar1_link explore"},{link:"/ebook",text:"eBook",name:"navbar1_link"},{link:"/blog",text:"Blog",name:"navbar1_link"},{link:"/project",text:"projects",name:"navbar1_link"},{ link:"/",text:"pricing",name:"navbar1_link"}]
 
-    window.onscroll =()=>{
-        scrollF()
-      }
+    // window.onscroll=()=>{
+    //     scrollB()
+    //   }
     
 
-      const scrollF =()=>{
-  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-            setFeedBack('subCap')
-            setFeedBack1('cap')
-          }else{
-            setFeedBack(' ')
-            setFeedBack1(' ')
-          }
-      }
+  //     const scrollB =()=>{
+  // if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+  //           setFeedBack('subCap')
+  //           // setFeedBack1('cap')
+  //         }else{
+  //           setFeedBack(' ')
+  //           // setFeedBack1(' ')
+  //         }
+  //     }
 
       const handleCheckboxChange = (event)=>{
    setIsChecked(event.target.checked)
@@ -40,11 +42,29 @@ const Header = () => {
       }
 
       
+
+
+      useEffect(() => {
+    const handleScroll = () => {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+         setFeedBack(true);
+      } else {
+         setFeedBack(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     
   return (
 
-    <div >
-    <div className={`"header" ${feedBack}`}>
+    <div className="" >
+    <div className="subCap">
       <div className="Navbar">
 
             <div><a href="/" className="Brand">
@@ -90,13 +110,13 @@ const Header = () => {
     </label>
      <div className="menuBox">
     <ul className="menuBox24">
-      <li><a className="menuItem" href="/teach">Topic 1</a></li>
-       <li><a className="menuItem" href="/teach1">Topic 2</a></li>
-              <li><a className="menuItem" href="/teach2">Topic 3</a></li>
-      <li><a className="menuItem" href="/courses">Course</a></li>
-      <li><a className="menuItem" href="/ebook">eBook</a></li>
-      <li><a className="menuItem" href="/blog">Blog</a></li>
-      <li><a className="menuItem" href="/project">Projects</a></li>
+      <li><a className="menuItem" href="/">Home</a></li>
+       <li><a className="menuItem" href="/">Services</a></li>
+              <li><a className="menuItem" href="/">About Us</a></li>
+      <li><a className="menuItem" href="/">Contact Us</a></li>
+      <li><a className="menuItem" href="/">Blog</a></li>
+     
+
        <li><button className='loginButton'><a className="menuItem34" href="/register">Log In</a></button></li>
     </ul>
     </div>

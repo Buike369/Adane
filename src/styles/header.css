@@ -11,27 +11,34 @@ a {
 .Brand {
     font-size: 16px !important;
     font-weight: 600;
-    
+
 }
-.AMAd{
+
+.AMAd {
     color: #064032;
     font-family: "Sofia", cursive;
 }
 
 .subCap {
-
+box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    /* border-bottom: 1px solid #eeeeee; */
+    background-color: #d8fbe3;
+    /* box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%); */
     position: fixed;
-    top: -30px;
-    transform: translateY(30px);
-    -webkit-transform: translateY(30px);
-    transition: transform .3s linear;
     width: 100%;
-    left: 0;
-    z-index: 1225;
-    background: #352f7069;
-    -webkit-backdrop-filter: blur(300px);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid #5951af66;
+    opacity: 1;
+    -webkit-backdrop-filter: blur(239px);
+    backdrop-filter: blur(239px);
+    top: 0;
+    z-index: 7000;
+}
+.Sapap {
+
+    /* background-color: #0d0740; */
+    position: relative;
+    z-index: 7000;
+
+
 }
 
 .cap {
@@ -49,12 +56,13 @@ a {
 
 }
 
-.headerLogo{
-    display:flex;
+.headerLogo {
+    display: flex;
     align-items: center;
     flex-direction: column;
 
 }
+
 /* .NowB{
     border:0;
     outline:0;
@@ -97,8 +105,8 @@ a {
     max-width: 1270px;
     margin: 0 auto;
     position: relative;
-        width: 100%;
-        z-index: 400;
+    width: 100%;
+    z-index: 400;
 }
 
 .nacBar {
@@ -125,13 +133,13 @@ a {
 }
 
 .NavbarUl li a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .navbar1_link {
-    color:#064032;
-   
- font-weight: 500;
+    color: #064032;
+
+    font-weight: 500;
     border-radius: 0.5rem;
     margin-left: 0.75rem;
     padding: 0.5rem 1rem;

@@ -11,7 +11,7 @@
 }
 
 .TheyAre {
-    color:#cad5d1;
+    color:#064032;
     text-align: center;
     padding: 0 10px;
     margin-top: 40px;
@@ -36,11 +36,11 @@
 
 .seeWhat {
 font-size: 16px;
-    color: #e7efec;
+    color: #000;
     text-align: center;
     padding: 0 10px;
     margin-bottom: 25px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .earnSayPp {
@@ -52,7 +52,7 @@ font-size: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgb(40 155 116);
+    border: 1px solid rgb(104 223 182);
 }
 
 .popopo {
@@ -115,7 +115,7 @@ font-size: 16px;
         border-radius: 8px;
         background-color: inherit;
         transition: all 0.5s;
-        border: 1px solid #289b74;
+        border: 1px solid #68dfb6;
         background-color: #15604d;
         position: relative;
         z-index: 10;
@@ -162,5 +162,10 @@ font-size: 16px;
 .testimonyDiv {
     /* background-color: #074535; */
     padding: 10px;
-        background: linear-gradient(180deg, #4f9b82, #064032, #064033);
+    background: linear-gradient(180deg, #7bb69f, #68a991, #a2d2bb);
+}
+@media(max-width:768px){
+    .testimonyDiv{
+        padding: 1px;
+    }
 }

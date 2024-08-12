@@ -17,7 +17,7 @@
 
 .gradient-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
     padding: 30px;
 }
@@ -47,7 +47,7 @@ position: relative;
     background: linear-gradient(71deg, #267259, #04402c, #010404);
     background-clip: padding-box;
     border-radius: 18px;
-    padding: 40px;
+    padding: 30px;
 }
 
 .container-card img {
@@ -110,11 +110,36 @@ position: relative;
 max-width: 490px;
 }
 .Card{
-    background-color: #064032;
+    /* background-color: #064032; */
     margin-top: 80px;
     padding:30px 5px 20px 5px;
+    position: relative;
+    z-index: 10;
 /* background: linear-gradient(270deg, #24655f, #1a3e3e, #256862); */
 }
+.Bks{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #064032f5
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+   
+    background-image: url('/public/img/eme2.svg');
+ 
+    background-size: cover;
+
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
 
 @media screen and (min-width: 992px) and (max-width: 1439px) {
     .container {

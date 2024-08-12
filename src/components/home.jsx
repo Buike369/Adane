@@ -35,17 +35,18 @@ const Home = () => {
 <div className='hSec'>
         <div className="addHo1">
          <div className="heroSection2">
-          <div className="heroImgHousing">
-          <img src="/img/main.jpeg" alt=""className="heroImage"/>
+          <p className='saveSmart fastInU'>Fast Transactions and Easy Investments.</p>
+          <div className="heroImgHousing rtn">
+          <img src="/img/pwire.webp" alt=""className="heroImage"/>
           </div>
          </div>
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart'>Easy Savings and Smart Investments.</p>
-          <p className='saveSmart1' >Join Amad Assure and take control of your finances with our advanced savings tools and tips.</p>
+          <p className='saveSmart fastIn'>Fast Tansactions and Easy Investments.</p>
+          <p className='saveSmart1' >We Provide you with easy saving of money,items and investment .</p>
           <div className='hom'>
             <div  className='hom1'>Get Started</div>
-            <div  className='hom2'>Learn More</div>
+            {/* <div  className='hom2'>Learn More</div> */}
           </div>
           </div>
         </div>
