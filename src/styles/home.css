@@ -36,7 +36,7 @@
 .saveSmart{
     font-size: 60px;
     font-weight: 700;
-    color:#064032;
+    color:#15604d;
     margin-bottom: 15px;
 }
 .saveSmart1{
@@ -53,11 +53,12 @@
     width:150px;
     padding:10px 15px;
     text-align: center;
+ 
     
 }
 .hom1{
 border-radius: 8px;
-background-color: #064032;
+background-color: #15604d;
 color: #fff;
 }
 .hSec{
@@ -89,9 +90,18 @@ display: flex;
         height: 500px
     }
     .heroSection{
-    flex-direction: column-reverse;
-        margin: 120px auto 0 auto;
+    flex-direction: column;
+        margin: 100px auto 0 auto;
 
+    }
+    .fastInU{
+        font-size: 32px !important;
+    }
+    .A_home{
+        display: none;
+    }
+    .A_home1{
+        margin-top: 20px;
     }
     .hSec{
   padding:2px 0;
@@ -127,7 +137,7 @@ display: flex;
         gap: 10px;
  }
  .hom1,.hom2{
-    border: 1px solid green;
+    border: 1px solid #68dfb6;
     border-radius: 10px;
  }
  .heroImgHousing {
@@ -135,11 +145,24 @@ display: flex;
      padding: 0 10px;
  }
  .rtn {
-     height: 500px
+     height: 450px
  }
 }
-@media(min-width:769px){
-  .fastInU{
- display:none
+@media(min-width:769px) and (max-width:1024px){
+  
+  .saveSmart{
+    font-size: 47px;
   }
+  .heroSection{
+        padding: 0 20px;
+  }
+  .heroImgHousing {
+      height: 400px;
+  }
+}
+
+@media(min-width:769px){
+.fastInU, .A_home1 {
+        display: none
+    }
 }

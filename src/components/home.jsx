@@ -14,15 +14,20 @@ const Home = () => {
           <div className="housingDivForHeroText" >
           <p className='saveSmart'>Easy Savings and Smart Investments.</p>
           <p className='saveSmart1' >Join Amad Assure and take control of your finances with our advanced savings tools and tips.</p>
-          <div className='hom'>
+          <div className='hom A_home'>
             <div  className='hom1'>Get Started</div>
             <div  className='hom2'>Learn More</div>
           </div>
           </div>
         </div>
          <div className="heroSection2">
+                  
           <div className="heroImgHousing">
           <img src="/img/main.jpeg" alt=""className="heroImage"/>
+          </div>
+               <div className='hom A_home1'>
+            <div  className='hom1'>Get Started</div>
+            <div  className='hom2'>Learn More</div>
           </div>
          </div>
       </div>

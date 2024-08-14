@@ -167,4 +167,7 @@ max-width: 490px;
     .gradient-cards{
         padding: 5px 0px 20px 0px;
     }
+    .Card{
+  margin-top:40px
+    }
 }

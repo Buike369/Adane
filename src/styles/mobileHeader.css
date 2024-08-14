@@ -71,7 +71,9 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
 }
-
+.menuItem34{
+    color:#fff
+}
 .menuBox24 {
     display: block;
     position: absolute;
@@ -90,12 +92,12 @@
 }
 
 .loginButton {
-    padding: 6px 18px;
-    border: 1px solid gray;
+padding: 6px 18px;
+    border: 1px solid #639c88;
     border-radius: 6px;
     background-color: #19524d;
-    color:#fff;
-   
+    color: #fff !important;
+    margin-left: 20px;
 }
 
 .menuItem {

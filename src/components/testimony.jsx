@@ -181,6 +181,8 @@ const ButtonTwo =({onClick})=>{
 >
  <div style={{padding:"4px 10px"}}>      
 <div className="earnSayPp">
+  <div className='sHe1'></div>
+  <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Through Amad Assure partnership program I made 20k in just two weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
@@ -193,6 +195,7 @@ const ButtonTwo =({onClick})=>{
 </div> 
  <div style={{padding:"4px 10px"}}>           
 <div className="earnSayPp">
+  <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"I made some percentage through Amad Assure services."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
@@ -205,6 +208,7 @@ const ButtonTwo =({onClick})=>{
 </div>
 <div style={{padding:"4px 10px"}}>
 <div className="earnSayPp">
+  <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Amad Assure is the most valuable financial company i have ever come across. I love your system."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>

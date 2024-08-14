@@ -9,8 +9,9 @@
 .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #064133;
+    color: #15604d;
     margin-top: 30px;
+    font-family: HarmonyOS_Sans_Bold !important;
 }
 .getS{
     font-size: 16px;
@@ -46,7 +47,7 @@
 .step-title {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #064133;
+    color: #15604d;
 }
 
 .step-description {

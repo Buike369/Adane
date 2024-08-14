@@ -10,6 +10,8 @@ import {
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import Home from "./components/home"
+import Login from "./components/login"
+import Register from "./components/register"
 
 const Layout = () => {
   return (
@@ -34,10 +36,14 @@ const router = createBrowserRouter([
     ]
   },
   
-  // {
-  //   path: "/register",
-  //   element: <Register />,
-  // },
+  {
+    path: "/register",
+    element: <Register/>,
+  },
+  {
+    path: "/login",
+    element: <Login/>,
+  },
 ]);
 
 function App() {
