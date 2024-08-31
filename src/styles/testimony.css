@@ -5,13 +5,13 @@
 
 .Rtme {
     width: 100%;
-    max-width: 1260px;
+    max-width: 1200px;
     /* padding: 0 10px; */
     margin: 0 auto;
 }
 
 .TheyAre {
-    color: #064032;
+    color:#38e2cb;
     text-align: center;
     padding: 0 10px;
     margin-top: 40px;
@@ -26,33 +26,39 @@
 .DonTake {
     font-size: 28px;
     padding: 0 10px;
-    font-weight: 800;
+    font-weight: 700;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto 15px auto;
     text-align: center;
     color: #fff;
 }
+.country{
+    color: #38e2cb;
+}
 
 .seeWhat {
     font-size: 16px;
-    color: #000;
+    color: #999a9f;
     text-align: center;
     padding: 0 10px;
-    margin-bottom: 25px;
     font-weight: 400;
+    width: 100%;
+        max-width: 600px;
+        margin: 0 auto 25px auto;
 }
 
 .earnSayPp {
-    width: 100%;
+width: 100%;
     padding: 10px 15px;
     height: auto;
-    background: #15604d;
+    /* background: #151b2dc2; */
+        background: linear-gradient(180deg, #151b2d, #111828, #0d242cbd);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgb(104 223 182);
+    border: 1px solid rgb(33 43 68);
     position: relative;
     overflow: hidden;
 }
@@ -79,8 +85,14 @@ z-index: 3;
     height: 80px;
     border-radius: 50%;
     background: inherit;
-    border: 1px solid #289b74;
+    border: 2px solid #3d4251;
     padding: 4px;
+}
+.chibi{
+    color: #f1f1f1;
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 300;
 }
 
 .amakaDiv {
@@ -134,8 +146,8 @@ z-index: 3;
     border-radius: 8px;
     background-color: inherit;
     transition: all 0.5s;
-    border: 1px solid #68dfb6;
-    background-color: #15604d;
+    border: 1px solid #212b44;
+        background-color: #151b2d;
     position: relative;
     z-index: 10;
 }
@@ -144,12 +156,12 @@ z-index: 3;
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
-    border-bottom: 1px solid #218563;
+    border-bottom: 1px solid #212b44;
     margin-top: 8px;
 }
 
 .partnerShip {
-    color: #c4f7e3;
+    color: #84858c;
     margin: 15px 5px 20px 5px;
     line-height: 20px;
     font-size: 16px;
@@ -181,13 +193,21 @@ z-index: 3;
 }
 
 .testimonyDiv {
-    /* background-color: #074535; */
+ 
     padding: 10px;
-    background: linear-gradient(180deg, #7bb69f, #68a991, #a2d2bb);
+        background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
+        /* background: linear-gradient(180deg, #080b18, #080b18, #080b18); */
 }
 
 @media(max-width:768px) {
     .testimonyDiv {
         padding: 1px;
     }
+    .DonTake{
+        font-weight: 500;
+        font-size: 28px;
+    }
+ .TheyAre{
+    margin-bottom: 5px;
+ }
 }

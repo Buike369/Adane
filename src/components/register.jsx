@@ -24,11 +24,11 @@ const Register =()=>{
                      <p className="New_Account textAdmin">Create an Account</p>
                      
                      
-                    <div> <input type="text" placeholder="Full Name"  className="Full_Name inpupage page10 page11" name="username"/></div>
-                    <div> <input type="email" placeholder="Email" className="Full_Name inpupage page10 page11"  name="email"/></div>
+                    <div> <input type="text" placeholder="Full Name"  className="Full_Name" name="username"/></div>
+                    <div> <input type="email" placeholder="Email" className="Full_Name"  name="email"/></div>
                 
 
-                    <div className="sers"> <input type="password" placeholder="Password" className="Full_Name inpupage page10 page11"  name="password" value=""
+                    <div className="sers"> <input type="password" placeholder="Password" className="Full_Name "  name="password" value=""
                   />
                  {/* <FontAwesomeIcon icon={faEye} className="PlusIcon plusIcon2 ser1" />:<FontAwesomeIcon icon={faEyeSlash} className="PlusIcon plusIcon2 ser1" onClick={handleClickShowPassword}/>  */}
                  </div>
@@ -39,7 +39,7 @@ const Register =()=>{
                     
                     <div className="Checkbox_div"> <input type="checkbox" className="Bym" name="term" /><p className="Over_18 adColor">By checking this box you agree to all our Terms & Conditions.Click to  <a href="/" className="trems1">here</a> to read.</p></div>
 
-                     <button  className="RegisterM regmin" >Register</button>
+                     <div  className="loginn" >Register</div>
                      <div className="Or_with2">
                          <div className="Or_With"></div>
                          <p className="adColor">Or register with</p>
@@ -47,7 +47,7 @@ const Register =()=>{
                          <div className="Or_With"></div>
                      </div>
                    
-                     <div className="Googgle page10 page12"><FontAwesomeIcon icon={faGooglePlusG} className="gooleI" style={{width:"20%"}}/><div> Sign in with Google</div><div  style={{width:"8%"}}><FontAwesomeIcon  className="goole" /></div></div>
+                     <div className="Googgle  page12"><FontAwesomeIcon icon={faGooglePlusG} className="gooleI" style={{width:"20%"}}/><div> Sign in with Google</div><div  style={{width:"8%"}}><FontAwesomeIcon  className="goole" /></div></div>
                      <p className="Already_Account adColor">Already have an account?</p>
                      <div className="LOGIN_HERE_NOW"><Link to="/login" className="p_LoGIn trems1">Login Here</Link></div>
 

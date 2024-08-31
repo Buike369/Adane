@@ -7,20 +7,18 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arimo", sans-serif;
+    font-family: "Poppins", sans-serif;
         font-optical-sizing: auto;
       
         font-style: normal;
         font-size: 16px;
 }
 .App{
-    background-image: linear-gradient(0deg, #dbefe47a 0, #dbffe6);
-position:absolute;
-width:100%;
-top:0;
-left:0;
-bottom: 0;
-z-index: 5;
+    /* background-image: linear-gradient(0deg, #dbefe47a 0, #dbffe6); */
+/* position:absolute;
+width:100%; */
+
+
 overflow-x: hidden;
-background-color: #caf6d8;
+background-color: #080b18;
 }

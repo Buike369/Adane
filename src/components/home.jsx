@@ -7,50 +7,60 @@ import Testimony from "./testimony"
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <div className="ahh"></div>
       <div className="heroSection">
+        <div className="heroBackColor"></div>
         <div className="heroSection1">
           <div className="housingDivForHeroText" >
-          <p className='saveSmart'>Easy Savings and Smart Investments.</p>
-          <p className='saveSmart1' >Join Amad Assure and take control of your finances with our advanced savings tools and tips.</p>
+          <p className='saveSmart'>Creating <span className='Digital'>Digital</span> Solutions</p>
+          <p className='saveSmart1 rate' >We create web and mobile app that turn your ideas into reality,sparking innovations and achieving success.</p>
           <div className='hom A_home'>
-            <div  className='hom1'>Get Started</div>
-            <div  className='hom2'>Learn More</div>
+           <a href="/contact"><div  className='hom1'>Get In Touch</div></a> 
+            {/* <div  className='hom2'>Get Started</div> */}
           </div>
           </div>
         </div>
          <div className="heroSection2">
                   
           <div className="heroImgHousing">
-          <img src="/img/main.jpeg" alt=""className="heroImage"/>
+          <img src="/img/Adaer.png" alt=""className="heroImage"/>
           </div>
                <div className='hom A_home1'>
-            <div  className='hom1'>Get Started</div>
-            <div  className='hom2'>Learn More</div>
+            <a href="/contact"><div  className='hom1'>Get In Touch</div></a>
+            {/* <div  className='hom2'>Get Started</div> */}
           </div>
          </div>
       </div>
+
+         <div id="ourService">
        <Card/>
+       </div>
 
       
        
       {/* <OurServices/> */}
+      
       <GetStarted/>
+    
 <div className='hSec'>
         <div className="addHo1">
          <div className="heroSection2">
-          <p className='saveSmart fastInU'>Fast Transactions and Easy Investments.</p>
+          <p className='saveSmart fastInU'>We  innovate and transform your idea</p>
           <div className="heroImgHousing rtn">
-          <img src="/img/pwire.webp" alt=""className="heroImage"/>
+            {/* <div></div> */}
+            <div className='homePics'>
+              <div className='homePics2'></div> 
+          <img src="/img/techPics.png" alt=""className="heroImage"/>
+          </div>
           </div>
          </div>
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart fastIn'>Fast Tansactions and Easy Investments.</p>
-          <p className='saveSmart1' >We Provide you with easy saving of money,items and investment .</p>
+          <p className='saveSmart fastIn sH'>We innovate and transform your idea.</p>
+          <p className='saveSmart1' >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
           <div className='hom'>
-            <div  className='hom1'>Get Started</div>
+            <div  className='hom1'>Explore More: About Us</div>
             {/* <div  className='hom2'>Learn More</div> */}
           </div>
           </div>

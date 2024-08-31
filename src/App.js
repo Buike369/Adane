@@ -12,6 +12,7 @@ import Footer from "./components/footer"
 import Home from "./components/home"
 import Login from "./components/login"
 import Register from "./components/register"
+import Cont from "./components/contact"
 
 const Layout = () => {
   return (
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/contact",
+        element: <Cont/>
       }
      
     ]

@@ -1,15 +1,17 @@
 .get-started {
     padding: 40px;
-    background-color: #cbebd5;
+    background-color: #080b18;
     /* Slightly different gray for a financial theme */
     text-align: center;
     position: relative;
+        margin-top: 50px;
+            margin-bottom: 20px;
 }
 
 .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #15604d;
+    color: #38e3cb;
     margin-top: 30px;
     font-family: HarmonyOS_Sans_Bold !important;
 }
@@ -47,30 +49,33 @@
 .step-title {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #15604d;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .step-description {
     font-size: 1rem;
-    color: #666;
+    color: #999a9f;
 }
 .bmLi{
     width:80px;
     margin: 10px auto 20px auto;
 }
 .ggj{
-    color:#256862;
+    color:#38e3cb;
     /* width:100%; */
     font-size: 40px;
 }
 .follow{
     margin-bottom: 60px;
+    color:#f4f4f5;
 }
 .blur{
     width:200px;
     height:200px;
     border-radius: 50%;
-    background-color:#084636;
+    background-color:#36dfc7;
     position: absolute;
     top:0;
     left: 50%;

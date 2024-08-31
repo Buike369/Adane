@@ -77,11 +77,12 @@ const Footer = () => {
 
         <div className='footerHouse'></div>
         <div className="footerBackgroundColor">
+          
            
             <div className='padG'>
             <div  className='subEmail'>
                 <p className='misOut'>Don't miss out on Fantastic News</p>
-                <p className='misOut1'>Subscribe to our newsletter and be the first to receive news.</p>
+                <p className='misOut1'>Subscribe to our newsletter </p>
                 <form className='FormPP'>
                     <div>
                         <input type="email" placeholder='Enter your Email' className='yourEmail' name="email" value={inputs.email} onChange={changeHandle4}/>
@@ -95,10 +96,10 @@ const Footer = () => {
              <div className='footerHouse2'></div>
         <div>
             <div className='footerW'>
-                  <div className='footerFo'>
+                  {/* <div className='footerFo'>
                     <div className="weg4">
                         <div className="ato2">
-                   <div className='Weg'>AMAD Assure</div>
+                   <div className='Weg'>Adaene Tech</div>
                    <p className='Weg2'>We turn your idea into reality and ignite a passion  for tech development</p>
                    <p className='misOut1'>Subscribe to our newsletter</p>
                    <div>
@@ -110,31 +111,31 @@ const Footer = () => {
                 </form></div>
                 </div>
                 </div>
-                </div>
+                </div> */}
                
-                <div className=''>
+                <div className='fil'>
                     <ul className='footerF'>
-                        <li className='pin pin7'><div className="FooterHead">Product</div></li>
-                        <li className='pin pin6'><a href="/" className='then'>Financial</a></li>
+                        <li className='pin pin7'><div className="FooterHead">Projects</div></li>
+                        <li className='pin pin6'><a href="/" className='then'>Ecommerce</a></li>
                         <li className='pin pin7'><a href="/" className='then'>Real Estate</a></li>
                         <li className='pin  pin6'><a href="/" className='then'>AgricBusiness</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Logistics</a></li>
-                        <li className='pin1  pin6'><a href="/" className='then'>Bright Future Fund</a></li>
-                                                <li className='pin1  pin6'><a href="/" className='then'>Logistics</a></li>
-                                                <li className='pin1  pin6'><a href="/" className='then'>Bright Fu</a></li>
+                        <li className='pin1  pin6'><a href="/" className='then'>Finance</a></li>
+                                                <li className='pin1  pin6'><a href="/" className='then'>Blog</a></li>
+                                                <li className='pin1  pin6'><a href="/" className='then'>Co-operate</a></li>
                     </ul>
                 </div>
-                <div className=''>
+                <div className='fil'>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Company</div></li>
                         <li className='pin pin6'><a href="/" className='then'>Our Team</a></li>
                         <li className='pin pin7'><a href="/" className='then'>About Us</a></li>
-                        <li className='pin  pin6'><a href="/" className='then'>Contact Us</a></li>
+                        <li className='pin  pin6'><a href="mailto:chukwubuikekingsley369@gmail.com" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Careers</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>Press</a></li>
                     </ul>
                 </div>
-                <div className=''>
+                <div className='fil'>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Legal</div></li>
                         <li className='pin pin6'><a href="/" className='then'>Privacy Policy</a></li>
@@ -144,35 +145,75 @@ const Footer = () => {
                       
                     </ul>
                 </div>
-                <div className=''>
+                <div className='fil'>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
                         <li className='pin pin6'><a href="/" className='then'>Blog</a></li>
-                        <li className='pin pin7'><a href="/" className='then'>Become an Author</a></li>
-                        <li className='pin  pin6'><a href="/" className='then'>Become an Affiliate</a></li>
+
+
                         <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-         <div className='MobileT12'>
+         <div className=''>
+            <div className='footerW fil4'>
+                 
+                    <div className="fil">
+                        
+                   <div className='Weg'>Adaene Tech</div>
+                 
+              
+            
+                </div>
+               
+                <div className='fil'>
+                    <ul className='footerF'>
+
+                        <li className='pin pin6'><a className='then'>Call</a></li>
+                        <li className='pin pin7'><a href="/" className='then'>+234 8167 0296 09 +234 9060 2439 60</a></li>
+                       
+                    </ul>
+                </div>
+                <div className='fil'>
+                    <ul className='footerF'>
+
+                        <li className='pin pin6'><a  className='then'>Mail</a></li>
+                        <li className='pin pin7'><a href="/" className='then'>info@adane.com</a></li>
+                       
+                    </ul>
+                </div>
+                  <div className='fil'>
+                    <ul className='footerF'>
+
+                        <li className='pin pin6'><a href="/" className='then'>Skype</a></li>
+                        <li className='pin pin7'><a href="/" className='then'>Adane.Technologies</a></li>
+                       
+                    </ul>
+                </div>
+                
+             
+              
+            </div>
+        </div>
+         <div className='MobileT12 '>
             <div className='MobileT1'>
                 <div className='MobileT'>
                     <div className="R1">Company</div>
                     <a href="/" className='mnm mmm2'>About Us</a>
-                    <a href="/" className='mnm mmm2'> Contact Us </a>
+                    <a href="mailto:chukwubuikekingsley369@gmail.com" className='mnm mmm2'> Contact Us </a>
                     <a href="/" className='mnm mmm2'>Careers</a>
                      <a href="/" className='mnm mmm2'>Press</a>
                 </div>
                 <div className='MobileT'>
-                    <div className="R1 R2">Products</div>
-                    <a href="/" className='mnm mmm1 '>Financial</a>
+                    <div className="R1 R2">Projects</div>
+                    <a href="/" className='mnm mmm1 '>Ecommerce</a>
                     <a href="/" className='mnm mmm1'>Real Estate</a>
                     <a href="/" className='mnm mmm1'>AgricBusiness</a>
                     <a href="/" className='mnm mmm1'>Logistics</a>
-                     <a href="/" className='mnm mmm1'>Bright Future Fund</a>
-                    <a href="/" className='mnm mmm1'>Logistics</a>
+                     <a href="/" className='mnm mmm1'>Blog</a>
+                    <a href="/" className='mnm mmm1'>Co-operate</a>
                     
                 </div>
             </div>
@@ -195,11 +236,30 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+
+        <div className='MobileT12 fil5'>
+            <div className='MobileT1'>
+                <div className='MobileT'>
+
+                    <a  className='mnm4'>Call</a>
+                    <a  className='mnm mmm2'> +234 8167 029609 </a>
+
+                </div>
+                <div className='MobileT'>
+
+                    <a  className='mnm4'>Mail</a>
+                    <a  className='mnm mmm1'>info@Adane.com</a>
+
+                    
+                </div>
+            </div>
+        </div>
+        <div className='boy2'>
         <div className='boy'>
         <div className='footerMainDiv'>
           
             <div className='footerName' >
-                © 2024 Amad Assure limited . All Rights Reserved
+                © 2024 Adane Technologies limited . All Rights Reserved
             </div>
             <div className="hotter">
                 <div className="hot">
@@ -210,6 +270,7 @@ const Footer = () => {
                 ))}
                 </div>
             </div>
+        </div>
         </div>
         </div>
         </div>

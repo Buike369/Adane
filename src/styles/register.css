@@ -24,8 +24,9 @@ background: #d4f5df;
 }
 
 .page12 {
-    background-color: #064032 !important;
-    border: 1px solid #6fc38c !important;
+    background-color: #080b18 !important;
+        border: 1px solid #2a3654 !important;
+        color:#fff !important;
 }
 
 .errpage {
@@ -45,14 +46,14 @@ background: #d4f5df;
     max-width: 450px;
     height:auto;
 
-    border: 1px solid #6fc38c;
+    border: 1px solid #212b44;
 
-    background-color: #15604d !important;
+    background-color: #151b2d !important;
     padding: 15px 15px;
     border-radius: 10px;
     position: relative;
     z-index: 5;
-    
+   
 
 }
 
@@ -66,7 +67,9 @@ background: #d4f5df;
     justify-content: center;
     width: 100vw;
     height: 100vh ;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+        margin-top: 83px;
+    background: linear-gradient(180deg, #080b18, #080b18, #151b2d);
     
 }
 
@@ -82,12 +85,20 @@ background: #d4f5df;
 .Full_Name {
     width: 100%;
     padding: 10px 7px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+   background-color: inherit !important;
+   border-radius: 5px;
+   outline: 0;
+   border: 1px solid #2a3654;
+   color:#fff;
+}
+.Full_Name:active{
+background-color: inherit !important;
 }
 
 .Full_Name:focus {
     outline: 0;
-    border: 1px solid #6fc38c !important;
+    border: 1px solid #8f9fe1 !important;
     background-color: inherit !important;
 }
 
@@ -114,7 +125,7 @@ background: #d4f5df;
 
 }
 .adColor{
-    color:#b1dbd1;
+    color:#6c7393;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -140,7 +151,7 @@ background: #d4f5df;
 
 .Or_With {
     width: 22%;
-    border-bottom: 1px solid #2e6c43;
+    border-bottom: 1px solid #2a3654;
 
 }
 
@@ -236,6 +247,9 @@ background: #d4f5df;
 
 
     }
+        .formDivPAd{
+            margin-top: 2px;
+        }
 }
 
 @media (max-width:320px) {

@@ -147,12 +147,12 @@ const ButtonTwo =({onClick})=>{
     <div className="testimonyDiv">
         <div className="WhatD">
          <div className="Rtme">
-        <div className='TheyAre' data-aos="fade-down" data-aos-duration="3000"
-             data-aos-easing="linear">They are talking about us</div>
+        {/* <div className='TheyAre' data-aos="fade-down" data-aos-duration="3000"
+             data-aos-easing="linear">They are talking about us</div> */}
           <div className='DonTake' data-aos="fade-down" data-aos-duration="3000"
-             data-aos-easing="linear">Don't Take Our Word For It.</div>
+             data-aos-easing="linear">What Our Customers Say</div>
           <div className='seeWhat' data-aos="fade-down" data-aos-duration="3000"
-             data-aos-easing="linear">See what our customers have to say.Find out what our clients are saying below</div>
+             data-aos-easing="linear">Discover why our clients love working with us! Read their testimonials and see how we’ve made a difference for them</div>
          {/* <div className="divUnder1"></div> */}
          <div className=" marginMu fadama " data-aos="fade-up" data-aos-duration="3000"
              data-aos-easing="linear">
@@ -183,7 +183,7 @@ const ButtonTwo =({onClick})=>{
 <div className="earnSayPp">
   <div className='sHe1'></div>
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"Through Amad Assure partnership program I made 20k in just two weeks by referring 20friends to the platform."</p>
+  <p className="partnerShip">"Through Kinc Tech partnership program I made 20k in just two weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
@@ -196,7 +196,7 @@ const ButtonTwo =({onClick})=>{
  <div style={{padding:"4px 10px"}}>           
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"I made some percentage through Amad Assure services."</p>
+  <p className="partnerShip">"I made some percentage through Kinc Tech services."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
@@ -209,7 +209,7 @@ const ButtonTwo =({onClick})=>{
 <div style={{padding:"4px 10px"}}>
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Amad Assure is the most valuable financial company i have ever come across. I love your system."</p>
+  <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Kinc Tech is the most valuable financial company i have ever come across. I love your system."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
@@ -227,14 +227,14 @@ const ButtonTwo =({onClick})=>{
 
 
 
-                   <div style={{padding:"0 10px"}}>
+                   {/* <div style={{padding:"0 10px"}}>
           <div id="Faqc" data-aos="fade-up" data-aos-duration="3000"
              data-aos-easing="linear">
             <div className="firstTom" data-aos="fade-down" data-aos-duration="3000"
              data-aos-easing="linear" style={{color:"#fff"}}>FAQ</div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop}>
-                <span>How do I start to save</span>{" "}
+                <span className="chibi" >How do I start to save</span>{" "}
                 <span className="IconSpace">
                 {show? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -253,7 +253,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop1}>
-                <span>How I start to invest?</span>
+                <span className="chibi">How I start to invest?</span>
                 <span className="IconSpace">
                 {show1? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -271,7 +271,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop2}>
-                <span> What are the requirement for creating an account? </span>
+                <span className="chibi"> What are the requirement for creating an account? </span>
                 <span className="IconSpace">
                   {show2? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -289,7 +289,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop3}>
-                <span> What are the subscription plans for logistics saving? </span>
+                <span className="chibi"> What are the subscription plans for logistics saving? </span>
                 <span className="IconSpace">
                   {show3? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -305,28 +305,11 @@ const ButtonTwo =({onClick})=>{
                 ""
               )}
             </div>
-            {/* <div className="homeChange">
-              <div className="HowFarBro" onClick={drop4}>
-                <span> How much does it cost to subscribe monthly? </span>
-                <span className="IconSpace">
-                  {show4? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
-                </span>
-              </div>
-              {show4 ? (
-                <div>
-                  <div className="Qac"></div>
-                <p className="ILOVEK">
-                  It cost only $50 or ₦25,000 to subscribe monthly
-                </p>
-                </div>
-              ) : (
-                ""
-              )}
-            </div> */}
+           
           
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop6}>
-                <span> How does the real Estate work? </span>
+                <span className="chibi"> How does the real Estate work? </span>
                 <span className="IconSpace">
                   {show6? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -344,7 +327,7 @@ const ButtonTwo =({onClick})=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop7}>
-                <span> What are benefits of choosing Amad assure saving?</span>
+                <span className='chibi'> What are benefits of choosing Amad assure saving?</span>
                 <span className="IconSpace">
                   {show7? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -361,7 +344,7 @@ const ButtonTwo =({onClick})=>{
               )}
             </div>
           </div>
-          </div>
+          </div> */}
           </div>  
      
 

@@ -1,0 +1,228 @@
+.coverDC {
+    width: 100%;
+    max-width: 1100px;
+    margin: 100px auto 0 auto;
+}
+
+.connectWithUs {
+    font-size: 40px;
+    margin-top: 10px;
+    color:#ffffff;
+}
+.contcat{
+        background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
+        padding-bottom: 20px;
+        /* width: 100%;
+            height: 100%;
+        
+            background-image: url('/public/img/aaab.webp');
+        
+            background-size: cover;
+        
+            background-position: center;
+        
+            background-repeat: no-repeat;
+            position: relative; */
+}
+
+.connectWithUs1 {
+    font-weight: bold;
+    color: #28dd6d;
+}
+
+.contactFormD {
+    display: flex;
+}
+
+.ddV {
+    width: 60%;
+}
+.ddV5{
+    width: 40%;
+}
+
+.ddV23 {
+    width: 85%;
+}
+/* .bgCover{
+    background-color: #2e5444;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+} */
+
+.ifUs {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+}
+
+.LabelCon {
+    font-size: 14px;
+    font-weight: 600;
+    color:#ffffff99;
+    margin-bottom: 4px;
+}
+
+.inputsConnect {
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: 0;
+    color: #ffffff;
+    background-color: #151b2d;
+    border: 1px solid #212b44;
+        /* background-color: #000001;
+            border: 1px solid #06201e; */
+    margin-bottom: 12px;
+}
+
+.youCon {
+    display: flex;
+
+}
+
+.youCon1 {
+    width: 50%;
+}
+
+.youCon14 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.visitLC {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#15604d
+}
+
+.textF {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+
+    border: 0;
+    
+    padding: 10px 15px;
+    outline: 0;
+    color: #ffffff;
+        background-color: #151b2d;
+        border: 1px solid #212b44;
+        /* background-color: #000001;
+            border: 1px solid #06201e; */
+}
+
+.lij {
+    background-color: #2e5444;
+
+}
+
+.messA {
+    color:#ffffff99;
+    margin-bottom: 4px;
+}
+
+.SumbitConnect {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 60px;
+    text-align: center;
+    border: 1px solid rgb(65, 194, 123);
+    margin: 20px 0 40px 0;
+    background-color:#15604d ;
+    cursor: pointer;
+    color:#fff;
+
+}
+
+.SumbitConnect:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.graceDay {
+    font-size: 28px;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.wedDis {
+    color: #ffffff99;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+
+}
+
+.deed {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.noLike {
+    margin-right: 5px;
+    color: #28dd6d
+}
+
+@media(max-width:768px) {
+    .connectWithUs {
+        font-size: 36px;
+        margin-top: 5px;
+        text-align: justify;
+        padding: 2px 15px;
+    }
+
+    .contactFormD {
+        flex-direction: column;
+    }
+
+    .coverDiv17 {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .ddV {
+        width: 100%;
+        padding: 2px 15px
+    }
+
+    .ddV23 {
+        width: 100%;
+
+    }
+
+    .ifUs {
+        text-align: justify;
+    }
+
+    .youCon {
+        flex-direction: column;
+    }
+
+    .youCon1 {
+        width: 100%;
+    }
+
+    .cll {
+        margin-bottom: 8px;
+    }
+
+}

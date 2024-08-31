@@ -4,22 +4,30 @@
     margin-right: auto;
     margin-left: auto;
 }
-.SeeMoreB{
-    padding:10px 25px;
-    outline:0;
-    background-color: #064032;
-    border: 1px solid #299d76;
-    color:#fff;
-    border-radius: 30px;
+
+.SeeMoreB {
+    /* padding: 10px 25px; */
+    padding:5px 10px;
+    font-size: 14px;
+    outline: 0;
+    background-color: inherit;
+    border: 1px solid #263b4d;
+    color: #fff;
+        border-radius: 8px;
+    /* border-radius: 30px; */
     margin-top: 10px;
+    cursor: pointer;
 }
 
+.SeeMoreB:hover {
+    transform: translateY(-3px);
+}
 
 .gradient-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
-    padding: 30px;
+    padding: 30px 0px;
 }
 
 
@@ -31,7 +39,7 @@
     color: #fff;
     font-weight: 600;
     line-height: 60px;
-    margin-top: 30px ;
+    margin-top: 15px !important;
 }
 
 .card {
@@ -40,14 +48,37 @@
     width: 100%;
     margin-inline: auto;
 }
+/* .Wen{
+    width:200px;
+    height: 200px;
+    background-color: #103138;
+    border-radius: 10px;
+   
+    border-top-left-radius: 200px;
+    position: absolute;
+    bottom:-75px;
+    right: -75px;
+    z-index: 0;
+
+} */
 
 .container-card {
-position: relative;
-    border: 1px solid #299d76;
-    background: linear-gradient(71deg, #267259, #04402c, #010404);
+    position: relative;
+   
+     /* border: 1px solid #212b44;  */
+    /* border-right: 1px solid #080b18 ; */ 
+    /* border: 1px solid;
+        border-image: linear-gradient(to right, #ff7e5f, #feb47b);
+        border-image-slice: 1; */
+    
+    background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
     background-clip: padding-box;
     border-radius: 18px;
-    padding: 30px;
+    /* padding: 30px; */
+    padding: 15px 18px;
+    
+ 
+        
 }
 
 .container-card img {
@@ -67,28 +98,30 @@ position: relative;
 .bg-blue-box::after {
     position: absolute;
     top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
+    bottom: -1px ;
+    left: -1px ;
+    right: -1px ;
     content: "";
     z-index: -1;
-    border-radius: 45px;
+    border-radius: 18px;
+   
 }
 
 .bg-green-box::after {
-    background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+    background: linear-gradient(90deg, #212b44, #37746c, #080b18);
+   
 }
 
 .bg-white-box::after {
-    background: linear-gradient(71deg, #121013, #b0afb0, #121013);
+            background: linear-gradient(90deg, #212b44, #37746c, #080b18);
 }
 
 .bg-yellow-box::after {
-    background: linear-gradient(71deg, #110e0e, #afa220, #110e0e) !important;
+        background: linear-gradient(90deg, #212b44, #37746c, #080b18);
 }
 
 .bg-blue-box::after {
-    background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+        background: linear-gradient(90deg, #212b44, #37746c, #080b18);
 }
 
 .card-title {
@@ -97,53 +130,76 @@ position: relative;
     letter-spacing: -0.02em;
     line-height: 40px;
     font-style: normal;
-    font-size: 28px;
+    /* font-size: 28px; */
+        font-size: 18px;
+        position: relative;
+        z-index: 5;
+          
     padding-bottom: 8px;
     /* margin-top: 30px; */
 }
 
 .card-description {
-    font-weight: 600;
-    line-height: 32px;
-    color: #a2b3ad;
-    font-size: 16px;
-max-width: 490px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999a9f;
+    font-size: 15px;
+    max-width: 490px;
+    display:none;
 }
-.Card{
+
+.Card {
     /* background-color: #064032; */
     margin-top: 80px;
-    padding:30px 5px 20px 5px;
+    padding: 30px 5px 20px 5px;
     position: relative;
     z-index: 10;
-/* background: linear-gradient(270deg, #24655f, #1a3e3e, #256862); */
+    /* background: linear-gradient(270deg, #24655f, #1a3e3e, #256862); */
 }
-.Bks{
+
+.Bks {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
-    background-color: #064032f5
+    background-color: #080b18d4;
 }
+
 .background-image {
     width: 100%;
     height: 100%;
-   
+
     background-image: url('/public/img/eme2.svg');
- 
+
     background-size: cover;
 
     background-position: center;
-    
+
     background-repeat: no-repeat;
     position: relative;
+
+}
+
+.background-image1 {
+    /* width: 100%; */
+    height: 100%;
+
+    background-image: url('/public/img/eme2.svg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
 
 }
 
 
 @media screen and (min-width: 992px) and (max-width: 1439px) {
     .container {
-        max-width: 1279px !important;
+        max-width: 1200px !important;
         padding: 0 !important;
         margin: 0 auto !important;
         width: auto !important;
@@ -158,16 +214,19 @@ max-width: 490px;
         width: auto !important;
     }
 }
+
 @media screen and (max-width: 991px) {
     .gradient-cards {
         grid-template-columns: 1fr;
     }
 }
-@media (max-width:768px){
-    .gradient-cards{
+
+@media (max-width:768px) {
+    .gradient-cards {
         padding: 5px 0px 20px 0px;
     }
-    .Card{
-  margin-top:40px
+
+    .Card {
+        margin-top: 40px
     }
 }
