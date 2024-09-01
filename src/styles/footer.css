@@ -366,6 +366,9 @@ background-color: #192034;
     .MobileT1 {
         display: none;
     }
+        .fil5 {
+            border-top: none !important;
+            margin-top: 0px !important;}
 
     .pagG,
     .subEmail {
