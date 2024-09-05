@@ -10,8 +10,11 @@
     padding:5px 10px;
     font-size: 14px;
     outline: 0;
-    background-color: inherit;
-    border: 1px solid #263b4d;
+    /* background-color: inherit;
+    border: 1px solid #263b4d; */
+        background-color: #2f3a5b;
+            border: 1px solid #2f3a5b;
+            box-shadow: 0px 5px 25px -6px #080b18;
     color: #fff;
         border-radius: 8px;
     /* border-radius: 30px; */
@@ -28,6 +31,10 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     padding: 30px 0px;
+}
+.gradient-cards1{
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
 
@@ -64,21 +71,17 @@
 
 .container-card {
     position: relative;
-   
-     /* border: 1px solid #212b44;  */
-    /* border-right: 1px solid #080b18 ; */ 
-    /* border: 1px solid;
-        border-image: linear-gradient(to right, #ff7e5f, #feb47b);
-        border-image-slice: 1; */
-    
     background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
     background-clip: padding-box;
     border-radius: 18px;
-    /* padding: 30px; */
+
     padding: 15px 18px;
     
  
         
+}
+.hh{
+    background: inherit;
 }
 
 .container-card img {
@@ -145,7 +148,10 @@
     color: #999a9f;
     font-size: 15px;
     max-width: 490px;
-    display:none;
+   
+}
+.aa{
+    display: none;
 }
 
 .Card {
@@ -225,7 +231,9 @@
     .gradient-cards {
         padding: 5px 0px 20px 0px;
     }
-
+.card-description{
+    margin:0 auto;
+}
     .Card {
         margin-top: 40px
     }

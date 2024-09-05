@@ -1,0 +1,140 @@
+.MeetTeam {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.meetDiv {
+    background: linear-gradient(180deg, #0b1b25, #080b18, #09101c);
+
+    padding: 160px 0px 100px 0px !important;
+}
+
+.MeetTeam1 {
+    width: 40%;
+}
+
+.MeetTeam2 {
+    width: 60%;
+}
+
+.MeetTeam3 {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 10px 10px 10px;
+    background: linear-gradient(180deg, #0a1621, #09101c, #090f1b);
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 42px 3px #080b18; */
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.ThAre {
+    color: #9c9da3;
+    font-size: 14px;
+    width: 80%;
+}
+
+.l2 {
+
+    padding: 100px 0px 10px 0px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 98%;
+    background: linear-gradient(71deg, #0a1520, #0e1724, #080b18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.OurM {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.go {
+    position: relative;
+}
+
+.MT {
+    color: #38e3cb;
+    margin-bottom: 15px;
+
+}
+
+.MT3 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.ls {
+    width: 160px;
+    height: 160px;
+    margin-top: -79px;
+    border: 4px solid #38e3cb;
+
+    border-radius: 50%;
+    box-shadow: 0px 0px 29px 3px #091a18;
+}
+
+.mr {
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+
+}
+
+.mr1 {
+    color: #9c9da3;
+    padding: 5px;
+    text-align: center;
+}
+
+/* .go::after {
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    content: "";
+    z-index: -1;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #212b44, #37746c, #080b18) !important;
+} */
+
+@media(max-width:768px) {
+    .MeetTeam {
+        flex-direction: column;
+        padding: 2px 0px 2px 0px;
+    }
+
+    .MeetTeam1, .MeetTeam2 {
+        width: 100%;
+    }
+
+    .MeetTeam2 {
+        padding-left: 15px;
+    }
+
+    .meetDiv {
+        padding: 27px 0px 90px 0px !important;
+    }
+
+    
+    .hh, .OurM, .MeetTeam, .ThAre{
+        text-align: center;
+    }
+        .ThAre{
+            width: 100%;
+            padding: 1px 10px;
+        }
+}

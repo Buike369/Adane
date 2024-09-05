@@ -278,7 +278,17 @@ background-color: #192034;
 .boy {
     padding: 2px 10px;
 }
+.kil{
+border-top: 1px solid #1e263c;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.um {
+    width: 35px;
+    height: 35px;
 
+    border: 1px solid #2b3655;
+}
 
 
 

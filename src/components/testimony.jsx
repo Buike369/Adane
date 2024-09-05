@@ -30,8 +30,7 @@ const Testimony = () => {
     setShow1(!show1)
     setShow2(false)
     setShow3(false)
-    // setShow4(false)
-    // setShow5(false)
+
     setShow6(false)
     setShow7(false)
     
@@ -42,8 +41,7 @@ const Testimony = () => {
     setShow1(false)
     setShow2(!show2)
     setShow3(false)
-    // setShow4(false)
-    // setShow5(false)
+
     setShow6(false)
     setShow7(false)
     
@@ -53,33 +51,11 @@ const Testimony = () => {
     setShow1(false)
     setShow2(false)
     setShow3(!show3)
-    // setShow4(false)
-    // setShow5(false)
+  
     setShow6(false)
     setShow7(false)
   }
-  // const drop4 =()=>{
-
-  //   setShow(false)
-  //   setShow1(false)
-  //   setShow2(false)
-  //   setShow3(false)
-  //   setShow4(!show4)
-  //   setShow5(false)
-  //   setShow6(false)
-  //   setShow7(false)
-    
-  // }
-  // const drop5 =()=>{
-  //   setShow(false)
-  //   setShow1(false)
-  //   setShow2(false)
-  //   setShow3(false)
-  //   setShow4(false)
-  //   setShow5(!show5)
-  //   setShow6(false)
-  //   setShow7(false)
-  // }
+ 
   const drop6 =()=>{
     setShow(false)
     setShow1(false)

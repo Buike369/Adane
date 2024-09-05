@@ -6,6 +6,9 @@ import Card from "./card"
 import Testimony from "./testimony"
 
 const Home = () => {
+const title = "Our Services"
+const title1 = "Get In Touch"
+
   return (
     <div >
       <div className="ahh"></div>
@@ -34,7 +37,7 @@ const Home = () => {
       </div>
 
          <div id="ourService">
-       <Card/>
+       <Card title={title} title1={title1}/>
        </div>
 
       

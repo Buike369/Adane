@@ -30,16 +30,17 @@ a {
 
 .subCap {
 box-shadow: rgb(8 11 24) 14px -1px 6px -1px, rgb(18 24 40) 0px 2px 4px -1px;
-    background-color: #080b18;
+    background-color:#080b187a;
    
     position: fixed;
     width: 100%;
     opacity: 1;
-    -webkit-backdrop-filter: blur(239px);
-    backdrop-filter: blur(239px);
+    -webkit-backdrop-filter: blur(calc(0.5rem* 1));
+
     top: 0;
     z-index: 7000;
     padding:0 10px;
+        backdrop-filter: blur(calc(0.5rem* 1));
 }
 
 

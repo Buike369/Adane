@@ -129,7 +129,7 @@ const Footer = () => {
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Company</div></li>
                         <li className='pin pin6'><a href="/" className='then'>Our Team</a></li>
-                        <li className='pin pin7'><a href="/" className='then'>About Us</a></li>
+                        <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
                         <li className='pin  pin6'><a href="mailto:chukwubuikekingsley369@gmail.com" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Careers</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>Press</a></li>
@@ -201,7 +201,7 @@ const Footer = () => {
             <div className='MobileT1'>
                 <div className='MobileT'>
                     <div className="R1">Company</div>
-                    <a href="/" className='mnm mmm2'>About Us</a>
+                    <a href="/about" className='mnm mmm2'>About Us</a>
                     <a href="mailto:chukwubuikekingsley369@gmail.com" className='mnm mmm2'> Contact Us </a>
                     <a href="/" className='mnm mmm2'>Careers</a>
                      <a href="/" className='mnm mmm2'>Press</a>
