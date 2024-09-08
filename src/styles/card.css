@@ -237,4 +237,10 @@
     .Card {
         margin-top: 40px
     }
+    .hh{
+        padding: 14px 0px;
+    }
+    .cr{
+                margin: 0 10px !important;
+    }
 }

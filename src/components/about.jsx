@@ -57,20 +57,7 @@ const ButtonTwo =({onClick})=>{
 
   return (
     <div>
-      {/* <div>
-        <h1>About Us </h1>
-        <p>Adane tech is company that is based on web development and its core principle is to help people put their is idea digital online </p>
-      </div> */}
-      {/* <div>
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-        <div><img src="" alt="we love codimg" /></div>
-      </div> */}
-      {/* <div>
-      <div>Our Fundamental</div>
-      </div> */}
+     
 
       <div className='hSec'>
         <div className="addHo1">
@@ -86,10 +73,10 @@ const ButtonTwo =({onClick})=>{
          </div>
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart fastIn sH'>About Us</p>
-          <p className='saveSmart1' > Welcome to <a href="/"  style={{color:"#fff"}}>Adane Technology</a>. We are a dynamic team of innovators and designers dedicated to transforming your digital dreams into reality. Specializing in web development, app development, and graphic design with a keen focus on UI/UX, we bring a blend of technical expertise and artistic vision to every project.</p>
-           <p className="OurM">Mission</p>
-            <p className="saveSmart1">At Adane Technology, our mission is to empower businesses by crafting innovative web solutions, intuitive mobile apps, and captivating designs. We blend creativity with technology to deliver seamless user experiences and visually striking interfaces, helping our clients thrive in the digital world.</p>
+          <p className='saveSmart fastIn sH sM rrg'>About Us</p>
+          <p className='saveSmart1 sh1 sh6' > Welcome to <a href="/"  style={{color:"#fff"}}>Adane Technology</a>. We specialize in web development, app creation, and graphic design, blending technical expertise with artistic vision to turn your digital dreams into reality.</p>
+           <p className="OurM rrg">Mission</p>
+            <p className="saveSmart1 sh6"> Our mission is to empower businesses by crafting innovative web solutions, intuitive mobile apps, and captivating designs. We blend creativity with technology to deliver seamless user experiences and visually striking interfaces, helping our clients thrive in the digital world.</p>
             
            
           </div>

@@ -31,7 +31,7 @@ const Contact = () => {
 
 
     
- const inputs = [{label:"Full Name:",type:"text", name:"FullName"},{label:"Email*",type:"email",name:"email"},{label:"Phone:",type:"number",name:"phoneNumber"},{label:"Subject:",type:"text",name:"Subject"}]
+ const inputs = [{label:"Full Name",type:"text", name:"FullName",holder:"Enter your name"},{label:"Email",type:"email",name:"email",holder:"Enter your email"},{label:"Phone",type:"number",name:"phoneNumber",holder:"Enter your phone_number"},{label:"Subject",type:"text",name:"Subject",holder:"Purpose of contact"}]
 
 
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
@@ -48,14 +48,14 @@ const Contact = () => {
             <div className='contactFormD'>
                 <div className='ddV'>
                     <div className=' ddV23'>
-                    <div className='ifUs'>Contact us so we can connect with you!  The best way to connect with us initially is through email, thank you!</div>
+                    <div className='ifUs'>Contact Us to bring your digital ideas to life!</div>
                     <div>
                         <form>
                             {inputs.map((app,id)=>(
                                 <div key={id}>
                             <div className='LabelCon'>{app.label}</div>
                             <div>
-                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle}/>
+                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder}/>
                             </div>
                             </div>
                             ))}

@@ -81,8 +81,8 @@ z-index: 3;
 }
 
 .popopo {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: inherit;
     border: 2px solid #3d4251;
@@ -97,7 +97,7 @@ z-index: 3;
 
 .amakaDiv {
     color: #ffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -205,7 +205,7 @@ z-index: 3;
     }
     .DonTake{
         font-weight: 500;
-        font-size: 28px;
+        font-size: 24px;
     }
  .TheyAre{
     margin-bottom: 5px;

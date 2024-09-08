@@ -5,7 +5,7 @@ const AboutService = ({title,title1}) => {
   return (
     <div className='background-image'>
     <div className='Card'>
-        <div className="container">
+        <div className="container cr">
   <p className="container-title">{title}</p>
 
   <div className="gradient-cards gradient-cards1">

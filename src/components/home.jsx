@@ -26,13 +26,10 @@ const title1 = "Get In Touch"
         </div>
          <div className="heroSection2">
                   
-          <div className="heroImgHousing">
+          <div className="heroImgHousing hjhj56">
           <img src="/img/Adaer.png" alt=""className="heroImage"/>
           </div>
-               <div className='hom A_home1'>
-            <a href="/contact"><div  className='hom1'>Get In Touch</div></a>
-            {/* <div  className='hom2'>Get Started</div> */}
-          </div>
+           
          </div>
       </div>
 
@@ -63,7 +60,7 @@ const title1 = "Get In Touch"
           <p className='saveSmart fastIn sH'>We innovate and transform your idea.</p>
           <p className='saveSmart1' >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
           <div className='hom'>
-            <div  className='hom1'>Explore More: About Us</div>
+            <a href="/about"><div  className='hom1'>Explore More: About Us</div></a>
             {/* <div  className='hom2'>Learn More</div> */}
           </div>
           </div>

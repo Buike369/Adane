@@ -111,7 +111,7 @@ const Header = () => {
      <div className="menuBox">
     <ul className="menuBox24">
       <li><a className="menuItem" href="/about">About Us</a></li>
-       <li><a className="menuItem" href="/#ourService">Services</a></li>
+       <li><a className="menuItem" href="/#service">Services</a></li>
               <li><a className="menuItem" href="/">Industries</a></li>
       <li><a className="menuItem" href="/">Blog</a></li>
 

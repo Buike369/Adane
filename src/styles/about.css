@@ -117,7 +117,8 @@
         padding: 2px 0px 2px 0px;
     }
 
-    .MeetTeam1, .MeetTeam2 {
+    .MeetTeam1,
+    .MeetTeam2 {
         width: 100%;
     }
 
@@ -129,12 +130,33 @@
         padding: 27px 0px 90px 0px !important;
     }
 
-    
-    .hh, .OurM, .MeetTeam, .ThAre{
+
+    /* .hh, */
+    .OurM,
+    .MeetTeam,
+    .ThAre {
         text-align: center;
     }
-        .ThAre{
-            width: 100%;
-            padding: 1px 10px;
+
+    .ThAre {
+        width: 100%;
+        padding: 1px 10px;
+    }
+
+   
+    .sh6{
+        text-align: left;
+    } 
+    .rrg{
+        width:100%;
+        max-width: 490px;
+        margin: 0 auto;
+        padding:2px 15px;
+        text-align: left;
+    }
+        .MT3 {
+          
+            font-size: 32px;
+            line-height: 46px;
         }
 }

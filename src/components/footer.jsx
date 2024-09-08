@@ -96,22 +96,7 @@ const Footer = () => {
              <div className='footerHouse2'></div>
         <div>
             <div className='footerW'>
-                  {/* <div className='footerFo'>
-                    <div className="weg4">
-                        <div className="ato2">
-                   <div className='Weg'>Adaene Tech</div>
-                   <p className='Weg2'>We turn your idea into reality and ignite a passion  for tech development</p>
-                   <p className='misOut1'>Subscribe to our newsletter</p>
-                   <div>
-                    <form className='FormPP'>
-                    <div>
-                        <input type="email" placeholder='Enter your Email' className='yourEmail' name="email" value={inputs.email} onChange={changeHandle4}/>
-                        <FontAwesomeIcon icon={faPaperPlane}  className="HomeV" style={{fontSize:"20px"}} />
-                    </div>
-                </form></div>
-                </div>
-                </div>
-                </div> */}
+                
                
                 <div className='fil'>
                     <ul className='footerF'>
@@ -128,7 +113,7 @@ const Footer = () => {
                 <div className='fil'>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Company</div></li>
-                        <li className='pin pin6'><a href="/" className='then'>Our Team</a></li>
+
                         <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
                         <li className='pin  pin6'><a href="mailto:chukwubuikekingsley369@gmail.com" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Careers</a></li>
@@ -162,7 +147,7 @@ const Footer = () => {
                  
                     <div className="fil">
                         
-                   <div className='Weg'>Adaene Tech</div>
+                   <div className='Weg'>Adane Tech</div>
                  
               
             

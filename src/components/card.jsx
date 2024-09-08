@@ -3,7 +3,7 @@ import "../styles/card.css"
 
 const Card = ({title,title1}) => {
   return (
-    <div className='background-image'>
+    <div className='background-image' id="service" >
     <div className='Card'>
         <div className="container">
   <p className="container-title">{title}</p>
