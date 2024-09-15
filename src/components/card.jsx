@@ -29,7 +29,7 @@ const Card = ({title,title1}) => {
         </svg>
         <p className="card-title">Web Development</p>
         <p className="card-description aa">Boost your business with our web development good services, easy-to-use websites designed just for you.</p>
-        <a href="/contact"><button className='SeeMoreB'>{title1}</button></a>
+        <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
     <div className="card">
@@ -53,7 +53,7 @@ const Card = ({title,title1}) => {
         </svg>
         <p className="card-title">Mobile App Development</p>
         <p className="card-description aa">Create a standout mobile app for your business—easy to use, designed for you.</p>
-         <a href="/contact"><button className='SeeMoreB'>{title1}</button></a>
+         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
     <div className="card">
@@ -76,7 +76,7 @@ const Card = ({title,title1}) => {
         </svg>
         <p className="card-title">UI/UX Design</p>
         <p className="card-description aa">Invest in agriculture to grow your money safely. Get smart solutions and steady returns with low risk.</p>
-         <a href="/contact"><button className='SeeMoreB'>{title1}</button></a>
+         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
 
@@ -105,7 +105,7 @@ const Card = ({title,title1}) => {
         </svg>
         <p className="card-title">Graphic Design</p>
         <p className="card-description aa">Invest in real estate to build wealth. Enjoy steady income and long-term growth with secure, profitable properties.</p>
-         <a href="/contact"><button className='SeeMoreB'>{title1}</button></a>
+         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
 

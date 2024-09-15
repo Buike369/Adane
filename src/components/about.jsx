@@ -6,6 +6,7 @@ import GetStarted from './aboutInfo';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
+import withTitle from './title';
 
 
 const About = () => {
@@ -127,27 +128,75 @@ const ButtonTwo =({onClick})=>{
 > 
 
             <div className=' l2 go'>
-              <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+              <img src="/img/bkImg.jpeg" alt="learn.PNG" className='ls'/>
               <div className='ran'>
               <p className='mr'>Mr Chukwubuike Kingsley</p>
-              <p className='mr1'>Software Developer</p>
+              <p className='mr1'>CEO</p>
               </div>
             </div>
             <div className='l2 go'>
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
-               <p className='mr'>Mr Chukwubuike Kingsley</p>
+               <p className='mr'>Mr Samuel Dominic</p>
+               <p className='mr1'>Chief Technology Officer (CTO)</p>
+               </div>
+            </div>
+             <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
                <p className='mr1'>Software Developer</p>
                </div>
             </div>
              <div className='l2 go'>
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
-               <p className='mr'>Mr Chukwubuike Kings</p>
-               <p className='mr1'>Software Developer</p>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>Product Manager</p>
                </div>
             </div>
-            
+              <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>UX/UI Designer</p>
+               </div>
+            </div>
+                  <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>Quality Assurance (QA) Engineer</p>
+               </div>
+            </div>
+                  <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>DevOps Engineer</p>
+               </div>
+            </div>
+                  <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>Marketing Manager</p>
+               </div>
+            </div>
+                   <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>Sales Representative</p>
+               </div>
+            </div>
+                   <div className='l2 go'>
+               <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+               <div>
+               <p className='mr'>Mrs Chika Nwaokorie</p>
+               <p className='mr1'>Customer Support Specialist</p>
+               </div>
+            </div>
              
             </Carousel>
               {/* </div> */}
@@ -163,4 +212,4 @@ const ButtonTwo =({onClick})=>{
   )
 }
 
-export default About
+export default withTitle(About, 'About Us At - Adane Technology');

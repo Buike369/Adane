@@ -159,11 +159,11 @@ const ButtonTwo =({onClick})=>{
 <div className="earnSayPp">
   <div className='sHe1'></div>
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"Through Kinc Tech partnership program I made 20k in just two weeks by referring 20friends to the platform."</p>
+  <p className="partnerShip">"Adane Tech transformed our vision into a stunning, functional app."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Chibuike Kingsley</div>
+      <div className="amakaDiv">-John Nwachukwu</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
@@ -172,11 +172,11 @@ const ButtonTwo =({onClick})=>{
  <div style={{padding:"4px 10px"}}>           
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"I made some percentage through Kinc Tech services."</p>
+  <p className="partnerShip">"Innovative solutions and seamless support. Adane Tech delivers excellence"</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Chibuike Kingsley</div>
+      <div className="amakaDiv">-Amaka  Lisy</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
@@ -185,11 +185,24 @@ const ButtonTwo =({onClick})=>{
 <div style={{padding:"4px 10px"}}>
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
-  <p className="partnerShip">"Your company is truly upstanding and is behind its product 100%. Keep up the excellent work. Kinc Tech is the most valuable financial company i have ever come across. I love your system."</p>
+  <p className="partnerShip">"Adane Tech made our project shine,with top-notch design and development."</p>
   <div className="favourPath">
     <div><img src="/img/create.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-chibuike kingsley</div>
+      <div className="amakaDiv">-Stanley Ifeanyi</div>
+      <div className="country">Nigeria</div>
+     </div>
+  </div>
+</div>
+</div>
+<div style={{padding:"4px 10px"}}>
+<div className="earnSayPp">
+  <img src="/img/eme1.svg" alt="" className='sHe'/>
+  <p className="partnerShip">"Exceptional web development that truly elevated our online presence."</p>
+  <div className="favourPath">
+    <div><img src="/img/create.png" alt="" className="popopo"/></div>
+     <div>
+      <div className="amakaDiv">-Chukwuma chioma</div>
       <div className="country">Nigeria</div>
      </div>
   </div>

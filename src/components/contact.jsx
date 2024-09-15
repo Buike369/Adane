@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 
 import "../styles/contact.css"
 import axios from "axios"
+import withTitle from './title';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn,faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
@@ -50,7 +51,7 @@ const Contact = () => {
                     <div className=' ddV23'>
                     <div className='ifUs'>Contact Us to bring your digital ideas to life!</div>
                     <div>
-                        <form>
+                        <form className="fdn">
                             {inputs.map((app,id)=>(
                                 <div key={id}>
                             <div className='LabelCon'>{app.label}</div>
@@ -106,4 +107,4 @@ const Contact = () => {
   )
 }
 
-export default Contact;
+export default withTitle(Contact, 'Contact Us at - Adane Technology');

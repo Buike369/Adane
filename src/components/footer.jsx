@@ -115,7 +115,7 @@ const Footer = () => {
                         <li className='pin pin7'><div className="FooterHead">Company</div></li>
 
                         <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
-                        <li className='pin  pin6'><a href="mailto:chukwubuikekingsley369@gmail.com" className='then'>Contact Us</a></li>
+                        <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Careers</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>Press</a></li>
                     </ul>
@@ -227,7 +227,7 @@ const Footer = () => {
                 <div className='MobileT'>
 
                     <a  className='mnm4'>Call</a>
-                    <a  className='mnm mmm2'> +234 8167 029609 </a>
+                    <a  href="tel:+2348167029609"className='mnm mmm2'> +234 8167 029609 </a>
 
                 </div>
                 <div className='MobileT'>

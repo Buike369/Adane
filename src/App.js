@@ -13,7 +13,9 @@ import Home from "./components/home"
 import Login from "./components/login"
 import Register from "./components/register"
 import Cont from "./components/contact"
+import ContUs from "./components/contactUs"
 import AboutUs from "./components/about"
+import Services from "./components/service"
 
 const Layout = () => {
   return (
@@ -40,6 +42,15 @@ const router = createBrowserRouter([
       }, {
         path: "/about",
         element: <AboutUs />
+      },
+      {
+        path: "/getInTouch",
+        element: <ContUs />
+      }
+      ,
+      {
+        path: "/service",
+        element: <Services/>
       }
      
     ]

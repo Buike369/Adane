@@ -195,9 +195,9 @@
         display: none;
     }
 
-    /* .A_home {
+    .aHom2 {
         display: none;
-    } */
+    }
 
     .A_home1 {
         /* margin-top: 20px; */
@@ -328,7 +328,7 @@
 
 @media(min-width:769px) {
 
-    .fastInU {
+    .fastInU, .aHom {
         display: none
     }
 
