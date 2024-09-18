@@ -10,19 +10,9 @@
     color:#ffffff;
 }
 .contcat{
-        background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
+    background: linear-gradient(180deg, #080b18, #080b18, #151b2d);
         padding-bottom: 20px;
-        /* width: 100%;
-            height: 100%;
-        
-            background-image: url('/public/img/aaab.webp');
-        
-            background-size: cover;
-        
-            background-position: center;
-        
-            background-repeat: no-repeat;
-            position: relative; */
+      
 }
 
 .connectWithUs1 {
@@ -78,15 +68,13 @@
     font-size: 16px;
     outline: 0;
     color: #000;
-    /* background-color: #1c3d46;
-    border: 1px solid #212b44; */
    
-        background: #0a21287d;
+        background:#121829;
 
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #224650;
+        border: 1px solid #333957;
      
         
     margin-bottom: 12px;
@@ -108,8 +96,7 @@
 }
 .fdn   {
         padding: 10px;
-            /* background: #151b2d; */
-            background: #2e756d4f;
+            background: #151b2d;
             border-radius: 8px;
 }
 
@@ -125,15 +112,12 @@
     width: 100%;
     height: 150px;
     border-radius: 8px;
-
     border: 0;
-    
     padding: 10px 15px;
     outline: 0;
     color: #ffffff;
-        background-color: #0f272e;
-        border: 1px solid #224650;
-       
+    background-color: #121829;
+    border: 1px solid #333957;   
 }
 
 .lij {
@@ -151,9 +135,9 @@
     padding: 8px 10px;
     border-radius: 60px;
     text-align: center;
-    border: 1px solid rgb(65, 194, 123);
-    margin: 20px 0 40px 0;
-    background-color:#15604d ;
+        border: 1px solid rgb(51 57 87);
+            margin: 20px 0 40px 0;
+            background-color: #09101c;
     cursor: pointer;
     color:#fff;
 

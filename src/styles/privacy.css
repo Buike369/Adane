@@ -1,0 +1,45 @@
+.privacyHousing{
+
+    width: 100%;
+    max-width: 1200px;
+    margin:80px auto 0 auto;
+    color:#ffffff99;
+}
+.priP{
+    background: linear-gradient(180deg, #080b18, #080b18, #151b2d);
+        padding: 20px 15px;
+}
+.lico{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.InfoCollect{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.DivGu{
+    padding-left: 15px;
+}
+.toPros{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+.WeUe{
+    font-size: 15px;
+    font-weight: 400;
+        line-height: 25px;
+}
+.fontW{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color:#35e1c9;
+    letter-spacing: 0.5px;
+}

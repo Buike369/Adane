@@ -16,6 +16,8 @@ import Cont from "./components/contact"
 import ContUs from "./components/contactUs"
 import AboutUs from "./components/about"
 import Services from "./components/service"
+import Policy from "./components/policy"
+import Terms from "./components/termsAndService"
 
 const Layout = () => {
   return (
@@ -51,8 +53,15 @@ const router = createBrowserRouter([
       {
         path: "/service",
         element: <Services/>
+      },
+      {
+        path: "/privacy_policy",
+        element: <Policy />
+      },
+      {
+        path: "/terms_and_condition",
+        element: <Terms />
       }
-     
     ]
   },
   
