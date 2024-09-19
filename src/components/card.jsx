@@ -1,13 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../styles/card.css"
+import AOS from 'aos';
 
 const Card = ({title,title1}) => {
+
+   useEffect(()=>{
+    AOS.init({once: true});
+    // AOS.init();
+  },[])
   return (
     <div className='background-image' id="service" >
-    <div className='Card'>
+    <div className='Card'  data-aos="fade-up">
         <div className="container">
   <p className="container-title">{title}</p>
-
+<div className='like'>
   <div className="gradient-cards">
      <div className="card">
       <div className="container-card bg-white-box">
@@ -32,7 +38,7 @@ const Card = ({title,title1}) => {
         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card">
+    <div className="card"  data-aos="fade-up">
       <div className="container-card bg-yellow-box">
          <div className='Wen'></div>
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +62,7 @@ const Card = ({title,title1}) => {
          <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card">
+    <div className="card"  data-aos="fade-up">
       <div className="container-card bg-green-box">
         <div className='Wen'></div>
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +90,7 @@ const Card = ({title,title1}) => {
 
     
 
-    <div className="card">
+    <div className="card"  data-aos="fade-up">
       <div className="container-card bg-blue-box">
          <div className='Wen'></div>
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,6 +161,7 @@ const Card = ({title,title1}) => {
     </div> */}
        
 
+  </div>
   </div>
 </div>
 

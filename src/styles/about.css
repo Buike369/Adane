@@ -10,7 +10,7 @@
 .meetDiv {
     background: linear-gradient(180deg, #0b1b25, #080b18, #09101c);
 
-    padding: 160px 0px 100px 0px !important;
+    padding: 130px 0px 100px 0px !important;
 }
 
 .MeetTeam1 {
@@ -159,4 +159,10 @@
             font-size: 32px;
             line-height: 46px;
         }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    .meetDiv{
+        padding: 40px 15px 60px 15px !important;
+    }
 }

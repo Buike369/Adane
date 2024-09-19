@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/privacy.css"
+import withTitle from './title';
 
 const Policy = () => {
   return (
@@ -14,27 +15,27 @@ const Policy = () => {
                 <p className='InfoCollect'>Information We Collect</p>
                 <p className='WeUe'>We collect various types of information to provide and improve our services:</p>
                 <div className='DivGu'>
-                <p className='toPros'> 1. Personal Information: This includes your name, email address, phone number, and any other details you provide when contacting us or using our services.</p>
-                <p className='toPros'> 2. Usage Data: We collect data about how you use our website and services, including IP addresses, browser types, and pages visited.</p>
-                <p className='toPros'> 3. Cookies: We use cookies and similar technologies to enhance your experience and analyze website traffic. You can manage cookie preferences through your browser settings.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Personal Information: This includes your name, email address, phone number, and any other details you provide when contacting us or using our services.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> Usage Data: We collect data about how you use our website and services, including IP addresses, browser types, and pages visited.</p>
+                <p className='toPros mkil'> <span className='lion'>3.</span> Cookies: We use cookies and similar technologies to enhance your experience and analyze website traffic. You can manage cookie preferences through your browser settings.</p>
                 </div>
             </div>
             <div>
                 <p className='InfoCollect'> How We Use Your Information</p>
                 <p className='WeUe'>We use your information for the following purposes:</p>
                 <div className='DivGu'>
-                <p className='toPros'> 1. To Provide Services: To deliver and support our web and app development solutions.</p>
-                <p className='toPros'> 2. To Communicate: To respond to your inquiries, send updates, and provide information related to our services.</p>
-                <p className='toPros'> 3. To Improve Our Services: To analyze usage data and enhance our offerings.</p>
-                <p className='toPros'> 4. To Comply with Legal Obligations: To adhere to legal requirements and protect our rights.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> To Provide Services: To deliver and support our web and app development solutions.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> To Communicate: To respond to your inquiries, send updates, and provide information related to our services.</p>
+                <p className='toPros mkil'> <span className='lion'>3.</span> To Improve Our Services: To analyze usage data and enhance our offerings.</p>
+                <p className='toPros mkil'> <span className='lion'>4.</span> To Comply with Legal Obligations: To adhere to legal requirements and protect our rights.</p>
                 </div>
             </div>
             <div>
                 <p className='InfoCollect'>How We Share Your Information</p>
                 <p  className='WeUe'>We do not sell or rent your personal information to third parties. We may share your information in the following circumstances:</p>
                                 <div className='DivGu'>
-                <p  className='toPros'> 1. With Service Providers: We may engage third-party vendors to assist with website hosting, payment processing, and other services. These providers are obligated to protect your information.</p>
-                <p  className='toPros'> 2. For Legal Reasons: We may disclose your information if required by law or to protect our rights and the safety of others.</p>
+                <p  className='toPros mkil'> <span className='lion'>1.</span> With Service Providers: We may engage third-party vendors to assist with website hosting, payment processing, and other services. These providers are obligated to protect your information.</p>
+                <p  className='toPros mkil'> <span className='lion'>2.</span> For Legal Reasons: We may disclose your information if required by law or to protect our rights and the safety of others.</p>
             </div></div>
             <div>
                 <p className='InfoCollect'>Data Security</p>
@@ -44,10 +45,10 @@ const Policy = () => {
                 <p className='InfoCollect'>Your Rights</p>
                 <p>You have the following rights regarding your personal information:</p>
                   <div className='DivGu'>
-                <p className='toPros'> 1. Access: You can request access to the information we hold about you.</p>
-                <p className='toPros'> 2. Correction: You can request corrections to any inaccurate or incomplete information.</p>
-                <p className='toPros'> 3. Deletion: You can request the deletion of your personal information, subject to legal and contractual obligations.</p>
-                <p className='toPros'> 4. Opt-Out: You can opt out of receiving marketing communications from us by following the unsubscribe instructions provided in those communications</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Access: You can request access to the information we hold about you.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> Correction: You can request corrections to any inaccurate or incomplete information.</p>
+                <p className='toPros mkil'> <span className='lion'>3.</span> Deletion: You can request the deletion of your personal information, subject to legal and contractual obligations.</p>
+                <p className='toPros mkil'> <span className='lion'>4.</span> Opt-Out: You can opt out of receiving marketing communications from us by following the unsubscribe instructions provided in those communications</p>
                   </div>
             </div>
             <div>
@@ -64,4 +65,4 @@ const Policy = () => {
   )
 }
 
-export default Policy
+export default withTitle(Policy, 'Privacy Policy of - Adane Technology');

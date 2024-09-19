@@ -1,13 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "../styles/home.css"
 import OurServices from './ourServices';
 import GetStarted from './getStarted';
 import Card from "./card"
 import Testimony from "./testimony"
+import AOS from 'aos';
 
 const Home = () => {
 const title = "Our Services"
 const title1 = "Get In Touch"
+
+
+   useEffect(()=>{
+    AOS.init({once: true});
+    // AOS.init();
+  },[])
 
   return (
     <div >
@@ -34,8 +41,8 @@ const title1 = "Get In Touch"
          </div>
       </div>
 
-         <div id="ourService">
-       <Card title={title} title1={title1}/>
+         <div id="ourService" data-aos="fade-up">
+       <Card title={title} title1={title1}  />
        </div>
 
       
@@ -58,7 +65,8 @@ const title1 = "Get In Touch"
          </div>
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart fastIn sH'>We innovate and transform your idea.</p>
+          <p className='saveSmart fastIn sH' data-aos="fade-up"
+     data-aos-duration="1000">We innovate and transform your idea.</p>
           <p className='saveSmart1' >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
           <div className='hom'>
             <a href="/about"><div  className='hom1'>Explore More: About Us</div></a>

@@ -74,6 +74,7 @@ const Header = () => {
 
     <div className="" >
     <div className="subCap">
+      <div style={{padding:"0 10px"}}>
       <div className="Navbar relativeD">
 
             <div><a href="/" className="Brand">
@@ -140,6 +141,7 @@ const Header = () => {
            </ul>
         </div>
         }
+      </div>
       </div>
 
 

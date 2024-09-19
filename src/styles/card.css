@@ -244,3 +244,12 @@
                 margin: 0 10px !important;
     }
 }
+@media(min-width:769px) and (max-width:1024px) {
+    .like{
+        padding:0 10px;
+    }
+        .gradient-cards {
+       
+            grid-template-columns: repeat(2, 1fr);
+           }
+}

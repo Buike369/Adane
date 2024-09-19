@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/privacy.css"
+import withTitle from './title';
 
 const TermsAndService = () => {
   return (
@@ -14,45 +15,45 @@ const TermsAndService = () => {
             <div>
                 <p className='InfoCollect'>User Responsibilities</p>
                 <div className='DivGu'>
-                <p className='toPros'> 1. Eligibility: You must be at least 18 years old or have the consent of a parent or guardian to use our service.</p>
-                <p className='toPros'> 2. Accuracy: You agree to provide accurate and complete information when contacting us or using our services.</p>
-                <p className='toPros'> 3. Use of Services: You agree to use our services for lawful purposes only and in accordance with any applicable laws and regulations.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Eligibility: You must be at least 18 years old or have the consent of a parent or guardian to use our service.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> Accuracy: You agree to provide accurate and complete information when contacting us or using our services.</p>
+                <p className='toPros mkil'> <span className='lion'>3.</span> Use of Services: You agree to use our services for lawful purposes only and in accordance with any applicable laws and regulations.</p>
                 </div>
             </div>
             <div>
                 <p  className='InfoCollect'>Intellectual Property</p>
                  <div className='DivGu'>
-                <p className='toPros'> 1. Ownership: All content, trademarks, and intellectual property rights related to our website and services are owned by Adane Tech or our licensors.</p>
-                <p className='toPros'> 2. License: We grant you a limited, non-exclusive, non-transferable license to access and use our services for your personal or business use.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Ownership: All content, trademarks, and intellectual property rights related to our website and services are owned by Adane Tech or our licensors.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> License: We grant you a limited, non-exclusive, non-transferable license to access and use our services for your personal or business use.</p>
                 </div>
 
             </div>
             <div>
                 <p className='InfoCollect'> Payment and Fees</p>
                 <div className='DivGu'>
-                <p className='toPros'> 1. Payment Terms: Fees for our services will be outlined in the service agreement or proposal provided to you. Payment terms and conditions will be specified in the agreement.</p>
-                <p className='toPros'> 2. Late Payments: Late payments may incur additional charges or interest, as specified in the service agreement.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Payment Terms: Fees for our services will be outlined in the service agreement or proposal provided to you. Payment terms and conditions will be specified in the agreement.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> Late Payments: Late payments may incur additional charges or interest, as specified in the service agreement.</p>
                 </div>
             </div>
             <div>
                 <p className='InfoCollect'>Confidentiality</p>
                  <div className='DivGu'>
-                <p className='toPros'> 1. Confidential Information: Both parties agree to keep any confidential information exchanged during the course of providing our services confidential and not to disclose it to third parties without prior written consent.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Confidential Information: Both parties agree to keep any confidential information exchanged during the course of providing our services confidential and not to disclose it to third parties without prior written consent.</p>
                 </div>
             </div>
             <div>
                 <p className='InfoCollect'>Limitation of Liability</p>
                  <div className='DivGu'>
-                <p  className='toPros'> 1. Disclaimer: Our services are provided "as is" and we make no warranties or representations about the accuracy, reliability, or completeness of the services or any content.</p>
-                <p  className='toPros'> 2. Liability: To the maximum extent permitted by law, Adane Tech is not liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of profits, data, or business opportunities.</p>
+                <p  className='toPros mkil'> <span className='lion'>1.</span> Disclaimer: Our services are provided "as is" and we make no warranties or representations about the accuracy, reliability, or completeness of the services or any content.</p>
+                <p  className='toPros mkil'> <span className='lion'>2.</span> Liability: To the maximum extent permitted by law, Adane Tech is not liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of profits, data, or business opportunities.</p>
                 </div>
             </div>
             <div>
                 <p className='InfoCollect'>Termination</p>
                     <div className='DivGu'>
-                <p className='toPros'> 1. Termination by Us: We may suspend or terminate your access to our services if you violate these terms or engage in unlawful conduct.</p>
+                <p className='toPros mkil'> <span className='lion'>1.</span> Termination by Us: We may suspend or terminate your access to our services if you violate these terms or engage in unlawful conduct.</p>
                 
-                <p className='toPros'> 2. Termination by You: You may terminate our services by providing written notice as specified in the service agreement.</p>
+                <p className='toPros mkil'> <span className='lion'>2.</span> Termination by You: You may terminate our services by providing written notice as specified in the service agreement.</p>
                 </div>
             </div>
             <div>
@@ -75,4 +76,4 @@ const TermsAndService = () => {
   )
 }
 
-export default TermsAndService
+export default withTitle(TermsAndService, 'Terms and Condition Of - Adane Technology');

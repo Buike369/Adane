@@ -11,7 +11,8 @@
 }
 .contcat{
     background: linear-gradient(180deg, #080b18, #080b18, #151b2d);
-        padding-bottom: 20px;
+  
+        padding:0 15px 20px 15px
       
 }
 
@@ -199,7 +200,7 @@
 
     .ddV {
         width: 100%;
-        padding: 2px 15px
+        padding: 2px 0px
     }
 
     .ddV23 {

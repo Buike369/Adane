@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from "./aboutService"
+import withTitle from './title';
 
 const Service = () => {
   return (
@@ -11,4 +12,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default withTitle(Service, 'Our Services At - Adane Technology');
