@@ -186,10 +186,11 @@
     }
 
     .contactFormD {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 .graceDay {
     font-size: 24px;
+        margin: 15px 0 0px 0;
 }
     .coverDiv17 {
         position: relative;

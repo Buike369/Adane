@@ -34,7 +34,7 @@ const Contact = () => {
     
  const inputs = [{label:"Full Name",type:"text", name:"FullName",holder:"Enter your name"},{label:"Email",type:"email",name:"email",holder:"Enter your email"},{label:"Phone",type:"number",name:"phoneNumber",holder:"Enter your phone_number"},{label:"Subject",type:"text",name:"Subject",holder:"Purpose of contact"}]
 
-
+  const PhoneNum ="+2348167029609"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
   return (
     <div >
@@ -91,7 +91,7 @@ const Contact = () => {
                         <div className='graceDay'>
                             Contact Information
                         </div>
-                        <div className='wedDis'>Office Phone:  +234 906 0243 960</div>
+                        <div className='wedDis'>Office Phone:  <a href={`tel:${PhoneNum}`} style={{color:"#fff"}}>+234 906 0243 960</a></div>
                         <div className='wedDis'>Email: chukwubuikekingsley@gmail.com</div>
                         <div className='deed'>Mailing Address:</div>
                         <div className='wedDis'>P.O. Box 1639</div>

@@ -161,10 +161,10 @@ const ButtonTwo =({onClick})=>{
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Adane Tech transformed our vision into a stunning, functional app."</p>
   <div className="favourPath">
-    <div><img src="/img/create.png" alt="" className="popopo"/></div>
+    <div><img src="/img/amf.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-John Nwachukwu</div>
-      <div className="country">Nigeria</div>
+      <div className="amakaDiv">-Femi Savie</div>
+      <div className="country">South Africa</div>
      </div>
   </div>
 </div>
@@ -174,10 +174,10 @@ const ButtonTwo =({onClick})=>{
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Innovative solutions and seamless support. Adane Tech delivers excellence"</p>
   <div className="favourPath">
-    <div><img src="/img/create.png" alt="" className="popopo"/></div>
+    <div><img src="/img/amfb.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Amaka  Lisy</div>
-      <div className="country">Nigeria</div>
+      <div className="amakaDiv">-Frak  Bosco</div>
+      <div className="country">New York</div>
      </div>
   </div>
 </div>
@@ -187,10 +187,10 @@ const ButtonTwo =({onClick})=>{
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Adane Tech made our project shine,with top-notch design and development."</p>
   <div className="favourPath">
-    <div><img src="/img/create.png" alt="" className="popopo"/></div>
+    <div><img src="/img/amfdd.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Stanley Ifeanyi</div>
-      <div className="country">Nigeria</div>
+      <div className="amakaDiv">-Keta lizy</div>
+      <div className="country">California</div>
      </div>
   </div>
 </div>
@@ -200,9 +200,9 @@ const ButtonTwo =({onClick})=>{
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Exceptional web development that truly elevated our online presence."</p>
   <div className="favourPath">
-    <div><img src="/img/create.png" alt="" className="popopo"/></div>
+    <div><img src="/img/amfcc.png" alt="" className="popopo"/></div>
      <div>
-      <div className="amakaDiv">-Chukwuma chioma</div>
+      <div className="amakaDiv">-Chukwuma John</div>
       <div className="country">Nigeria</div>
      </div>
   </div>
