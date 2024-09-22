@@ -5,10 +5,12 @@ import GetStarted from './getStarted';
 import Card from "./card"
 import Testimony from "./testimony"
 import AOS from 'aos';
+import Slide from "./slides"
 
 const Home = () => {
 const title = "Our Services"
 const title1 = "Get In Touch"
+
 
 
    useEffect(()=>{
@@ -40,7 +42,9 @@ const title1 = "Get In Touch"
            
          </div>
       </div>
+  
 
+  <Slide/>
          <div id="ourService" data-aos="fade-up">
        <Card title={title} title1={title1}  />
        </div>

@@ -151,7 +151,8 @@
    
 }
 .aa{
-    display: none;
+    /* display: none; */
+    min-height: 120px;
 }
 
 .Card {
