@@ -7,16 +7,17 @@ import withTitle from './title';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn,faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
 import {faLocationDot} from "@fortawesome/free-solid-svg-icons"
+import validator from 'validator';
 // import { useLocation } from 'react-router-dom';
 
 const Contact = () => {
   const [error,setError]=useState("")
-     const [messages,setMessages]=useState("")
+     const [message,setMessage]=useState("")
   const [inputs1,setInputs1] = useState({
-    firstName:"",
-    lastName:"",
+    fullName:"",
     email:"",
     phone:"",
+    subject:"",
     message:""
   })
 
@@ -28,11 +29,50 @@ const Contact = () => {
   }
 
 
+    const postInfo = async(e)=>{
+e.preventDefault()
+    if((inputs1.fullName.length === 0) || (inputs1.email.length === 0) || (inputs1.phone.length === 0) || (inputs1.subject.length === 0) || (inputs1.message.length === 0) ){
+      setError("field must not be empty")
+       setTimeout(()=>{
+           setError("")
+        },3000)
+    }else if(validator.isEmail(inputs1.email) === false){
+setError("invalid Email")
+ setTimeout(()=>{
+           setError("")
+        },3000)
+    }else if (validator.isMobilePhone(inputs1.phone,'en-NG',{strictMode:false}) === false){
+ setError("invalid phone number")
+  setTimeout(()=>{
+           setError("")
+        },3000)
+    }else{
+
+      await axios.post("http://localhost:8080/api/post/form",inputs1).then((response)=>{
+        // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
+        setMessage("Successful Registration")
+        setTimeout(()=>{
+           setMessage("")
+           setInputs1({
+            fullName:"",
+    email:"",
+    phone:"",
+    subject:"",
+    message:""
+           })
+          
+        },3000)
+      }).catch((err)=>{
+       console.log(err)
+      })
+    } 
+  }
+
 
 
 
     
- const inputs = [{label:"Full Name",type:"text", name:"FullName",holder:"Enter your name"},{label:"Email",type:"email",name:"email",holder:"Enter your email"},{label:"Phone",type:"number",name:"phoneNumber",holder:"Enter your phone_number"},{label:"Subject",type:"text",name:"Subject",holder:"Purpose of contact"}]
+ const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Enter your name"},{label:"Email",type:"email",name:"email",holder:"Enter your email"},{label:"Phone",type:"number",name:"phone",holder:"Enter your phone_number"},{label:"Subject",type:"text",name:"subject",holder:"Purpose of contact"}]
 
   const PhoneNum ="+2348167029609"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
@@ -65,11 +105,11 @@ const Contact = () => {
                             <div>
                                 <div className='messA'>Message *</div>
                                 <div>
-                                    <textarea className='textF'>
+                                    <textarea className='textF' name="message" onChange={changeHandle}>
                                     </textarea>
                                 </div>
                             </div>
-                            <div className='SumbitConnect'>Submit</div>
+                            <div className='SumbitConnect' onClick={postInfo}>Submit</div>
                              
                         </form>
                     </div>
