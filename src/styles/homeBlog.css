@@ -1,0 +1,199 @@
+.BlogD {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.OuB {
+    color: #45afa0;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-top: 30px;
+   
+}
+
+.OuB1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+   
+}
+
+.OuB2 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+
+.TL {
+    font-size: 1rem;
+    color: #999a9f;
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+.TLB {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.blogImgD {
+    height: 18rem;
+
+}
+
+.BID1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blogDivD {
+    width: 32%;
+}
+
+.textDD {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    margin-top: 20px;
+    padding: 3px 25px;
+    background-color: #2e756d;
+    /* height: auto; */
+    width: fit-content;
+    border-radius: 24px
+}
+
+.RW {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Tuy {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.IOP {
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    /* text-wrap: nowrap; */
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.ppL {
+    font-size: 1rem;
+    color: #999a9f;
+
+    letter-spacing: 1px;
+}
+
+.shaI {
+    padding-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.YFW {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.TSY {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #45afa0
+}
+
+.YFW2 {
+    color: #999a9f;
+    font-size: 1.3rem;
+}
+
+.YF {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.YFE {
+
+    border-left: 2px solid #27544d;
+}
+
+.YFE45 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 20px
+}
+
+.YFE1 {
+    color: #999a9f;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.FaT1 {
+    background: linear-gradient(180deg, #080b18, #0b1a24, #0d262d);
+}
+
+.FaT {
+    background: linear-gradient(180deg, #0d252c, #0b1a24, #080b18);
+}
+
+@media (max-width:768px) {
+    .Mikl {
+        width: 100%;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .Mikl::-webkit-scrollbar {
+        display: none;
+        /* Hide scrollbar */
+    }
+    .OuB2{
+flex-direction: column;
+    }
+    .TL{
+        width: 100%;
+    }
+    .OuB1{
+font-size: 2rem;
+    }
+        .OuB{
+            font-size: 1.7rem;
+        }
+        .YF{
+            flex-direction: column;
+        }
+                .YFW, .TSY{
+                    font-size: 2rem;
+                }
+                                .shaI {
+                                    padding-top: 4rem;
+                                    margin-bottom: 1rem;
+                                }
+
+    .WR {
+        width: 900px;
+        overflow: hidden;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width:1200px){
+.OuB ,.OuB1,.OuB2,.YF, .YFW,.YFW2{
+    padding:2px 15px;
+}
+}

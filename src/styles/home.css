@@ -88,7 +88,7 @@
 .hom {
     display: flex;
     align-items: center;
-    gap: 10px
+    /* gap: 10px */
 }
 
 .hom1,
@@ -96,7 +96,7 @@
 
     padding: 10px 15px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 50px;
     background-color: #2e756d;
     box-shadow: 0px 2px 15px 0px #080b18;
     color: #ffffff;
@@ -149,7 +149,7 @@
 
 .hSec {
     padding: 40px 0;
-    background: linear-gradient(180deg, #080b18, #10343a, #080b18);
+    background: linear-gradient(180deg, #080b18, #0d272f, #080b18);
     position: relative;
     /* background: linear-gradient(180deg, #c4ebd1, #c9e9d3, #7ab59e); */
 }
@@ -211,7 +211,7 @@
     .fastIn {
         font-weight: 500 !important;
         line-height: 40px !important;
-        font-size: 24px !important;
+        font-size: 1.6rem !important;
     }
 
     .addHo {
@@ -239,7 +239,7 @@
     }
 
     .saveSmart {
-        font-size: 32px;
+        font-size: 2.3rem;
         text-align: center;
         margin-top: 20px;
         padding: 0 10px;
@@ -248,7 +248,7 @@
     }
 
     .Digital {
-        font-size: 38px;
+        font-size: 2.3rem;
         font-weight: 700;
     }
 
@@ -287,7 +287,7 @@
     .hom1,
     .hom2 {
         border: 1px solid #103339;
-        border-radius: 10px;
+        border-radius: 50px;
         font-size: 15px;
     }
 
@@ -301,6 +301,14 @@
         top: 10px;
         transform: translate(-60%, 10%);
     }
+         .hjhj562 {
+                    position: absolute;
+                        bottom: -179px;
+                        /* right: 0px; */
+                        transform: translate(-60%, 10%);
+                        z-index: -4;
+             /* transform: translate(-60%, 10%); */
+         }
 
     .container-title {
         font-size: 30px !important;
@@ -313,10 +321,12 @@
 
 @media(min-width:769px) and (max-width:1024px) {
 
-    .saveSmart {
-        font-size: 47px;
+    .saveSmart,
+    .Digital {
+        font-size: 2.8rem;
         line-height: 60px;
     }
+
 
     .heroSection {
         padding: 0 20px;
@@ -329,7 +339,8 @@
 
 @media(min-width:769px) {
 
-    .fastInU, .aHom {
+    .fastInU,
+    .aHom,.hjhj562 {
         display: none
     }
 

@@ -29,8 +29,8 @@ a {
 }
 
 .subCap {
-box-shadow: rgb(8 11 24) 14px -1px 6px -1px, rgb(18 24 40) 0px 2px 4px -1px;
-    background-color:#080b187a;
+/* box-shadow: rgb(8 11 24) 14px -1px 6px -1px, rgb(18 24 40) 0px 2px 4px -1px;
+    background-color:#080b187a; */
    
     position: fixed;
     width: 100%;

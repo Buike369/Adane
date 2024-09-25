@@ -29,7 +29,7 @@ const Contact = () => {
   }
 
 
-    const postInfo = async(e)=>{
+    const postInfo = (e)=>{
 e.preventDefault()
     if((inputs1.fullName.length === 0) || (inputs1.email.length === 0) || (inputs1.phone.length === 0) || (inputs1.subject.length === 0) || (inputs1.message.length === 0) ){
       setError("field must not be empty")
@@ -48,7 +48,7 @@ setError("invalid Email")
         },3000)
     }else{
 
-      await axios.post("http://localhost:8080/api/post/form",inputs1).then((response)=>{
+       axios.post("http://localhost:8080/api/post/form",inputs1).then((response)=>{
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
         setMessage("Successful Registration")
         setTimeout(()=>{
@@ -72,7 +72,7 @@ setError("invalid Email")
 
 
     
- const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Enter your name"},{label:"Email",type:"email",name:"email",holder:"Enter your email"},{label:"Phone",type:"number",name:"phone",holder:"Enter your phone_number"},{label:"Subject",type:"text",name:"subject",holder:"Purpose of contact"}]
+ const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Enter your name",value:inputs1.fullName},{label:"Email",type:"email",name:"email",holder:"Enter your email",value:inputs1.email},{label:"Phone",type:"number",name:"phone",holder:"Enter your phone_number",value:inputs1.phone},{label:"Subject",type:"text",name:"subject",holder:"Purpose of contact",value:inputs1.subject}]
 
   const PhoneNum ="+2348167029609"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
@@ -96,7 +96,7 @@ setError("invalid Email")
                                 <div key={id}>
                             <div className='LabelCon'>{app.label}</div>
                             <div>
-                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder}/>
+                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value}/>
                             </div>
                             </div>
                             ))}
@@ -105,7 +105,7 @@ setError("invalid Email")
                             <div>
                                 <div className='messA'>Message *</div>
                                 <div>
-                                    <textarea className='textF' name="message" onChange={changeHandle}>
+                                    <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message}>
                                     </textarea>
                                 </div>
                             </div>
