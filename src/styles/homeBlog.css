@@ -32,7 +32,7 @@
     font-size: 1rem;
     color: #999a9f;
     width: 50%;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .TLB {
@@ -98,7 +98,7 @@ flex-wrap: wrap;
     font-size: 1rem;
     color: #999a9f;
 
-    letter-spacing: 1px;
+    letter-spacing: 0.4px;
 }
 
 .shaI {

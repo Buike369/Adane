@@ -19,7 +19,7 @@ const HomeBlog = () => {
                 <div className='WR'>
             <div className='RW'>
                 <div className='blogDivD'>
-                    <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
@@ -29,7 +29,7 @@ const HomeBlog = () => {
                     <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
                 </div>
                  <div className='blogDivD'>
-                    <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
@@ -39,7 +39,7 @@ const HomeBlog = () => {
                     <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
                 </div>
                 <div className='blogDivD'>
-                    <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
