@@ -133,7 +133,7 @@ const Footer = () => {
                 <div className='fil'>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
-                        <li className='pin pin6'><a href="/" className='then'>Blog</a></li>
+                        <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
 
 
                         <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
@@ -214,7 +214,7 @@ const Footer = () => {
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
-                    <a href="/" className='mnm mmm1 '>Blog</a>
+                    <a href="/blogs" className='mnm mmm1 '>Blog</a>
 
     
                     <a href="/" className='mnm mmm1'>Pricing</a>

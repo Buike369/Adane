@@ -93,7 +93,7 @@ const Header = () => {
            
              <li ><a href="/Service" className="navbar1_link">Services</a></li>
               <li ><a href="/" className="navbar1_link">Industries</a></li>
-               <li ><a href="/" className="navbar1_link">Blog</a></li>
+               <li ><a href="/blogs" className="navbar1_link">Blog</a></li>
 
         
           </ul>
