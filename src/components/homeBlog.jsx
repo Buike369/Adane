@@ -20,19 +20,31 @@ const HomeBlog = () => {
             <div className='RW'>
                 <div className='blogDivD'>
                     <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
-                    <div className='textDD'>inovation</div>
+                    {/* <div className='textDD'>inovation</div> */}
+                    <div className='IntroDate'>
+                        <p className='otro'>intro</p>
+                        <p className='comesd'>26/09/2024</p>
+                    </div>
                     <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
                     <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
                 </div>
                  <div className='blogDivD'>
                     <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
-                    <div className='textDD'>inovation</div>
+                    {/* <div className='textDD'>inovation</div> */}
+                    <div className='IntroDate'>
+                        <p className='otro'>intro</p>
+                        <p className='comesd'>26/09/2024</p>
+                    </div>
                     <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
                     <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
                 </div>
                 <div className='blogDivD'>
                     <div className='blogImgD'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
-                    <div className='textDD'>inovation</div>
+                    {/* <div className='textDD'>inovation</div> */}
+                    <div className='IntroDate'>
+                        <p className='otro'>intro</p>
+                        <p className='comesd'>26/09/2024</p>
+                    </div>
                     <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
                     <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
                 </div>

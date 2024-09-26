@@ -235,6 +235,10 @@
 .card-description{
     margin:0 auto;
 }
+.card-title, .vn{
+    max-width: 490px;
+    margin: auto;
+}
     .Card {
         margin-top: 40px
     }

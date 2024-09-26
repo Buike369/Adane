@@ -136,7 +136,7 @@ const FrontendDevIcon = () => (
             </radialGradient>
           </defs>
         </svg> */}
-        <WebDevIcon/>
+        <div className='vn'><WebDevIcon /></div>
         {/* <img src="/img/web.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Web Development</p>
         <p className="card-description">Our skilled developers craft responsive, high-performance websites that captivate users and drive results. From sleek landing pages to complex e-commerce platforms, we tailor our solutions to fit your goals and audience.</p>
@@ -146,7 +146,7 @@ const FrontendDevIcon = () => (
     <div className="card">
       <div className="container-card hh">
          <div className='Wen'></div>
-       <MobileAppIcon/>
+         <div className='vn'><MobileAppIcon/></div>
          {/* <img src="/img/App.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Mobile App Development</p>
         <p className="card-description">We design and develop mobile and web applications that are not only functional but also engaging. By integrating the latest technologies and user-centric design principles, we ensure your app stands out in the crowded digital landscape.</p>
@@ -156,7 +156,7 @@ const FrontendDevIcon = () => (
     <div className="card">
       <div className="container-card hh">
         <div className='Wen'></div>
-       <UIUXIcon/>
+       <div className='vn'><UIUXIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">UI/UX Design</p>
         <p className="card-description">User experience is at the heart of what we do. We focus on creating seamless, intuitive interfaces that provide an exceptional user journey. By combining thoughtful design with user feedback, we enhance the overall interaction between users and your digital products.</p>
@@ -171,7 +171,7 @@ const FrontendDevIcon = () => (
     <div className="card">
       <div className="container-card hh">
          <div className='Wen'></div>
-     <GraphicDesignIcon/>
+            <div className='vn'><GraphicDesignIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Graphic Design</p>
         <p className="card-description">Our creative team delivers eye-catching graphic design solutions that communicate your brand’s message effectively. From logos and marketing materials to social media graphics, we bring your vision to life with style and precision.</p>
@@ -181,7 +181,7 @@ const FrontendDevIcon = () => (
  <div className="card">
       <div className="container-card hh">
          <div className='Wen'></div>
-     <BackendDevIcon/>
+                 <div className='vn'><BackendDevIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Backend Development</p>
         <p className="card-description">Our creative team delivers eye-catching graphic design solutions that communicate your brand’s message effectively. From logos and marketing materials to social media graphics, we bring your vision to life with style and precision.</p>
@@ -191,7 +191,7 @@ const FrontendDevIcon = () => (
      <div className="card">
       <div className="container-card hh">
          <div className='Wen'></div>
-     <FrontendDevIcon/>
+     <div className='vn'><FrontendDevIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Frontend Development</p>
         <p className="card-description">Our creative team delivers eye-catching graphic design solutions that communicate your brand’s message effectively. From logos and marketing materials to social media graphics, we bring your vision to life with style and precision.</p>
