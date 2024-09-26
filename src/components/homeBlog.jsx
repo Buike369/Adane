@@ -13,7 +13,7 @@ const HomeBlog = () => {
             <p  className='OuB1'>Most recent articles</p>
             <div className='OuB2'>
                 <p className='TL'>The latest news, greatest tutorials and inspiration that’ll make you say “I wish I’d done that!”</p>
-                <div className='TLB'><div className='VMD'><span className='Tuy'>view More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></div>
+                <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy'>view More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
                 <div className='WR'>
