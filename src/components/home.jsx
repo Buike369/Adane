@@ -30,7 +30,7 @@ const title1 = "Get In Touch"
           <p className='saveSmart'>Creating <span className='Digital'>Digital</span> Solutions</p>
           <p className='saveSmart1 rate' >We create web and mobile app that turn your ideas into reality,sparking innovations and achieving success.</p>
           <div className='hom A_home'>
-           <a href="/getInTouch"><div  className='hom1 aHom'>Get In Touch</div></a> 
+           <a href="/contact"><div  className='hom1 aHom'>Get In Touch</div></a> 
                       <a href="/contact"><div  className='hom1 aHom2'>Get In Touch</div></a> 
             {/* <div  className='hom2'>Get Started</div> */}
           </div>

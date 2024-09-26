@@ -84,14 +84,16 @@ setError("invalid Email")
         {/* end section */}
 
         <div className='coverDC'>
-            <div className='connectWithUs'><span  className='connectWithUs1'>Connect</span> with us</div>
+            <div className='connectWithUs'><span  className='connectWithUs1'>Contact</span>  us</div>
             <div></div>
             <div className='contactFormD'>
                 <div className='ddV'>
                     <div className=' ddV23'>
-                    <div className='ifUs'>Contact Us to bring your digital ideas to life!</div>
+                    
                     <div>
-                        <form className="fdn">
+                        <form className="fdn"> 
+                            <div className='lLget'>Get In Touch</div>
+                            <p className='getLL'> Fill out the form,and we will contact you</p>
                             {inputs.map((app,id)=>(
                                 <div key={id}>
                             <div className='LabelCon'>{app.label}</div>
@@ -105,7 +107,7 @@ setError("invalid Email")
                             <div>
                                 <div className='messA'>Message *</div>
                                 <div>
-                                    <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message}>
+                                    <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message} placeholder='Describe your project and goals'>
                                     </textarea>
                                 </div>
                             </div>
@@ -120,7 +122,8 @@ setError("invalid Email")
                         goggle location map
                     </div> */}
 
-                    
+                    <div className='UUH'>
+                        <div className='ifUs'>Contact Us to bring your digital ideas to life!</div>
                     <div>
                         <div className='graceDay'>Working Days! </div>
                         <div className='wedDis'>Monday -Saturday 7:00am- 5PM. </div>
@@ -138,6 +141,7 @@ setError("invalid Email")
                         <div className='deed'>Mailing Address:</div>
                         <div className='wedDis'>P.O. Box 1639</div>
                         <div className='wedDis'>Boring, OR 97009</div>
+                    </div>
                     </div>
                 </div>
             </div>

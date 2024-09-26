@@ -19,6 +19,7 @@
 .connectWithUs1 {
     font-weight: bold;
     color: #28dd6d;
+    font-size: 32px;
 }
 
 .contactFormD {
@@ -80,7 +81,18 @@
         
     margin-bottom: 12px;
 }
-
+.inputsConnect::placeholder {
+    color: #888;
+    /* Change this to your desired color */
+    opacity: 0.3;
+    /* Optional: Set opacity for better visibility */
+}
+.textF::placeholder {
+    color: #888;
+    /* Change this to your desired color */
+    opacity: 0.3;
+    /* Optional: Set opacity for better visibility */
+}
 .youCon {
     display: flex;
 
@@ -153,7 +165,7 @@
     font-size: 28px;
     line-height: 1.6;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     margin: 15px 0;
 }
 
@@ -167,7 +179,7 @@
 
 .deed {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     margin: 15px 0;
 }
@@ -176,17 +188,31 @@
     margin-right: 5px;
     color: #28dd6d
 }
+.lLget{
+    font-size: 24px;
+    color:#fff;
+}
+.getLL{
+    color:#9a9ca1;
+    margin-bottom: 20px;
+}
 
 @media(max-width:768px) {
     .connectWithUs {
         font-size: 36px;
         margin-top: 5px;
         text-align: justify;
-        padding: 2px 15px;
+        /* padding: 2px 15px; */
     }
 
     .contactFormD {
         flex-direction: column-reverse;
+    }
+    .UUH{
+        padding:20px 15px;
+        border: 1px solid #151b2d;
+        border-radius: 10px;
+        margin-bottom: 20px;
     }
 .graceDay {
     font-size: 24px;
