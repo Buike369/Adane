@@ -10,6 +10,7 @@ import {faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@f
 
 const Header = () => {
 
+  
    const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faDiscord,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
 
 
@@ -23,21 +24,21 @@ const Header = () => {
       const [feedBack1,setFeedBack1]=useState("")
    const navbarItem = [{link:"/courses",text:"Explore",name:"navbar1_link explore"},{link:"/ebook",text:"eBook",name:"navbar1_link"},{link:"/blog",text:"Blog",name:"navbar1_link"},{link:"/project",text:"projects",name:"navbar1_link"},{ link:"/",text:"pricing",name:"navbar1_link"}]
 
-  
-   
-       window.onscroll=()=>{
-        console.log("hi")
+    window.onscroll=()=>{
+      goMan()
       }
+   
+     
 
-  //     const goMan =()=>{
-  // if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-  //           setFeed('subCap')
-  //           // setFeedBack1('cap')
-  //         }else{
-  //           setFeed(' ')
-  //           // setFeedBack1(' ')
-  //         }
-  //     }
+      const goMan =()=>{
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+            setFeed('subCap')
+            // setFeedBack1('cap')
+          }else{
+            setFeed(' ')
+            // setFeedBack1(' ')
+          }
+      }
 
       const handleCheckboxChange = (event)=>{
    setIsChecked(event.target.checked)
@@ -73,7 +74,7 @@ const Header = () => {
   return (
 
     <div className="" >
-    <div className="subCap">
+    <div className={`"header" ${feed}`}>
       <div style={{padding:"0 10px"}}>
       <div className="Navbar relativeD">
 

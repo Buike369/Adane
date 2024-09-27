@@ -3,7 +3,7 @@ import "../styles/home.css"
 import OurServices from './ourServices';
 import GetStarted from './getStarted';
 import Card from "./card"
-import Testimony from "./testimony"
+import Testimony from "./testimony";
 import AOS from 'aos';
 import Slide from "./slides"
 import HomeBlog from './homeBlog';
