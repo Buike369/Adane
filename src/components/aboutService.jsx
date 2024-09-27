@@ -184,7 +184,7 @@ const FrontendDevIcon = () => (
                  <div className='vn'><BackendDevIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Backend Development</p>
-        <p className="card-description">Our creative team delivers eye-catching graphic design solutions that communicate your brand’s message effectively. From logos and marketing materials to social media graphics, we bring your vision to life with style and precision.</p>
+        <p className="card-description">Transform your online presence with our expert backend development services. We provide smooth functionality, strong security, and scalable solutions designed just for you, helping your business succeed in a competitive world. Let’s take your project to the next level.</p>
         
       </div>
     </div>
@@ -194,7 +194,8 @@ const FrontendDevIcon = () => (
      <div className='vn'><FrontendDevIcon/></div>
          {/* <img src="/img/ui.svg" alt="" style={{width:"80px"}} /> */}
         <p className="card-title">Frontend Development</p>
-        <p className="card-description">Our creative team delivers eye-catching graphic design solutions that communicate your brand’s message effectively. From logos and marketing materials to social media graphics, we bring your vision to life with style and precision.</p>
+        <p className="card-description">
+Enhance your user experience with our top-notch frontend development services. We create visually stunning, responsive designs that engage users and drive interaction, ensuring your brand stands out. Let's bring your vision to life and captivate your audience.</p>
         
       </div>
     </div>
