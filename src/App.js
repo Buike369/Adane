@@ -19,6 +19,7 @@ import Services from "./components/service"
 import Policy from "./components/policy"
 import Terms from "./components/termsAndService"
 import AllBlogs from "./components/allBlog"
+import Career from "./components/career"
 
 const Layout = () => {
   return (
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "/terms_and_condition",
         element: <Terms />
+      },
+      {
+        path: "/career",
+        element: <Career />
       }
     ]
   },

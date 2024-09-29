@@ -1,6 +1,115 @@
 .kln{-webkit-text-fill-color: #0000;
-background: linear-gradient(105deg, #e22e59 7.37%, #273fd2 25.38%, #cb47f9 42.56%, #f90 60.52%);
+    background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #14a6c5 42.56%, #38e2cb 60.52%);
 -webkit-background-clip: text;
 background-clip: text;
 color: #0000;
-font-size: 40px;}
+font-size: 45px;
+font-weight: 600;
+}
+.SummitDR{
+    padding: 4px 15px;
+    border-radius: 8px;
+        
+            background-color: #080b18;
+            color: #fff;
+            outline: 0;
+            border: 0
+}
+
+.wd{
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 10px  15px;
+}
+.dw{
+    width:100%;
+    max-width: 700px;
+    margin:50px auto 100px auto ;
+    text-align: center;
+}
+.gg{
+    color:#fff
+}
+.LPE{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.elope{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.JarB{
+    min-height: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    color:#d9d5d5;
+}
+.Nout{
+font-size: 15px;
+font-weight: 400;
+color:#999a9f
+}
+.Map{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px
+}
+.cePl{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+  
+    background: #121829;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid #333957;
+    color:#fff;
+    outline: 0;
+    
+}
+.lUP{
+    color:#d7d2d2;
+}
+.hK{
+    padding: 20px 10px;
+    border: 1px solid #333957;
+    border-radius: 8px;
+    margin-top: 15px;
+        background: #151b2d;
+            border-radius: 8px;
+}
+.textAr{
+    width: 100%;
+    min-height: 150px;
+    border-radius: 5px;
+    border: 1px solid #333957;
+    background-color: inherit;
+    margin-top: 20px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .elope{
+        grid-template-columns: auto;
+    }
+    .LPE{
+font-size: 24px;
+    }
+        .kln{
+            font-size: 26px;
+        }
+        .dw{
+            margin: 18px auto 40px auto;
+        }
+        .tyred{
+            font-size: 24px;
+        }
+        .Map{
+grid-template-columns: auto;
+gap:15px
+        }
+}

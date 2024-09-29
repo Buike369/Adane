@@ -76,7 +76,7 @@ const Header = () => {
            
              <li ><a href="/Service" className="navbar1_link">Services</a></li>
               <li ><a href="/" className="navbar1_link">Industries</a></li>
-                            <li ><a href="/" className="navbar1_link">Career</a></li>
+                            <li ><a href="/career" className="navbar1_link">Career</a></li>
                <li ><a href="/blogs" className="navbar1_link">Blog</a></li>
 
         
@@ -97,7 +97,7 @@ const Header = () => {
     <ul className="menuBox24">
       <li><a className="menuItem" href="/about">About Us</a></li>
        <li><a className="menuItem" href="/service">Services</a></li>
-              <li><a className="menuItem" href="/">Career</a></li>
+              <li><a className="menuItem" href="/career">Career</a></li>
               <li><a className="menuItem" href="/">Industries</a></li>
       <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
 
