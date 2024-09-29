@@ -36,7 +36,7 @@ min-height: 300px;
 padding:30px 15px 20px ;
 text-align: center;
 /* background-color: #151b2d; */
-background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
+background: linear-gradient(150deg, #2d3451, #191f33, #080b18);
     border: 1px solid #2d3451;
 }
 .PSA{
@@ -60,7 +60,7 @@ background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
 .ImageLinH{
     height: 300px;
     position: relative;
-        margin-top: 80px;
+        /* margin-top: 80px; */
           
 }
 .ImageLinH1{
@@ -92,5 +92,11 @@ background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
 
                 .DisDiv {
                     flex-direction: column;
+                }
+                .GITMD{
+ width:100%;
+ max-width: 498px;
+ margin-left: auto;
+ margin-right: auto;
                 }
 }

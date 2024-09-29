@@ -1,13 +1,38 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState,useEffect,useRef} from 'react'
 import "../styles/homeBlog.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
 
 
 const HomeBlog = () => {
+    const scrollDivRef = useRef(null);
     const [count,setCount]= useState(0)
     const [count1,setCount1]= useState(0)
     const [count2,setCount2]= useState(0)
+
+      
+
+  // Function to log the scrollTop value
+  const handleScroll = () => {
+    if (scrollDivRef.current) {
+      console.log('scrollTop:', scrollDivRef.current.scrollTop);
+    }
+  };
+
+  // Set up an event listener for the scroll event
+  useEffect(() => {
+    const div = scrollDivRef.current;
+    if (div) {
+      div.addEventListener('scroll', handleScroll);
+    }
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      if (div) {
+        div.removeEventListener('scroll', handleScroll);
+      }
+    };
+  }, []);
 
     useEffect(()=>{
         const live = setInterval(()=>{
@@ -51,7 +76,7 @@ const HomeBlog = () => {
         return ()=> clearInterval(live3)
     },[])
   return (
-    <div>
+    <div ref={scrollDivRef}>
         <div className='FaT1'>
         <div className='BlogD'>
             <p className='OuB'>Our Blog</p>
@@ -100,8 +125,10 @@ const HomeBlog = () => {
           
         </div>
         </div>
-        <div className='FaT'> 
-        <div className='BlogD'>
+
+ 
+        <div className='FaT' > 
+        <div className='BlogD' >
                <div className='shaI'>
             <p className='YFW2'>We're in Number</p>
             <p className='YFW'><span className='TSY'> Key facts </span>and recognitions</p>

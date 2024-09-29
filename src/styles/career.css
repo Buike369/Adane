@@ -1,0 +1,6 @@
+.kln{-webkit-text-fill-color: #0000;
+background: linear-gradient(105deg, #e22e59 7.37%, #273fd2 25.38%, #cb47f9 42.56%, #f90 60.52%);
+-webkit-background-clip: text;
+background-clip: text;
+color: #0000;
+font-size: 40px;}

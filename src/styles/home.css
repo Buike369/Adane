@@ -34,9 +34,16 @@
 .Digital {
     font-size: 60px;
     font-weight: 500;
-    color: #38e2ca;
+    /* color: #38e2ca; */
     margin-bottom: 15px;
     line-height: 80px;
+    -webkit-text-fill-color: #0000;
+/* background: linear-gradient(168deg, #2e756d 7.37%, #0b665c 25.38%, #1d859b 42.56%, #38e2cb 60.52%); */
+    background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #14a6c5 42.56%, #38e2cb 60.52%);
+        /* background: linear-gradient(105deg, #e22e59 7.37%, #273fd2 25.38%, #cb47f9 42.56%, #f90 60.52%); */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #0000;
 }
 
 .heroSection1,
@@ -256,7 +263,8 @@
         left: auto;
         right: 4px;
         width: 120px;
-        height: 120px
+        height: 120px;
+        top:-27px
     }
 
     .saveSmart1 {

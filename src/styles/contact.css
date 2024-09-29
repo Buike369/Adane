@@ -18,8 +18,13 @@
 
 .connectWithUs1 {
     font-weight: 600;
-    color: #28dd6d;
+    color: #38e3cb;
     font-size: 32px;
+    -webkit-text-fill-color: #0000;
+        background: linear-gradient(168deg, #8cd3cb 7.37%, #3cadd5 25.38%, #14a6c5 42.56%, #38e2cb 60.52%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #0000;
 }
 
 .contactFormD {
@@ -211,6 +216,8 @@
     .UUH{
         padding:20px 15px;
         border: 1px solid #151b2d;
+background: linear-gradient(132deg, #151b2d 7.37%, #151b2d 25.38%, #131d2d 42.56%, #0e262d 60.52%);
+        /* background: linear-gradient(168deg, #151b2d 7.37%, #151b2d 25.38%, #102c32 42.56%, #0d262d 60.52%); */
         border-radius: 10px;
         margin-bottom: 20px;
     }
