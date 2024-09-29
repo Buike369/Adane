@@ -127,7 +127,7 @@ const HomeBlog = () => {
         </div>
 
  
-        <div className='FaT' > 
+        <div className='FaT'   ref={scrollDivRef} > 
         <div className='BlogD' >
                <div className='shaI'>
             <p className='YFW2'>We're in Number</p>

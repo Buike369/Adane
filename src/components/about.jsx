@@ -212,4 +212,4 @@ const ButtonTwo =({onClick})=>{
   )
 }
 
-export default withTitle(About, 'About Us At - Adane Technology');
+export default withTitle(About, 'About Us | Adane Technology');
