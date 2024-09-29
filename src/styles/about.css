@@ -111,10 +111,13 @@
     background: linear-gradient(90deg, #212b44, #37746c, #080b18) !important;
 } */
 
-@media(max-width:768px) {
+@media(max-width:768px){
     .MeetTeam {
         flex-direction: column;
         padding: 2px 0px 2px 0px;
+    }
+    .Usa{
+        margin-top: 50px !important;
     }
 
     .MeetTeam1,
@@ -131,7 +134,7 @@
     }
 
 
-    /* .hh, */
+  
     .OurM,
     .MeetTeam,
     .ThAre {

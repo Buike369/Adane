@@ -27,7 +27,7 @@
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 45;
+    z-index: 600007;
 }
 
 
@@ -63,7 +63,7 @@
     top: 0;
     right: -100%;
     width: 100%;
-    z-index: 20;
+    z-index: 7000 ;
     bottom: 0;
     height: 100vh;
     margin: 0;

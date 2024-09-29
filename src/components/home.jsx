@@ -8,6 +8,7 @@ import AOS from 'aos';
 import Slide from "./slides"
 import HomeBlog from './homeBlog';
 
+
 const Home = () => {
 const title = "Our Services"
 const title1 = "Get In Touch"
@@ -93,6 +94,7 @@ const title1 = "Get In Touch"
 
 
       <HomeBlog/>
+      
       <Testimony/>
 
      

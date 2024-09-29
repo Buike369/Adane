@@ -74,7 +74,7 @@ const ButtonTwo =({onClick})=>{
          </div>
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart fastIn sH sM rrg'>About Us</p>
+          <p className='saveSmart fastIn sH sM rrg Usa'>About Us</p>
           <p className='saveSmart1 sh1 sh6' > Welcome to <a href="/"  style={{color:"#fff"}}>Adane Technology</a>. We specialize in web development, app creation, and graphic design, blending technical expertise with artistic vision to turn your digital dreams into reality.</p>
            <p className="OurM rrg">Mission</p>
             <p className="saveSmart1 sh6"> Our mission is to empower businesses by crafting innovative web solutions, intuitive mobile apps, and captivating designs. We blend creativity with technology to deliver seamless user experiences and visually striking interfaces, helping our clients thrive in the digital world.</p>

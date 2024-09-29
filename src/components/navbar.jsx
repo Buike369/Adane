@@ -19,7 +19,7 @@ const Header = () => {
   const tr = window.location.pathname;
   const [show22, setShow22] = useState("Sapap")
 
-   const [feed,setFeed] = useState("")
+   const [feed,setFeed] = useState("header")
 
       const [feedBack1,setFeedBack1]=useState("")
    const navbarItem = [{link:"/courses",text:"Explore",name:"navbar1_link explore"},{link:"/ebook",text:"eBook",name:"navbar1_link"},{link:"/blog",text:"Blog",name:"navbar1_link"},{link:"/project",text:"projects",name:"navbar1_link"},{ link:"/",text:"pricing",name:"navbar1_link"}]
@@ -31,11 +31,11 @@ const Header = () => {
      
 
       const goMan =()=>{
-  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+  if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
             setFeed('subCap')
             // setFeedBack1('cap')
           }else{
-            setFeed(' ')
+            setFeed('header')
             // setFeedBack1(' ')
           }
       }
@@ -51,30 +51,12 @@ const Header = () => {
 
       
 
-
-  useEffect(() => {
-   const goMan =()=>{
-  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-            setFeed('subCap')
-            console.log('Scroll event detected');
-          }else{
-            setFeed(' ')
-            // setFeedBack1(' ')
-          }
-      }
-
-    window.addEventListener('scroll', goMan);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener('scroll', goMan);
-    };
-  }, []);
+ 
     
   return (
 
     <div className="" >
-    <div className={`"header" ${feed}`}>
+    <div className={feed}>
       <div style={{padding:"0 10px"}}>
       <div className="Navbar relativeD">
 

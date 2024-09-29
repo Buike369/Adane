@@ -1,10 +1,55 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import "../styles/homeBlog.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
 
 
 const HomeBlog = () => {
+    const [count,setCount]= useState(0)
+    const [count1,setCount1]= useState(0)
+    const [count2,setCount2]= useState(0)
+
+    useEffect(()=>{
+        const live = setInterval(()=>{
+            setCount((prevC)=>{
+             if(prevC >= 5){
+                clearInterval(live)
+                return prevC;
+             }
+             return prevC + 1;
+            })
+         
+        },200)
+        return ()=> clearInterval(live)
+    },[])
+
+      useEffect(()=>{
+        const live2 = setInterval(()=>{
+            setCount1((prevCo)=>{
+             if(prevCo >= 20){
+                clearInterval(live2)
+                return prevCo;
+             }
+             return prevCo + 1;
+            })
+         
+        },200)
+        return ()=> clearInterval(live2)
+    },[])
+
+     useEffect(()=>{
+        const live3 = setInterval(()=>{
+            setCount2((prevCo)=>{
+             if(prevCo >= 7){
+                clearInterval(live3)
+                return prevCo;
+             }
+             return prevCo + 1;
+            })
+         
+        },200)
+        return ()=> clearInterval(live3)
+    },[])
   return (
     <div>
         <div className='FaT1'>
@@ -62,15 +107,15 @@ const HomeBlog = () => {
             <p className='YFW'><span className='TSY'> Key facts </span>and recognitions</p>
             <div className='YF'>
                 <div className='LLPNM'>
-                    <div className='YFE'> <span className='YFE45'>5 years</span></div>
+                    <div className='YFE'> <span className='YFE45'>{count} years</span></div>
                     <p className='YFE1'>on the market</p>
                 </div>
                   <div>
-                    <div className='YFE'><span className='YFE45'>20+ Projects</span></div>
+                    <div className='YFE'><span className='YFE45'>{count1}+ Projects</span></div>
                     <p className='YFE1'>were delivered by us</p>
                   </div>
                     <div>
-                        <div className='YFE'> <span className='YFE45'>7+ people</span></div>
+                        <div className='YFE'> <span className='YFE45'>{count2}+ people</span></div>
                         <p className='YFE1'>in the company</p>
                     </div>
             </div>
