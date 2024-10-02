@@ -5,13 +5,13 @@ import Core from  "./corePrinciple"
 const Career = () => {
   const careerInput =[{type:"text",placeholder:"",name:"FirstName"},{type:"text",placeholder:"",name:"LastName"},{type:"email",placeholder:"",name:"Email"},{type:"number",placeholder:"",name:"phone"},{type:"file",placeholder:"",name:"Attach Recume/CV"},{type:"text",placeholder:"",name:"Link to your LinkedIn page"}]
   return (
-    <div>
+    <div className='polo'>
         <div className='gg'>
           <div className='wd'>
             <div className='dw'>
             <p className='kln'>Welcome to Adane
 Where Ideas Thrive!</p>
-<p>Join our vibrant team in the heart and contribute to projects that impact the global startup scene. Dive into a workplace where your creativity knows no bounds!</p>
+<p className='viB'>Join our vibrant team in the heart and contribute to projects that impact the global startup scene. Dive into a workplace where your creativity knows no bounds!</p>
 </div>
 </div>
 <div className='wd'>
@@ -53,18 +53,19 @@ Where Ideas Thrive!</p>
 </div>
 
 <div className='wd'>
-  <p>Meet Your Future Colleagues</p>
+  <p className='MTEa'>Meet Your Future Colleagues</p>
   <p>Carousel</p>
 </div>
 <div className='wd'>
   <p>Contact Us</p>
-  <p>Ready to Make a Difference? Apply Now!</p>
+ 
   <div>
     <div className='hK'>
+       <p style={{marginBottom:"20px",color:'#e9e9e9c2'}}>Ready to Make a Difference? Apply Now!</p>
     <div className='Map'>
       {careerInput.map((app,id)=>(
       <div key={id}>
-        <div><label className='lUP'>{app.name}</label></div>
+        <div className='LabelD'><label className='lUP'>{app.name}</label></div>
         <input type={app.type} className='cePl' placeholder={app.placeholder}/>
       </div>
       ))}

@@ -6,7 +6,7 @@ const CareerCore = () => {
 
   
   return (
-    <section className="get-started ">
+    <section className="get-started polo1">
       <h2 className="title tyred">Core principles that define us</h2>
       {/* <div className='follow'>Follow this steps to get started</div> */}
       <div className='blur'></div>

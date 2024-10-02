@@ -13,7 +13,8 @@ font-weight: 600;
             background-color: #080b18;
             color: #fff;
             outline: 0;
-            border: 0
+            border: 0;
+            margin-top: 8px;
 }
 
 .wd{
@@ -21,6 +22,19 @@ font-weight: 600;
     max-width: 1200px;
     margin:0 auto;
     padding: 10px  15px;
+}
+.polo{
+background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
+}
+.polo1{
+    background-color: inherit;
+}
+.viB{
+    letter-spacing: 0.5px;
+        color: #999a9f;
+}
+.MTEa{
+    font-size: 24px;
 }
 .dw{
     width:100%;
@@ -60,7 +74,7 @@ color:#999a9f
 }
 .cePl{
     width: 100%;
-    padding: 5px 10px;
+    padding: 8px 10px;
     border-radius: 5px;
   
     background: #121829;
@@ -74,6 +88,10 @@ color:#999a9f
 }
 .lUP{
     color:#d7d2d2;
+    
+}
+.LabelD{
+margin-bottom: 5px;
 }
 .hK{
     padding: 20px 10px;
