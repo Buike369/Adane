@@ -223,6 +223,8 @@
     top: 5%;
         right: -20%;
         filter: blur(500px);
+        opacity: 0.4;
+        display: none;
 }
 .coverDC{
     margin: 30px auto 0 auto;
@@ -237,6 +239,7 @@ background: linear-gradient(132deg, #151b2d 7.37%, #151b2d 25.38%, #131d2d 42.56
         /* background: linear-gradient(168deg, #151b2d 7.37%, #151b2d 25.38%, #102c32 42.56%, #0d262d 60.52%); */
         border-radius: 10px;
         margin-bottom: 20px;
+        opacity: 0.8;
     }
 .graceDay {
     font-size: 24px;

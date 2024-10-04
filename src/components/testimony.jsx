@@ -164,7 +164,7 @@ const ButtonTwo =({onClick})=>{
     <div><img src="/img/amf.png" alt="" className="popopo"/></div>
      <div>
       <div className="amakaDiv">-Femi Savie</div>
-      <div className="country">South Africa</div>
+      <div className="country">CHIBEST Cookies</div>
      </div>
   </div>
 </div>
@@ -177,7 +177,7 @@ const ButtonTwo =({onClick})=>{
     <div><img src="/img/amfb.png" alt="" className="popopo"/></div>
      <div>
       <div className="amakaDiv">-Frak  Bosco</div>
-      <div className="country">New York</div>
+      <div className="country">BRANS Enterprise</div>
      </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ const ButtonTwo =({onClick})=>{
     <div><img src="/img/amfdd.png" alt="" className="popopo"/></div>
      <div>
       <div className="amakaDiv">-Keta lizy</div>
-      <div className="country">California</div>
+      <div className="country">CEO Leta Enterprise</div>
      </div>
   </div>
 </div>
@@ -203,7 +203,7 @@ const ButtonTwo =({onClick})=>{
     <div><img src="/img/amfcc.png" alt="" className="popopo"/></div>
      <div>
       <div className="amakaDiv">-Chukwuma John</div>
-      <div className="country">Nigeria</div>
+      <div className="country">CEF Foundation</div>
      </div>
   </div>
 </div>

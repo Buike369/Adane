@@ -1,6 +1,6 @@
 .get-started {
     padding: 40px;
-    background-color: #080b18;
+    /* background-color: #080b18; */
     /* Slightly different gray for a financial theme */
     text-align: center;
     position: relative;
@@ -85,7 +85,7 @@ font-size: 3rem;
     color:#f4f4f5;
 }
 .blur{
-    width:200px;
+    width:150px;
     height:200px;
     border-radius: 50%;
     background-color:#36dfc7;
@@ -93,6 +93,7 @@ font-size: 3rem;
     top:0;
     left: 50%;
     filter: blur(194px);
+    opacity: 0.8;
 
 }
 @media(max-width:768px){
