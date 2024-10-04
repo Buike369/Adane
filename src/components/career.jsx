@@ -52,10 +52,10 @@ Where Ideas Thrive!</p>
 </div>
 </div>
 
-<div className='wd'>
+{/* <div className='wd'>
   <p className='MTEa'>Meet Your Future Colleagues</p>
   <p>Carousel</p>
-</div>
+</div> */}
 <div className='wd'>
   <p>Contact Us</p>
  

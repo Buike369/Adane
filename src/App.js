@@ -20,6 +20,7 @@ import Policy from "./components/policy"
 import Terms from "./components/termsAndService"
 import AllBlogs from "./components/allBlog"
 import Career from "./components/career"
+import BlogDetails from "./components/blogdetails"
 
 const Layout = () => {
   return (
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: "/career",
         element: <Career />
+      },
+      {
+        path: "/blogDetails",
+        element: <BlogDetails />
       }
     ]
   },

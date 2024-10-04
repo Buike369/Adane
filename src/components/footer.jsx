@@ -156,7 +156,7 @@ const Footer = () => {
                 <div className='fil'>
                     <ul className='footerF'>
 
-                        <li className='pin pin6'><a className='then'>Call</a></li>
+                        <li className='pin pin6'><a className='then bh'>Call</a></li>
                         <li className='pin pin7'><a href="/" className='then'>+234 8167 0296 09 +234 9060 2439 60</a></li>
                        
                     </ul>
@@ -164,7 +164,7 @@ const Footer = () => {
                 <div className='fil'>
                     <ul className='footerF'>
 
-                        <li className='pin pin6'><a  className='then'>Mail</a></li>
+                        <li className='pin pin6'><a  className='then bh'>Mail</a></li>
                         <li className='pin pin7'><a href="/" className='then'>info@adane.com</a></li>
                        
                     </ul>
@@ -172,7 +172,7 @@ const Footer = () => {
                   <div className='fil'>
                     <ul className='footerF'>
 
-                        <li className='pin pin6'><a href="/" className='then'>Skype</a></li>
+                        <li className='pin pin6'><a href="/" className='then bh'>Skype</a></li>
                         <li className='pin pin7'><a href="/" className='then'>Adane.Technologies</a></li>
                        
                     </ul>
@@ -226,13 +226,13 @@ const Footer = () => {
             <div className='MobileT1'>
                 <div className='MobileT'>
 
-                    <a  className='mnm4'>Call</a>
+                    <a  className='mnm4 bh'>Call</a>
                     <a  href="tel:+2348167029609"className='mnm mmm2'> +234 8167 029609 </a>
 
                 </div>
                 <div className='MobileT'>
 
-                    <a  className='mnm4'>Mail</a>
+                    <a  className='mnm4 bh'>Mail</a>
                     <a  className='mnm mmm1'>info@Adane.com</a>
 
                     

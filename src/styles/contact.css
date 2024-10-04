@@ -30,6 +30,16 @@
 .contactFormD {
     display: flex;
 }
+.itin{
+    background-color: #35e1c9;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    z-index: 0;
+    top:-15%;
+    right:20%;
+    filter: blur(470px);
+}
 
 .ddV {
     width: 60%;
@@ -209,7 +219,14 @@
         text-align: justify;
         /* padding: 2px 15px; */
     }
-
+.itin{
+    top: 5%;
+        right: -20%;
+        filter: blur(500px);
+}
+.coverDC{
+    margin: 30px auto 0 auto;
+}
     .contactFormD {
         flex-direction: column-reverse;
     }

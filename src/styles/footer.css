@@ -291,7 +291,9 @@ border-top: 1px solid #1e263c;
     border: 1px solid #2b3655;
 }
 
-
+.bh{
+    color:#fff
+}
 
 
 @media (max-width:768px) {

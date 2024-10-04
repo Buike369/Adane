@@ -89,34 +89,34 @@ const HomeBlog = () => {
                 <div className='WR'>
             <div className='RW'>
                 <div className='blogDivD'>
-                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
                         <p className='comesd'>26/09/2024</p>
                     </div>
-                    <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
-                    <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
+                   <a href="/"> <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
+                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
                 </div>
                  <div className='blogDivD'>
-                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
                         <p className='comesd'>26/09/2024</p>
                     </div>
-                    <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
-                    <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
+                   <a href="/"> <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
+                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
                 </div>
                 <div className='blogDivD'>
-                    <div className='blogImgD F'><img src="/img/blogImg.png" alt=""  className='BID1'/></div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
                         <p className='otro'>intro</p>
                         <p className='comesd'>26/09/2024</p>
                     </div>
-                    <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p>
-                    <p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p>
+                    <a href="/"><p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
+                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
                 </div>
             </div>
             </div>

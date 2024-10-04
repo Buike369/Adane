@@ -61,20 +61,20 @@ const ButtonTwo =({onClick})=>{
      
 
       <div className='hSec'>
-        <div className="addHo1">
+        <div className="addHo1 jjj">
          <div className="heroSection2">
           <p className='saveSmart fastInU'>We  innovate and transform your idea</p>
-          <div className="heroImgHousing rtn">
+          <div className=" rtnlo">
             {/* <div></div> */}
-            <div className='homePics'>
-              <div className='homePics2'></div> 
-          <img src="/img/techPics.png" alt=""className="heroImage"/>
+            <div className='uyi'>
+          
+          <img src="/img/try1.jpg" alt=""className="heroImage lmki"/>
           </div>
           </div>
          </div>
         <div className="heroSection1">
-          <div className="housingDivForHeroText addHo" >
-          <p className='saveSmart fastIn sH sM rrg Usa'>About Us</p>
+          <div className="housingDivForHeroText addHo hoAdd" >
+          <p className='saveSmart fastIn sH sM rrg Usa Asu'>About Us</p>
           <p className='saveSmart1 sh1 sh6' > Welcome to <a href="/"  style={{color:"#fff"}}>Adane Technology</a>. We specialize in web development, app creation, and graphic design, blending technical expertise with artistic vision to turn your digital dreams into reality.</p>
            <p className="OurM rrg">Mission</p>
             <p className="saveSmart1 sh6"> Our mission is to empower businesses by crafting innovative web solutions, intuitive mobile apps, and captivating designs. We blend creativity with technology to deliver seamless user experiences and visually striking interfaces, helping our clients thrive in the digital world.</p>

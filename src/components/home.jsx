@@ -7,6 +7,7 @@ import Testimony from "./testimony";
 import AOS from 'aos';
 import Slide from "./slides"
 import HomeBlog from './homeBlog';
+import Project from "./project"
 
 
 
@@ -93,7 +94,7 @@ const title1 = "Get In Touch"
 
       </div>
 
-
+ <Project/>
       <HomeBlog/>
       
       <Testimony/>

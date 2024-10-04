@@ -77,7 +77,10 @@ setError("invalid Email")
   const PhoneNum ="+2348167029609"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
   return (
-    <div >
+    <div>
+    <div style={{position:"relative",zIndex:"4"}}>
+        
+
        <div className='contcat'>
        
 
@@ -148,7 +151,8 @@ setError("invalid Email")
         </div>
         </div>
 
-       
+       <div className='itin'></div>
+    </div>
     </div>
   )
 }

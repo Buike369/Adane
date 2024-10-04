@@ -31,7 +31,7 @@ const Header = () => {
      
 
       const goMan =()=>{
-  if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+  if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
             setFeed('subCap')
             // setFeedBack1('cap')
           }else{

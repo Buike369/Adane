@@ -1,0 +1,25 @@
+.blogHeaderDetails{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.qew{
+    color:#fff;
+}
+.qew1{
+    text-align: center;
+
+}
+.qew2{
+    font-size: 40px;
+    font-weight: 400;
+    width:100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bHDDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

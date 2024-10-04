@@ -93,10 +93,14 @@
 
 }
 
+
 .mr1 {
     color: #9c9da3;
     padding: 5px;
     text-align: center;
+}
+.hoAdd{
+    margin-top: 0;
 }
 
 /* .go::after {
@@ -118,6 +122,18 @@
     }
     .Usa{
         margin-top: 50px !important;
+    }
+    .lmki {
+        border-radius: 0;
+    }
+    .Asu{
+        margin-top: 20px !important;
+    }
+    .uyi{
+        height: 250px;
+    }
+    .jjj{
+        margin-top: 0;
     }
 
     .MeetTeam1,
