@@ -102,7 +102,7 @@ const Projects = () => {
                 </div>
                  <div className='blogDivD'>
                      <div className='prBord'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.png" alt=""  className='BID1'/></a></div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
                    
                     <div className='IntroDate'>
                         <p className='lllx'>Blog</p>
@@ -113,7 +113,7 @@ const Projects = () => {
                 </div>
                 <div className='blogDivD'>
                      <div className='prBord'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.png" alt=""  className='BID1'/></a></div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
                    
                     <div className='IntroDate'>
                         <p className='lllx'>Portfolio</p>
