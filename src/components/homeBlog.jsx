@@ -1,4 +1,4 @@
-import React, {useState,useEffect,useRef} from 'react'
+ import React, {useState,useEffect,useRef} from 'react'
 import "../styles/homeBlog.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
@@ -79,14 +79,18 @@ const HomeBlog = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1'>
         <div className='BlogD'>
-            <p className='OuB'>Our Blog</p>
-            <p  className='OuB1'>Most recent articles</p>
+            <p className='OuB' data-aos="fade-down" data-aos-duration="3000"
+             data-aos-easing="linear">Our Blog</p>
+            <p  className='OuB1' data-aos="fade-up" data-aos-duration="3000"
+             data-aos-easing="linear" >Most recent articles</p>
             <div className='OuB2'>
-                <p className='TL'>The latest news and updates from us.</p>
+                <p className='TL' data-aos="fade-up" data-aos-duration="3000"
+             data-aos-easing="linear">The latest news and updates from us.</p>
                 <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
-                <div className='WR'>
+                <div className='WR' data-aos="fade-up" data-aos-duration="3000"
+             data-aos-easing="linear">
             <div className='RW'>
                 <div className='blogDivD'>
                     <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>

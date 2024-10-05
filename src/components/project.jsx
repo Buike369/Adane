@@ -79,46 +79,67 @@ const Projects = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(180deg, #09141f, #0b1a24, #080b18)"}}>
         <div className='BlogD'>
-            <p className='OuB' style={{color:"#ffffff"}} >Our Projects</p>
+            <p className='OuB' style={{color:"#ffffff"}} data-aos="fade-down" data-aos-duration="3000"
+             data-aos-easing="linear">Our Projects</p>
             
             <div className='OuB2'>
-                <p className='TL'>Please take a look at the projects we have successfully delivered.</p>
+                <p className='TL' data-aos="fade-up" data-aos-duration="3000"
+             data-aos-easing="linear">Please take a look at the projects we have successfully delivered.</p>
                 <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
-                <div className='WR'>
+                <div className='WR' data-aos="fade-up" data-aos-duration="3000"
+             data-aos-easing="linear">
             <div className='RW'>
 
                 <div className='blogDivD'>
                     <div className='prBord'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className=' ghg'/></a></div>
-                  
-                    <div className='IntroDate'>
+                      <div className='prBord3' >
+                       <div className='IntroDate'>
                         <p className='lllx'>Ecommerce</p>
                         <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
                     </div>
+                      </div>
+                    <div className='blogImgD '>
+                      <a href="/"><img src="/img/dvd1.PNG" alt=""  className=' ghg'/></a>
+                      </div>
+                  
+                    
                     </div>
                   
                 </div>
                  <div className='blogDivD'>
                      <div className='prBord'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
-                   
-                    <div className='IntroDate'>
-                        <p className='lllx'>Blog</p>
+                       <div className='prBord3' >
+                       <div className='IntroDate'>
+                        <p className='lllx'>Ecommerce</p>
                         <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
                     </div>
+                      </div>
+                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
+                   
+                    {/* <div className='IntroDate'>
+                        <p className='lllx'>Blog</p>
+                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
+                    </div> */}
                     </div>
                    
                 </div>
                 <div className='blogDivD'>
                      <div className='prBord'>
+
+                       <div className='prBord3' >
+                       <div className='IntroDate kk'>
+                        <p className='lllx'>Ecommerce</p>
+                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
+                    </div>
+                      </div>
                     <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
                    
-                    <div className='IntroDate'>
+                    {/* <div className='IntroDate'>
                         <p className='lllx'>Portfolio</p>
                         <a href=""><p className='otro' style={{color:"#fff"}}>preview</p></a>
-                    </div>
+                    </div> */}
                     </div>
 
                 </div>
