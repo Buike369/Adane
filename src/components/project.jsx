@@ -79,7 +79,7 @@ const Projects = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(180deg, #09141f, #0b1a24, #080b18)"}}>
         <div className='BlogD'>
-            <p className='OuB' >Our Projects</p>
+            <p className='OuB' style={{color:"#ffffff"}} >Our Projects</p>
             
             <div className='OuB2'>
                 <p className='TL'>Please take a look at the projects we have successfully delivered.</p>

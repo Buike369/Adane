@@ -4,6 +4,7 @@ import OurServices from './ourServices';
 import GetStarted from './getStarted';
 import Card from "./card"
 import Testimony from "./testimony";
+import 'aos/dist/aos.css'
 import AOS from 'aos';
 import Slide from "./slides"
 import HomeBlog from './homeBlog';
@@ -56,20 +57,27 @@ const title1 = "Get In Touch"
   
 
   <Slide/>
-         <div id="ourService" data-aos="fade-up">
+         <div id="ourService" data-aos="fade-up"
+     data-aos-duration="1500">
        <Card title={title} title1={title1}  />
        </div>
 
       
        
       {/* <OurServices/> */}
-      
+      <div data-aos="fade-up"
+     data-aos-duration="1500">
+
       <GetStarted/>
+     </div>
+
     
-<div className='hSec'>
+<div className='hSec' data-aos="fade-up"
+     data-aos-duration="1500">
         <div className="addHo1">
          <div className="heroSection2">
-          <p className='saveSmart fastInU'>We  innovate and transform your idea</p>
+          <p className='saveSmart fastInU' data-aos="fade-up"
+     data-aos-duration="1500">We  innovate and transform your idea</p>
           <div className="heroImgHousing rtn">
             {/* <div></div> */}
             <div className='homePics'>
@@ -81,8 +89,9 @@ const title1 = "Get In Touch"
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo" >
           <p className='saveSmart fastIn sH' data-aos="fade-up"
-     data-aos-duration="1000">We Transform Your Idea.</p>
-          <p className='saveSmart1' >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
+     data-aos-duration="1500">We Transform Your Idea.</p>
+          <p className='saveSmart1' data-aos="fade-up"
+     data-aos-duration="1500" >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
           <div className='hom'>
             <a href="/about"><div  className='hom1'>Explore More: About Us</div></a>
             {/* <div  className='hom2'>Learn More</div> */}
