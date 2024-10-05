@@ -79,17 +79,17 @@ const HomeBlog = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1'>
         <div className='BlogD'>
-            <p className='OuB' data-aos="fade-down" data-aos-duration="3000"
+            <p className='OuB' data-aos="fade-down" data-aos-duration="2000"
              data-aos-easing="linear">Our Blog</p>
-            <p  className='OuB1' data-aos="fade-up" data-aos-duration="3000"
+            <p  className='OuB1' data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear" >Most recent articles</p>
             <div className='OuB2'>
-                <p className='TL' data-aos="fade-up" data-aos-duration="3000"
+                <p className='TL' data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">The latest news and updates from us.</p>
                 <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
-                <div className='WR' data-aos="fade-up" data-aos-duration="3000"
+                <div className='WR' data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
             <div className='RW'>
                 <div className='blogDivD'>
@@ -133,19 +133,22 @@ const HomeBlog = () => {
  
         <div className='FaT'   ref={scrollDivRef} > 
         <div className='BlogD' >
-               <div className='shaI'>
+               <div className='shaI' >
             <p className='YFW2'>We're in Number</p>
             <p className='YFW'><span className='TSY'> Key facts </span>and recognitions</p>
             <div className='YF'>
-                <div className='LLPNM'>
+                <div className='LLPNM' data-aos="fade-right" data-aos-duration="2000"
+             data-aos-easing="linear">
                     <div className='YFE'> <span className='YFE45'>{count} years</span></div>
                     <p className='YFE1'>on the market</p>
                 </div>
-                  <div>
+                  <div data-aos="fade-right" data-aos-duration="2000"
+             data-aos-easing="linear">
                     <div className='YFE'><span className='YFE45'>{count1}+ Projects</span></div>
                     <p className='YFE1'>were delivered by us</p>
                   </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="2000"
+             data-aos-easing="linear">
                         <div className='YFE'> <span className='YFE45'>{count2}+ people</span></div>
                         <p className='YFE1'>in the company</p>
                     </div>

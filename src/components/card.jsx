@@ -15,7 +15,7 @@ const Card = ({title,title1}) => {
   <p className="container-title">{title}</p>
 <div className='like'>
   <div className="gradient-cards">
-     <div className="card vn" data-aos="fade-up" data-aos-duration="3000"
+     <div className="card vn" data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
       <div className="container-card bg-white-box">
          <div className='Wen'></div>
@@ -40,7 +40,7 @@ const Card = ({title,title1}) => {
         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="3000"
+    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
       <div className="container-card bg-yellow-box">
          <div className='Wen'></div>
@@ -66,7 +66,7 @@ const Card = ({title,title1}) => {
          <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="3000"
+    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
       <div className="container-card bg-green-box">
         <div className='Wen'></div>
@@ -97,7 +97,7 @@ const Card = ({title,title1}) => {
 
     
 
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="3000"
+    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
       <div className="container-card bg-blue-box">
          <div className='Wen'></div>

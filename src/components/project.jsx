@@ -1,5 +1,6 @@
 import React, {useState,useEffect,useRef} from 'react'
 import "../styles/homeBlog.css"
+import "../styles/project.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
 
@@ -79,69 +80,84 @@ const Projects = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(180deg, #09141f, #0b1a24, #080b18)"}}>
         <div className='BlogD'>
-            <p className='OuB' style={{color:"#ffffff"}} data-aos="fade-down" data-aos-duration="3000"
+            <p className='OuB' style={{color:"#ffffff"}} data-aos="fade-down" data-aos-duration="2000"
              data-aos-easing="linear">Our Projects</p>
             
             <div className='OuB2'>
-                <p className='TL' data-aos="fade-up" data-aos-duration="3000"
+                <p className='TL' data-aos="fade-right" data-aos-duration="2000"
              data-aos-easing="linear">Please take a look at the projects we have successfully delivered.</p>
                 <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
-                <div className='WR' data-aos="fade-up" data-aos-duration="3000"
+                <div className='WR' data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">
             <div className='RW'>
 
                 <div className='blogDivD'>
-                    <div className='prBord'>
-                      <div className='prBord3' >
-                       <div className='IntroDate'>
-                        <p className='lllx'>Ecommerce</p>
-                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
-                    </div>
-                      </div>
-                    <div className='blogImgD '>
-                      <a href="/"><img src="/img/dvd1.PNG" alt=""  className=' ghg'/></a>
-                      </div>
-                  
                     
-                    </div>
+                    <article className="card1">
+  <img
+    className="card1__background"
+    src="/img/dvd1.PNG"
+    alt="Photo of ecommerce at project delivered by Adane Tech"
+    width="1920"
+    height="2193"
+  />
+  <div className="card1__content | flow">
+    <div className="card1__content--container | flow">
+      <h2 className="card1__title">Ecommerce</h2>
+      <p className="card1__description">
+Ecommerce website designed by Adane Tech.
+      </p>
+    </div>
+    <button className="card1__button">Preview</button>
+  </div>
+</article>
                   
                 </div>
-                 <div className='blogDivD'>
-                     <div className='prBord'>
-                       <div className='prBord3' >
-                       <div className='IntroDate'>
-                        <p className='lllx'>Ecommerce</p>
-                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
-                    </div>
-                      </div>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
+                  <div className='blogDivD'>
                    
-                    {/* <div className='IntroDate'>
-                        <p className='lllx'>Blog</p>
-                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
-                    </div> */}
-                    </div>
-                   
+                    <article className="card1">
+  <img
+    className="card1__background"
+    src="/img/dvd1.PNG"
+    alt="Photo of Cooperate website build by Adane Tech"
+    width="1920"
+    height="2193"
+  />
+  <div className="card1__content | flow">
+    <div className="card1__content--container | flow">
+      <h2 className="card1__title">Cooperate</h2>
+      <p className="card1__description">
+   Co-operate website designed by Adane Tech.
+      </p>
+    </div>
+    <button className="card1__button">Preview</button>
+  </div>
+</article>
+                  
                 </div>
-                <div className='blogDivD'>
-                     <div className='prBord'>
-
-                       <div className='prBord3' >
-                       <div className='IntroDate kk'>
-                        <p className='lllx'>Ecommerce</p>
-                        <a href=""><p className='otro' style={{color:"#fff"}}>Preview</p></a>
-                    </div>
-                      </div>
-                    <div className='blogImgD F'><a href="/"><img src="/img/dvd1.PNG" alt=""  className='BID1'/></a></div>
+             <div className='blogDivD'>
                    
-                    {/* <div className='IntroDate'>
-                        <p className='lllx'>Portfolio</p>
-                        <a href=""><p className='otro' style={{color:"#fff"}}>preview</p></a>
-                    </div> */}
-                    </div>
-
+                    <article className="card1">
+  <img
+    className="card1__background"
+    src="/img/dvd1.PNG"
+    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+    width="1920"
+    height="2193"
+  />
+  <div className="card1__content | flow">
+    <div className="card1__content--container | flow">
+      <h2 className="card1__title">Portfolio</h2>
+      <p className="card1__description">
+       Portfolio website designed by Adane Tech.
+      </p>
+    </div>
+    <button className="card1__button">Preview</button>
+  </div>
+</article>
+                  
                 </div>
             </div>
             </div>
