@@ -12,6 +12,12 @@
     margin-top: 60px;
     z-index: 40 !important;
 }
+.shj{
+    margin-top: 0px;
+    padding: 2px 0px;
+    background-color: #2e756d;
+    height: 40px;
+}
 .hjh{
     background-color: #151b2d;
 }
@@ -29,6 +35,14 @@
     position: relative;
     z-index: 50;
     background-clip: padding-box;
+}
+.ch2{
+    background: none;
+    width: 925px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
 }
 .ccl::after {
     background: linear-gradient(90deg, #212b44, #37746c, #080b18);}
@@ -59,10 +73,17 @@
     display: flex;
     width: calc(250px * 14);
 }
+.slider .k{
+    width: calc(930px * 14);
+}
 
 .slider .slide {
     height: 100px;
     width: 250px;
+}
+.slider .h {
+    height: 40px;
+    width: 930px;
 }
 
 @-webkit-keyframes scroll {

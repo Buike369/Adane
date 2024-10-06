@@ -127,7 +127,7 @@ const ButtonTwo =({onClick})=>{
              data-aos-easing="linear">They are talking about us</div> */}
           <div className='DonTake' data-aos="fade-down" data-aos-duration="2000"
              data-aos-easing="linear">What Our Customers Say</div>
-          <div className='seeWhat' data-aos="fade-down" data-aos-duration="2000"
+          <div className='seeWhat' data-aos="fade-up" data-aos-duration="2000"
              data-aos-easing="linear">Discover why our clients love working with us! Read their testimonials and see how we’ve made a difference for them</div>
          {/* <div className="divUnder1"></div> */}
          <div className=" marginMu fadama " data-aos="fade-up" data-aos-duration="2000"

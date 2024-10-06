@@ -10,7 +10,7 @@ import {faServicestack} from "@fortawesome/free-brands-svg-icons"
 const GetStarted = () => {
   return (
     <section className="get-started">
-      <h2 className="title">Get Started with Us</h2>
+      <h2 className="title">Get Started With Us</h2>
       <div className='follow'>Follow this steps to make the most of our website</div>
       <div className='blur'></div>
       <div className="steps">

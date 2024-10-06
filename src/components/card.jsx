@@ -10,13 +10,12 @@ const Card = ({title,title1}) => {
   },[])
   return (
     <div className='background-image' id="service" >
-    <div className='Card'  data-aos="fade-up">
+    <div className='Card'  >
         <div className="container">
   <p className="container-title">{title}</p>
 <div className='like'>
   <div className="gradient-cards">
-     <div className="card vn" data-aos="fade-up" data-aos-duration="2000"
-             data-aos-easing="linear">
+     <div className="card vn" >
       <div className="container-card bg-white-box">
          <div className='Wen'></div>
         {/* <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,8 +39,7 @@ const Card = ({title,title1}) => {
         <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
-             data-aos-easing="linear">
+    <div className="card vn" >
       <div className="container-card bg-yellow-box">
          <div className='Wen'></div>
         {/* <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,8 +64,7 @@ const Card = ({title,title1}) => {
          <a href="/getInTouch"><button className='SeeMoreB'>{title1}</button></a>
       </div>
     </div>
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
-             data-aos-easing="linear">
+    <div className="card vn"  >
       <div className="container-card bg-green-box">
         <div className='Wen'></div>
         {/* <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,8 +94,7 @@ const Card = ({title,title1}) => {
 
     
 
-    <div className="card vn"  data-aos="fade-up" data-aos-duration="2000"
-             data-aos-easing="linear">
+    <div className="card vn"  >
       <div className="container-card bg-blue-box">
          <div className='Wen'></div>
         {/* <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">

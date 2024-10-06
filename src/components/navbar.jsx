@@ -3,8 +3,9 @@ import React,{useState,useEffect} from 'react'
 import "../styles/header.css"
 import "../styles/footer.css"
 import "../styles/mobileHeader.css"
+import Slide from "./avert"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight,faSearch} from '@fortawesome/free-solid-svg-icons'
+import { faBars,faXmark,faSearch} from '@fortawesome/free-solid-svg-icons'
 import {faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
 
 
@@ -17,7 +18,7 @@ const Header = () => {
   const [isChecked,setIsChecked] = useState(false)
   const [dropdown,setDropdown] = useState(false)
   const tr = window.location.pathname;
-  const [show22, setShow22] = useState("Sapap")
+  const [addRight, setAddRight] = useState("")
 
    const [feed,setFeed] = useState("header")
 
@@ -40,12 +41,14 @@ const Header = () => {
           }
       }
 
-      const handleCheckboxChange = (event)=>{
-   setIsChecked(event.target.checked)
-   if(isChecked){
-    document.body.classList.remove('cac')
-   }else{
+      const handleCheckboxChange = ()=>{
+   setIsChecked(!isChecked)
+   if(!isChecked){
+   setAddRight('da1');
        document.body.classList.add('cac')
+   }else{
+      setAddRight('da');
+       document.body.classList.remove('cac')
    }
       }
 
@@ -56,6 +59,7 @@ const Header = () => {
   return (
 
     <div className="" >
+      <Slide/>
     <div className={feed}>
       <div style={{padding:"0 10px"}}>
       <div className="Navbar relativeD">
@@ -89,12 +93,16 @@ const Header = () => {
         {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password") ? "" :
         <div >
           <div className="hamburgerMenu">
-    <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>
+            
+            <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div>
+    {/* <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>
     <label className="menuBtn" for="menuToggle">
       <span></span>
-    </label>
-     <div className="menuBox">
+    </label> */}
+    {/* {isChecked ?  */}
+     <div className={`menuBox ${addRight}`}>
     <ul className="menuBox24">
+      <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
       <li><a className="menuItem" href="/about">About Us</a></li>
        <li><a className="menuItem" href="/service">Services</a></li>
               <li><a className="menuItem" href="/career">Career</a></li>
@@ -116,6 +124,7 @@ const Header = () => {
     </ul>
      
     </div>
+    {/* :""} */}
   </div>
            <ul className="NavbarUl">
            {/* <li><FontAwesomeIcon icon={faSearch}  className=""/> Search</li>  */}
