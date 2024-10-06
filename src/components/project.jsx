@@ -78,7 +78,7 @@ const Projects = () => {
     },[])
   return (
     <div ref={scrollDivRef}>
-        <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(180deg, #09141f, #0b1a24, #080b18)"}}>
+        <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(rgb(8 11 24), rgb(9 18 29), rgb(9 17 29))"}}>
         <div className='BlogD'>
             <p className='OuB' style={{color:"#ffffff"}} data-aos="fade-down" data-aos-duration="2000"
              data-aos-easing="linear">Our Projects</p>

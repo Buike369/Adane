@@ -157,7 +157,7 @@
 
 .hSec {
     padding: 40px 0;
-    background: linear-gradient(180deg, #080b18, #080b18, #09141f);
+    background: linear-gradient(180deg, #080b18, #080b18, #080b18);
     /* background: linear-gradient(180deg, #080b18, #0d272f, #080b18); */
     position: relative;
     /* background: linear-gradient(180deg, #c4ebd1, #c9e9d3, #7ab59e); */
@@ -192,7 +192,9 @@
         width: 70%;
         height: 500px
     }
-
+.sH{
+    margin-top: 60px !important;
+}
     .heroSection {
         flex-direction: column;
         margin: 100px auto 0 auto;

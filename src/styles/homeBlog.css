@@ -186,11 +186,12 @@ flex-wrap: wrap;
 }
 
 .FaT1 {
-    background: linear-gradient(180deg, #080b18, #0b1a24, #0d262d);
+    background: linear-gradient(180deg, #09111d, #0b1a24, #0c2029);
+    padding-top: 5px;
 }
 
 .FaT {
-    background: linear-gradient(180deg, #0d252c, #0b1a24, #080b18);
+    background: linear-gradient(180deg, #0c2029, #0b1a24, #080b18);
 }
 .ghg {
     border-bottom-left-radius: 2px !important;

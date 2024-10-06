@@ -1,6 +1,6 @@
 :root {
     /* Colors */
-    --brand-color: #2e756d;
+    --brand-color: #2f3a5b;
     --black: #ffffff;
     --white: hsl(0, 0%, 100%);
     /* Fonts */
@@ -41,7 +41,8 @@ h2 {
     height: 21.125rem;
     overflow: hidden;
     border-radius: 0.625rem;
-    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25rem 0.25rem 0.5rem #080b18e3;
+        border: 2px solid #212b44;
 }
 
 .card1>* {
@@ -63,10 +64,7 @@ h2 {
     align-self: flex-end;
     height: 75%;
     padding: 12% 1.25rem 1.275rem;
-    background: linear-gradient(180deg,
-            hsla(0, 0%, 0%, 0) 0%,
-            hsla(0, 0%, 0%, 0.3) 10%,
-            hsl(225deg 36.36% 12.94%) 100%);
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 0%, hsl(0deg 0% 0% / 19%) 10%, hsl(225deg 36.36% 12.94%) 100%);
 }
 
 .card1__content--container {
@@ -99,7 +97,7 @@ h2 {
     font-weight: bold;
     border-radius: 0.45em;
     border: none;
-    background-color:#2e756d;
+    background-color:#2f3a5b;
     font-family: var(--font-title);
     font-size: 1.125rem;
     color: var(--black);

@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react'
 import "../styles/home.css"
 import OurServices from './ourServices';
-import GetStarted from './getStarted';
+// import GetStarted from './getStarted';
+import GetStarted from './aboutInfo';
 import Card from "./card"
 import Testimony from "./testimony";
 import 'aos/dist/aos.css'
@@ -57,9 +58,8 @@ const title1 = "Get In Touch"
   
 
   <Slide/>
-         <div id="ourService" >
-       <Card title={title} title1={title1}  />
-       </div>
+
+   
 
       
        
@@ -68,6 +68,7 @@ const title1 = "Get In Touch"
 
       <GetStarted/>
      </div>
+      
 
     
 <div className='hSec' >
@@ -96,6 +97,12 @@ const title1 = "Get In Touch"
       </div>
 
       </div>
+
+       <div id="ourService" >
+       <Card title={title} title1={title1}  />
+       </div>
+
+       
 
 
 
