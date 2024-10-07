@@ -135,7 +135,7 @@ flex-wrap: wrap;
     font-size: 1rem;
     color: #999a9f;
 
-    letter-spacing: 0.4px;
+    /* letter-spacing: 0.4px; */
 }
 
 .shaI {
@@ -223,10 +223,17 @@ flex-direction: column;
     .TL{
         width: 100%;
     }
+    .YFE45{
+        font-size: 1.2rem;
+    }
+    .YFE1{
+ font-size: 1rem;
+    line-height: 2rem;
+    }
     .OuB1{
-font-size: 1.6rem;
-line-height: 2.3rem;
-margin-bottom: 5px;
+font-size: 1.3rem;
+/* line-height: 0.3rem; */
+margin-bottom: 0px;
 font-weight: 500;
     }
         .OuB{
@@ -234,13 +241,13 @@ font-weight: 500;
             margin-top: 2.5rem;
         }
         .YFW{
-            line-height: 2.3rem;
+            line-height: 1.5rem;
         }
         .YF{
             flex-direction: column;
         }
                 .YFW, .TSY{
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
                                 .shaI {
                                     padding-top: 4rem;

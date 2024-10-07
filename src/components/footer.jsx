@@ -100,7 +100,7 @@ const Footer = () => {
                
                 <div className='fil'>
                     <ul className='footerF'>
-                        <li className='pin pin7'><div className="FooterHead">Projects</div></li>
+                        <li className='pin pin7'><div className="FooterHead">Industries</div></li>
                         <li className='pin pin6'><a href="/" className='then'>Ecommerce</a></li>
                         <li className='pin pin7'><a href="/" className='then'>Real Estate</a></li>
                         <li className='pin  pin6'><a href="/" className='then'>AgricBusiness</a></li>
@@ -117,7 +117,7 @@ const Footer = () => {
                         <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
                         <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/career" className='then'>Careers</a></li>
-                        <li className='pin1  pin6'><a href="/" className='then'>Press</a></li>
+                        <li className='pin1  pin6'><a href="/" className='then'>FAQ</a></li>
                     </ul>
                 </div>
                 <div className='fil'>
@@ -136,8 +136,8 @@ const Footer = () => {
                         <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
 
 
+                        <li className='pin1  pin6'><a href="/" className='then'>How it works</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
-                        <li className='pin1  pin6'><a href="/" className='then'></a></li>
                     </ul>
                 </div>
             </div>
@@ -189,10 +189,10 @@ const Footer = () => {
                     <a href="/about" className='mnm mmm2'>About Us</a>
                     <a href="mailto:chukwubuikekingsley369@gmail.com" className='mnm mmm2'> Contact Us </a>
                     <a href="/career" className='mnm mmm2'>Career</a>
-                     <a href="/" className='mnm mmm2'>Press</a>
+                     <a href="/" className='mnm mmm2'>FAQ</a>
                 </div>
                 <div className='MobileT'>
-                    <div className="R1 R2">Projects</div>
+                    <div className="R1 R2">Industries</div>
                     <a href="/" className='mnm mmm1 '>Ecommerce</a>
                     <a href="/" className='mnm mmm1'>Real Estate</a>
                     <a href="/" className='mnm mmm1'>AgricBusiness</a>
@@ -208,15 +208,14 @@ const Footer = () => {
                 <div className='MobileT'>
                     <div className="R1">Legal</div>
                     <a href="/privacy_policy" className='mnm mmm2'>Privacy Policy </a>
-                    <a href="/terms_and_condition" className='mnm mmm2'>Terms & Conditions</a>
+                    <a href="/terms_and_condition" className='mnm mmm2'>Terms of Service</a>
                     {/* <a href="/" className='mnm mmm2'>Disclaimer</a> */}
                                         {/* <a href="#" className='mnm mmm2'>Cookie Policy</a> */}
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
                     <a href="/blogs" className='mnm mmm1 '>Blog</a>
-
-    
+                                      <a href="/" className='mnm mmm1'>How it works</a>
                     <a href="/" className='mnm mmm1'>Pricing</a>
                 </div>
             </div>

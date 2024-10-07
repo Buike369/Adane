@@ -58,6 +58,7 @@ const title1 = "Get In Touch"
   
 
   <Slide/>
+  
 
    
 

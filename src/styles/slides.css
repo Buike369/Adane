@@ -14,7 +14,7 @@
 }
 .shj{
     margin-top: 0px;
-    padding: 2px 0px;
+    padding: 5px 0px;
     background-color: #2e756d;
     height: 40px;
 }
@@ -39,10 +39,12 @@
 .ch2{
     background: none;
     width: 925px;
-    height: 40px;
+    height: 30px;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.3px;
+   border-right: 2px solid #48ab9e ;
+   border-radius: 0;
 }
 .ccl::after {
     background: linear-gradient(90deg, #212b44, #37746c, #080b18);}
@@ -82,7 +84,7 @@
     width: 250px;
 }
 .slider .h {
-    height: 40px;
+    height: 30px;
     width: 930px;
 }
 
@@ -112,4 +114,12 @@
         .slider::after, .ccl,.slider, .slider .slide{
             height: 50px
         }
+        .rig::before,
+        .rig::after,.rig{
+            height: 40px ;
+        }
+        .ch2,.h{
+            height:30px;
+        }
+
 }

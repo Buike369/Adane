@@ -6,7 +6,7 @@ import withTitle from './title';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn,faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
-import {faLocationDot} from "@fortawesome/free-solid-svg-icons"
+import {faLocationDot,faHouse,faMessage,faPhone,faAddressBook,faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import validator from 'validator';
 // import { useLocation } from 'react-router-dom';
 
@@ -72,7 +72,7 @@ setError("invalid Email")
 
 
     
- const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Enter your name",value:inputs1.fullName},{label:"Email",type:"email",name:"email",holder:"Enter your email",value:inputs1.email},{label:"Phone",type:"number",name:"phone",holder:"Enter your phone_number",value:inputs1.phone},{label:"Subject",type:"text",name:"subject",holder:"Purpose of contact",value:inputs1.subject}]
+ const inputs = [{label:"Full Name",type:"text", name:"fullName",holder:"Full Name",value:inputs1.fullName,icon:faAddressBook},{label:"Company Name",type:"text",name:"subject",holder:"Company Name",value:inputs1.subject,icon:faHouse},{label:"Email",type:"email",name:"email",holder:"Email",value:inputs1.email,icon:faEnvelope},{label:"Phone",type:"number",name:"phone",holder:"Phone",value:inputs1.phone,icon:faPhone}]
 
   const PhoneNum ="+2348167029609"
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
@@ -99,8 +99,9 @@ setError("invalid Email")
                             <p className='getLL'> Fill out the form,and we will contact you</p>
                             {inputs.map((app,id)=>(
                                 <div key={id}>
-                            <div className='LabelCon'>{app.label}</div>
-                            <div>
+                            {/* <div className='LabelCon'>{app.label}</div> */}
+                            <div className='letGo'>
+                                <FontAwesomeIcon icon={app.icon}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />
                                 <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value}/>
                             </div>
                             </div>
@@ -108,7 +109,7 @@ setError("invalid Email")
 
                          
                             <div>
-                                <div className='messA'>Message *</div>
+                                <div className='messA' style={{paddingLeft:"10px"}}> <FontAwesomeIcon icon={faMessage}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /> Your Message *</div>
                                 <div>
                                     <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message} placeholder='Describe your project and goals'>
                                     </textarea>

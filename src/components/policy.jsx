@@ -9,7 +9,7 @@ const Policy = () => {
             <div className='lico'>Privacy Policy</div>
             <div>
               
-                <p className='toPros'>Welcome to Adane Technology. We are committed to protecting your privacy and ensuring your personal information is secure. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our website and services, including web and app development solutions.</p>
+                <p className='toPros'>Welcome to <a href="/" style={{ color:" rgb(255, 255, 255)"}}>Adane Technology </a>. We are committed to protecting your privacy and ensuring your personal information is secure. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our website and services, including web and app development solutions.</p>
             </div>
             <div>
                 <p className='InfoCollect'>Information We Collect</p>

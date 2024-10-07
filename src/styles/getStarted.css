@@ -88,12 +88,12 @@ font-size: 3rem;
     width:150px;
     height:200px;
     border-radius: 50%;
-    background-color:#36dfc7;
+    /* background-color:#36dfc7; */
     position: absolute;
     top:0;
     left: 50%;
-    filter: blur(194px);
-    opacity: 0.8;
+    /* filter: blur(164px); */
+    opacity: 0.7;
 
 }
 @media(max-width:768px){

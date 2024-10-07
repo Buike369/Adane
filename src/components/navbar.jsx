@@ -5,7 +5,7 @@ import "../styles/footer.css"
 import "../styles/mobileHeader.css"
 import Slide from "./avert"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars,faXmark,faSearch} from '@fortawesome/free-solid-svg-icons'
+import { faBars,faArrowRight,faXmark,faSearch} from '@fortawesome/free-solid-svg-icons'
 import {faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
 
 
@@ -32,7 +32,7 @@ const Header = () => {
      
 
       const goMan =()=>{
-  if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
             setFeed('subCap')
             // setFeedBack1('cap')
           }else{
@@ -92,9 +92,12 @@ const Header = () => {
 
         {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password") ? "" :
         <div >
+
           <div className="hamburgerMenu">
-            
-            <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div>
+            <div className='reff'>
+            <div><button className='RegRef'>Register</button></div>
+            <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#fff",marginRight:"6px"}} onClick={handleCheckboxChange} /></div>
+            </div>
     {/* <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>
     <label className="menuBtn" for="menuToggle">
       <span></span>
@@ -103,8 +106,20 @@ const Header = () => {
      <div className={`menuBox ${addRight}`}>
     <ul className="menuBox24">
       <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
-      <li><a className="menuItem" href="/about">About Us</a></li>
-       <li><a className="menuItem" href="/service">Services</a></li>
+      <li><div className='reff aaFF'><button className='RegRef' style={{background:"#2e756d"}}>Sign In</button><button className='RegRef'>Register</button></div></li>
+            <li><a className="menuItem" href="/about">About Us</a></li>
+       <li><a className="menuItem met" onClick={()=>setDropdown(!dropdown)} >Services <FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#fff",marginRight:"8px"}}  /></a>
+       {dropdown ? 
+          <div>
+             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Web Development</a></div>
+             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Mobile App Development</a></div>
+              <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />UI/UX design</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Graphic Design</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Front_End Development</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Backend Development</a></div>
+          </div>
+          :""}
+       </li>
               <li><a className="menuItem" href="/career">Career</a></li>
               <li><a className="menuItem" href="/">Industries</a></li>
       <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
@@ -112,7 +127,7 @@ const Header = () => {
      
 
        <li><button className='loginButton'><a className="menuItem34" href="/contact">Contact Us</a></button></li>
-       <li> <div className="hotter kil">
+       <li> <div className="hotter kil" style={{marginBottom:"60px"}}>
                 <div className="hot">
                 {socialLink.map((app,id)=>(
                 <ul key={id} className="hot">
@@ -121,6 +136,7 @@ const Header = () => {
                 ))}
                 </div>
             </div></li>
+            <li><div style={{height:"20px",padding:"10px 15px"}}></div></li>
     </ul>
      
     </div>

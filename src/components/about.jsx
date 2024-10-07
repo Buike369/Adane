@@ -1,13 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../styles/about.css"
 import Card from "./aboutService"
+import 'aos/dist/aos.css'
+import AOS from 'aos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import GetStarted from './aboutInfo';
+import GetStarted from './aboutText';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
 import withTitle from './title';
-
+import Testimony1 from "./testimony"
 
 const About = () => {
   const title = "What We Do"
@@ -55,6 +57,11 @@ const ButtonTwo =({onClick})=>{
     </div>
   );
 };
+
+useEffect(()=>{
+    AOS.init({once: true});
+    // AOS.init();
+  },[])
 
   return (
     <div>
@@ -104,7 +111,7 @@ const ButtonTwo =({onClick})=>{
          
                     <Carousel
   swipeable={true}
-  draggable={false}
+  draggable={true}
   showDots={false}
   responsive={responsive2}
    arrows={false} 
@@ -166,7 +173,7 @@ const ButtonTwo =({onClick})=>{
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
                <p className='mr'>Mrs Chika Nwaokorie</p>
-               <p className='mr1'>Quality Assurance (QA) Engineer</p>
+               <p className='mr1'>Quality Assurance(QA)</p>
                </div>
             </div>
                   <div className='l2 go'>
@@ -205,6 +212,8 @@ const ButtonTwo =({onClick})=>{
      
       </div>
       </div>
+
+      <Testimony1/>
 
 
       
