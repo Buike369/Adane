@@ -94,65 +94,52 @@ const Projects = () => {
                 <div className='blogDivD'>
                     
                     <article className="card1">
-  <img
-    className="card1__background"
-    src="/img/dvd1.PNG"
-    alt="Photo of ecommerce at project delivered by Adane Tech"
-    width="1920"
-    height="2193"
-  />
-  <div className="card1__content | flow">
-    <div className="card1__content--container | flow">
+  
+  <div className='likki'></div>
+  <div className="Eme">
+    <div className=" ">
       <h2 className="card1__title">Ecommerce</h2>
       <p className="card1__description">
 Ecommerce website designed by Adane Tech.
       </p>
     </div>
-    <button className="card1__button">Preview</button>
+    <button className="btnB">Preview</button>
   </div>
 </article>
                   
                 </div>
                   <div className='blogDivD'>
                    
+               
                     <article className="card1">
-  <img
-    className="card1__background"
-    src="/img/dvd1.PNG"
-    alt="Photo of Cooperate website build by Adane Tech"
-    width="1920"
-    height="2193"
-  />
-  <div className="card1__content | flow">
-    <div className="card1__content--container | flow">
-      <h2 className="card1__title">Cooperate</h2>
+  
+  <div className='likki'></div>
+  <div className="Eme">
+    <div className=" ">
+      <h2 className="card1__title">Ecommerce</h2>
       <p className="card1__description">
-   Co-operate website designed by Adane Tech.
+Ecommerce website designed by Adane Tech.
       </p>
     </div>
-    <button className="card1__button">Preview</button>
+    <button className="btnB">Preview</button>
   </div>
 </article>
                   
                 </div>
              <div className='blogDivD'>
                    
+   
                     <article className="card1">
-  <img
-    className="card1__background"
-    src="/img/dvd1.PNG"
-    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
-    width="1920"
-    height="2193"
-  />
-  <div className="card1__content | flow">
-    <div className="card1__content--container | flow">
-      <h2 className="card1__title">Portfolio</h2>
+  
+  <div className='likki'></div>
+  <div className="Eme">
+    <div className="">
+      <h2 className="card1__title">Ecommerce</h2>
       <p className="card1__description">
-       Portfolio website designed by Adane Tech.
+Ecommerce website designed by Adane Tech.
       </p>
     </div>
-    <button className="card1__button">Preview</button>
+    <button className="btnB">Preview</button>
   </div>
 </article>
                   

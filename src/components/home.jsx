@@ -65,10 +65,7 @@ const title1 = "Get In Touch"
       
        
       {/* <OurServices/> */}
-      <div >
-
-      <GetStarted/>
-     </div>
+      
       
 
     
@@ -98,6 +95,11 @@ const title1 = "Get In Touch"
       </div>
 
       </div>
+
+      <div >
+
+      <GetStarted/>
+     </div>
 
        <div id="ourService" >
        <Card title={title} title1={title1}  />

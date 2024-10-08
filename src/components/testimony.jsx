@@ -155,7 +155,7 @@ const ButtonTwo =({onClick})=>{
   itemClass="carousel-item-padding-40-px"
   
 >
- <div style={{padding:"4px 10px"}}>      
+ <div style={{padding:"4px 15px"}}>      
 <div className="earnSayPp">
   <div className='sHe1'></div>
   <img src="/img/eme1.svg" alt="" className='sHe'/>
@@ -169,7 +169,7 @@ const ButtonTwo =({onClick})=>{
   </div>
 </div>
 </div> 
- <div style={{padding:"4px 10px"}}>           
+ <div style={{padding:"4px 15px"}}>           
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Innovative solutions and seamless support. Adane Tech delivers excellence"</p>
@@ -182,7 +182,7 @@ const ButtonTwo =({onClick})=>{
   </div>
 </div>
 </div>
-<div style={{padding:"4px 10px"}}>
+<div style={{padding:"4px 15px"}}>
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Adane Tech made our project shine,with top-notch design and development."</p>
@@ -195,7 +195,7 @@ const ButtonTwo =({onClick})=>{
   </div>
 </div>
 </div>
-<div style={{padding:"4px 10px"}}>
+<div style={{padding:"4px 15px"}}>
 <div className="earnSayPp">
   <img src="/img/eme1.svg" alt="" className='sHe'/>
   <p className="partnerShip">"Exceptional web development that truly elevated our online presence."</p>
