@@ -61,11 +61,13 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     font-size: 22px;
     font-weight: 500;
     color:#d9d5d5;
+    text-align: center;
 }
 .Nout{
 font-size: 15px;
 font-weight: 400;
-color:#999a9f
+color:#999a9f;
+text-align: center;
 }
 .Map{
     display: grid;
@@ -117,9 +119,10 @@ margin-bottom: 5px;
     .LPE{
 font-size: 24px;
     }
-        .kln{
-            font-size: 26px;
-        }
+                        .kln {
+                            font-size: 30px;
+                            line-height: 40px;
+                        }
         .dw{
             margin: 18px auto 40px auto;
         }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useRef} from 'react'
 
 import "../styles/contact.css"
 import axios from "axios"
@@ -21,8 +21,11 @@ const Contact = () => {
     message:""
   })
 
-
+const inputRef = useRef();
    const changeHandle =(e)=>{
+    if(inputRef.current){
+   
+    }
 
     setInputs1(prev=>({...prev,[e.target.name]:e.target.value}))
     console.log(inputs1)
@@ -102,7 +105,7 @@ setError("invalid Email")
                             {/* <div className='LabelCon'>{app.label}</div> */}
                             <div className='letGo'>
                                 <FontAwesomeIcon icon={app.icon}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />
-                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value}/>
+                                <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value} ref={inputRef}/>
                             </div>
                             </div>
                             ))}
@@ -111,7 +114,7 @@ setError("invalid Email")
                             <div>
                                 <div className='messA' style={{paddingLeft:"10px"}}> <FontAwesomeIcon icon={faMessage}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /> Your Message *</div>
                                 <div>
-                                    <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message} placeholder='Describe your project and goals'>
+                                    <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message} placeholder=''>
                                     </textarea>
                                 </div>
                             </div>
@@ -134,7 +137,7 @@ setError("invalid Email")
                     </div>
                     <div>
                         <div className='graceDay'>Location</div>
-                        <div className='wedDis'> <FontAwesomeIcon icon={ faLocationDot}  className='noLike'/>No 7 Marat Avenue </div>
+                        <div className='wedDis'> <FontAwesomeIcon icon={ faLocationDot}  className='noLike'/>No 7 Ehi Road Oyigbo, Rivers State. </div>
                     </div>
                     <div>
                         <div className='graceDay'>

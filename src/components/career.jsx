@@ -9,8 +9,7 @@ const Career = () => {
         <div className='gg'>
           <div className='wd'>
             <div className='dw'>
-            <p className='kln'>Welcome to Adane
-Where Ideas Thrive!</p>
+            <p className='kln'>Discover Adane, the place where creativity thrives</p>
 <p className='viB'>Join our vibrant team in the heart and contribute to projects that impact the global startup scene. Dive into a workplace where your creativity knows no bounds!</p>
 </div>
 </div>
