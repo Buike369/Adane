@@ -133,6 +133,11 @@ flex-wrap: wrap;
 .ppL {
     font-size: 1rem;
     color: #999a9f;
+    display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+        overflow: hidden;
 
    
 }
@@ -185,12 +190,12 @@ flex-wrap: wrap;
 }
 
 .FaT1 {
-    background: linear-gradient(180deg, #09111d, #0b1a24, #0c2029);
+        background: linear-gradient(180deg, #09111d, #151b2d, #151b2d);
     padding-top: 5px;
 }
 
 .FaT {
-    background: linear-gradient(180deg, #0c2029, #0b1a24, #080b18);
+        background: linear-gradient(180deg, #151b2d, #0b101d, #080b18);
 }
 .ghg {
     border-bottom-left-radius: 2px !important;

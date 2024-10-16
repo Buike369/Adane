@@ -13,7 +13,7 @@ const Login =()=>{
         <div className="BgColor" >
                  <Navbar/>
           
-          
+          <div className="ffDS">
             <div className="Form_Divbb">
               
            <div className="Form_Div renttt pK">
@@ -39,9 +39,9 @@ const Login =()=>{
                      <div className="LOGIN_HERE_NOW"><Link to="/register" className="p_LoGIn">Register Here</Link></div>
                </form>
            </div>
-           <div className="IPLOm"></div>
-           
          
+         
+           </div>
            </div>
         
              

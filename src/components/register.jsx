@@ -28,8 +28,7 @@ const Register =()=>{
                     <div> <input type="email" placeholder="Email" className="Full_Name"  name="email"/></div>
                 
 
-                    <div className="sers"> <input type="password" placeholder="Password" className="Full_Name "  name="password" value=""
-                  />
+                    <div className="sers"> <input type="password" placeholder="Password" className="Full_Name "  name="password" />
                  {/* <FontAwesomeIcon icon={faEye} className="PlusIcon plusIcon2 ser1" />:<FontAwesomeIcon icon={faEyeSlash} className="PlusIcon plusIcon2 ser1" onClick={handleClickShowPassword}/>  */}
                  </div>
                  

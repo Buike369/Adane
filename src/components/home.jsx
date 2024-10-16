@@ -110,6 +110,18 @@ const title1 = "Get In Touch"
 
 
  <Project/>
+
+ {/* <div>
+  <div className='hk'>
+    <p className='hk1'>Interview</p>
+    <p className='hk2'>5 best tools for digital marketing</p>
+    <div className='kucM'>
+    <p className='hk3'>Kingsley Chukwubuike</p>
+    <p className='hk4'>Founder and CEO at Adane</p>
+    </div>
+    <div className='llbb'><img src="/img/bkImg.jpeg" alt="topic description" className='hk5'/></div>
+  </div>
+ </div> */}
             
       <HomeBlog/>
       

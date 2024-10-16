@@ -19,18 +19,20 @@
     font-size: 20px;
     font-weight: 700;
 }
-
-.Form_Divbb {
- /* display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column; */
- /* width: 100vw; */
- height: 100%;
- min-height: 100vh;
- padding: 0px 15px;
-
+.ffDS{
+    
+    height: calc(100vh -1                   0vh);
 }
+.Form_Divbb {
+   
+
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .pK{
     margin: auto;
 }

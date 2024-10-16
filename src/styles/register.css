@@ -75,6 +75,7 @@ background: #d4f5df;
 .IPLOm {
     height: 26px;
     width: 100%;
+    background-color: inherit;
 
 }
 

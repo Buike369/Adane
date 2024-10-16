@@ -10,7 +10,7 @@ const HomeBlog = () => {
     const [count1,setCount1]= useState(0)
     const [count2,setCount2]= useState(0)
 
-      
+     const card = [{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"},{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"},{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"}] 
 
   // Function to log the scrollTop value
   const handleScroll = () => {
@@ -89,36 +89,31 @@ const HomeBlog = () => {
             <div className='Mikl'>
                 <div className='WR' >
             <div className='RW'>
-                <div className='blogDivD'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
+              {card.map((app,id)=>(
+                <div className='blogDivD' key={id}>
+                    <div className='blogImgD F'><a href="/">
+                    <div className='hk'>
+    <p className='hk1'>Interview</p>
+    <p className='hk2'>5 best tools for digital marketing</p>
+    <div className='kucM'>
+    <p className='hk3'>Kingsley Chukwubuike</p>
+    <p className='hk4'>Founder and CEO at Adane</p>
+    </div>
+    <div className='llbb'><img src="/img/bkImg.jpeg" alt="topic description" className='hk5'/></div>
+  </div>
+                    {/* <img src="/img/blogImg.png" alt=""  className='BID1'/> */}
+                    </a></div>
                     {/* <div className='textDD'>inovation</div> */}
                     <div className='IntroDate'>
-                        <p className='otro'>intro</p>
-                        <p className='comesd'>26/09/2024</p>
+                        <p className='otro'>{app.tech}</p>
+                        <p className='comesd'>{app.date}</p>
                     </div>
-                   <a href="/"> <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
-                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
+                   <a href="/"> <p className='IOP'>{app.subtopic}</p></a>
+                    <a href="/"><p className='ppL'>{app.text}</p></a>
                 </div>
-                 <div className='blogDivD'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
-                    {/* <div className='textDD'>inovation</div> */}
-                    <div className='IntroDate'>
-                        <p className='otro'>intro</p>
-                        <p className='comesd'>26/09/2024</p>
-                    </div>
-                   <a href="/"> <p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
-                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
-                </div>
-                <div className='blogDivD'>
-                    <div className='blogImgD F'><a href="/"><img src="/img/blogImg.png" alt=""  className='BID1'/></a></div>
-                    {/* <div className='textDD'>inovation</div> */}
-                    <div className='IntroDate'>
-                        <p className='otro'>intro</p>
-                        <p className='comesd'>26/09/2024</p>
-                    </div>
-                    <a href="/"><p className='IOP'>Internet of Things in Retail Market: Use Cases, Benefits and Challenges</p></a>
-                    <a href="/"><p className='ppL'>IoT in retail is becoming a real worldwide trend! Learn</p></a>
-                </div>
+                ))}
+               
+              
             </div>
             </div>
             </div>
