@@ -6,7 +6,9 @@
     gap: 20px;
     justify-content: space-between;
 }
-
+.bnv{
+    max-height: 400px;
+}
 .meetDiv {
 background: linear-gradient(180deg, #080b18, #080b18, #09101c);
 

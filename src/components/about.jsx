@@ -75,7 +75,7 @@ useEffect(()=>{
             {/* <div></div> */}
             <div className='uyi'>
           
-          <img src="/img/try1.jpg" alt=""className="heroImage lmki"/>
+          <img src="/img/try1.jpg" alt=""className="heroImage lmki bnv"/>
           </div>
           </div>
          </div>

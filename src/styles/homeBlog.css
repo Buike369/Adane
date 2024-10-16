@@ -49,7 +49,6 @@ position: relative;
     background-color:#185453;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    /* border-top-left-radius: 50%; */
     border-top-right-radius: 700px;
     
 }
@@ -69,7 +68,7 @@ position: relative;
     font-size: 15px;
     color: #999a9f;
     width: 50%;
-    /* letter-spacing: 0.5px; */
+    
 }
 
 .TLB {
@@ -98,7 +97,7 @@ position: relative;
     margin-top: 20px;
     padding: 3px 25px;
     background-color: #2e756d;
-    /* height: auto; */
+
     width: fit-content;
     border-radius: 8px
 }
@@ -125,17 +124,17 @@ flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     text-overflow: ellipsis;
-    /* text-wrap: nowrap; */
     overflow: hidden;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.8rem;
+
 }
 
 .ppL {
     font-size: 1rem;
     color: #999a9f;
 
-    /* letter-spacing: 0.4px; */
+   
 }
 
 .shaI {

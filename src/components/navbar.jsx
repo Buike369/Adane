@@ -106,7 +106,7 @@ const Header = () => {
      <div className={`menuBox ${addRight}`}>
     <ul className="menuBox24">
       <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
-      <li><div className='reff aaFF'><button className='RegRef' style={{background:"#2e756d"}}>Sign In</button><button className='RegRef'>Register</button></div></li>
+      <li><div className='reff aaFF'><a href="/login"><button className='RegRef' style={{background:"#2e756d"}}>Sign In</button></a><a href="/register"><button className='RegRef'>Register</button></a></div></li>
             <li><a className="menuItem" href="/about">About Us</a></li>
        <li><a className="menuItem met" onClick={()=>setDropdown(!dropdown)} >Services <FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#fff",marginRight:"8px"}}  /></a>
        {dropdown ? 

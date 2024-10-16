@@ -16,7 +16,7 @@ const Login =()=>{
           
             <div className="Form_Divbb">
               
-           <div className="Form_Div renttt page">
+           <div className="Form_Div renttt pK">
                <form>
                   
                   <div className="welcome4 textAdmin">Login Here</div>
@@ -39,6 +39,8 @@ const Login =()=>{
                      <div className="LOGIN_HERE_NOW"><Link to="/register" className="p_LoGIn">Register Here</Link></div>
                </form>
            </div>
+           <div className="IPLOm"></div>
+           
          
            </div>
         

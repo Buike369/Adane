@@ -7,7 +7,7 @@ font-size: 45px;
 font-weight: 600;
 }
 .SummitDR{
-    padding: 4px 15px;
+    padding: 10px 15px;
     border-radius: 8px;
         
             background-color: #080b18;
@@ -22,6 +22,7 @@ font-weight: 600;
     max-width: 1200px;
     margin:0 auto;
     padding: 10px  15px;
+    overflow: hidden !important
 }
 .polo{
 background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
@@ -41,15 +42,20 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     max-width: 700px;
     margin:50px auto 100px auto ;
     text-align: center;
+    position: relative;
+    z-index: 5;
 }
 .gg{
-    color:#fff
+    color:#fff;
+  
 }
 .LPE{
     font-size: 50px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 5;
 }
 .elope{
     display: grid;
@@ -63,11 +69,41 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     color:#d9d5d5;
     text-align: center;
 }
+.SenR{
+    padding: 90px 20px 20px 20px;
+    border-radius: 10px;
+    border: 1px solid #0c1b25;
+    position: relative;
+    overflow: hidden;
+}
+.SenR::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #0a0f1d;
+    top: -10px;
+    right: -20px;
+    transform: rotate(109deg);
+}
+.SenR::before {
+        content: "";
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: #103238b8;
+            bottom: -10px;
+            left: -20px;
+            transform: rotate(109deg);
+            filter: blur(40px);
+}
 .Nout{
 font-size: 15px;
 font-weight: 400;
 color:#999a9f;
 text-align: center;
+position: relative;
+z-index: 5;
 }
 .Map{
     display: grid;
@@ -76,16 +112,15 @@ text-align: center;
 }
 .cePl{
     width: 100%;
-    padding: 8px 10px;
-    border-radius: 5px;
-  
-    background: #121829;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background: #0c1d26;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #333957;
-    color:#fff;
-    outline: 0;
+        border: 1px solid #102633;
+        color: #fff;
+        outline: 0;
     
 }
 .lUP{
@@ -97,20 +132,41 @@ margin-bottom: 5px;
 }
 .hK{
     padding: 20px 10px;
-    border: 1px solid #333957;
-    border-radius: 8px;
-    margin-top: 15px;
-        background: #151b2d;
-            border-radius: 8px;
+        border: 1px solid #102633;
+        border-radius: 8px;
+        margin-top: 15px;
+        background: #0a1520;
+        border-radius: 8px;
 }
+.XML{
+    position: absolute;
+    top: 142px;
+    left: -83px;
+    /* background-color: #151b2d; */
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    /* filter:blur(40px) */
+}
+.XML1{
+    position: absolute;
+    top: 294px;
+    right: 0px;
+    /* background-color: #151b2d; */
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    /* filter:blur(40px) */
+}
+
 .textAr{
     width: 100%;
-    min-height: 150px;
-    border-radius: 5px;
-    border: 1px solid #333957;
-    background-color: inherit;
-    margin-top: 20px;
-    color: #fff;
+        min-height: 150px;
+        border-radius: 5px;
+        border: 1px solid #102633;
+        background-color: #0c1d26;
+        margin-top: 20px;
+        color: #fff;
 }
 @media (max-width:768px){
     .elope{
@@ -118,6 +174,10 @@ margin-bottom: 5px;
     }
     .LPE{
 font-size: 24px;
+    }
+    .SenR{
+        padding: 90px 10px 30px 10px;
+        border-radius: 15px
     }
                         .kln {
                             font-size: 30px;
