@@ -95,7 +95,7 @@ const Header = () => {
 
           <div className="hamburgerMenu">
             <div className='reff'>
-            <div><button className='RegRef'>Register</button></div>
+            <div><a href="/contact"><button className='RegRef'>Contact Us</button></a></div>
             <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#fff",marginRight:"6px"}} onClick={handleCheckboxChange} /></div>
             </div>
     {/* <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>

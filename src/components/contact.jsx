@@ -51,7 +51,7 @@ setError("invalid Email")
         },3000)
     }else{
 
-       axios.post("http://localhost:8080/api/post/form",inputs1).then((response)=>{
+       axios.post("https://adanebackend.onrender.com/api/post/form",inputs1).then((response)=>{
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
         setMessage("Successful Registration")
         setTimeout(()=>{
