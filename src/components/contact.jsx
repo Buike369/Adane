@@ -62,7 +62,7 @@ setError("invalid Email")
     }else{
  try{
     // const response = await axios.post("http://localhost:8080/api/post/form",inputs1);
-    const response = axios.post("https://adanebackend.onrender.com/api/post/form",inputs1);
+    const response = await axios.post("https://adanebackend.onrender.com/api/post/form",inputs1);
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
 
                   if (response.status === 201) {
