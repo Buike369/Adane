@@ -10,7 +10,7 @@ const HomeBlog = () => {
     const [count1,setCount1]= useState(0)
     const [count2,setCount2]= useState(0)
 
-     const card = [{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"},{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"},{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"}] 
+     const card = [{subtopic:"5 best digital marketing tools",caption:"5 best tools for digital marketing",tech:"Digital Marketing",text:'The  best tools for your digital marketing will depend on your strategy',date:"10/16/2024"},{subtopic:"Deploy Nodejs To Azure Web App",caption:"Deploy nodejs to Azure web app",tech:"Deployment",text:'Deploy Nodejs to Azure Web app require the following steps  and guides',date:"10/16/2024"},{subtopic:"React-Native Deployment",caption:"Where to deploy react-native",tech:"Digital Marketing",text:'The deployment of a React Native mobile app frontend involves a different process compared',date:"10/16/2024"}] 
 
   // Function to log the scrollTop value
   const handleScroll = () => {
@@ -94,7 +94,7 @@ const HomeBlog = () => {
                     <div className='blogImgD F'><a href="/">
                     <div className='hk'>
     <p className='hk1'>Interview</p>
-    <p className='hk2'>5 best tools for digital marketing</p>
+    <p className='hk2'>{app.subtopic}</p>
     <div className='kucM'>
     <p className='hk3'>Kingsley Chukwubuike</p>
     <p className='hk4'>Founder and CEO at Adane</p>
@@ -108,7 +108,7 @@ const HomeBlog = () => {
                         <p className='otro'>{app.tech}</p>
                         <p className='comesd'>{app.date}</p>
                     </div>
-                   <a href="/"> <p className='IOP'>{app.subtopic}</p></a>
+                   <a href="/"> <p className='IOP'>{app.caption}</p></a>
                     <a href="/"><p className='ppL'>{app.text}</p></a>
                 </div>
                 ))}

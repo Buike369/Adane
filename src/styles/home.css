@@ -156,11 +156,12 @@
             overflow: hidden;
             color: #fff;
             padding: 20px 20px;
-            box-shadow: 0px 2px 15px 0px #0c1e27;
+                box-shadow: 0px 2px 15px 0px #0b1320;
+            /* box-shadow: 0px 2px 15px 0px #0c1e27; */
             border-radius: 10px;
-    border: 1px solid #212b44ad;
+    border: 1px solid #212b448c;
         background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
-        border-right: 1px solid #0a0d1b;
+        /* border-right: 1px solid #0a0d1b; */
 }
 .hk1{
     font-size: 20px;
