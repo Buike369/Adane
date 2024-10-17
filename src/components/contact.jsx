@@ -86,6 +86,10 @@ setError("invalid Email")
       
     }catch(error){
     setError(error.response ? error.response.data : 'Submission failed!');
+     setTimeout(()=>{
+       
+          setError("")
+        },3000)
       }finally {
       setLoading(false);
     }
