@@ -8,10 +8,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn,faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
 import {faLocationDot,faHouse,faMessage,faPhone,faAddressBook,faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import validator from 'validator';
+import Loadings from "./loading"
 // import { useLocation } from 'react-router-dom';
 
 const Contact = () => {
   const [error,setError]=useState("")
+   const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState('');
      const [message,setMessage]=useState("")
   const [inputs1,setInputs1] = useState({
     fullName:"",
@@ -32,30 +35,40 @@ const inputRef = useRef();
   }
 
 
-    const postInfo = (e)=>{
+    const postInfo = async (e)=>{
 e.preventDefault()
+ setLoading(true);
+    setSuccessMessage('');
+    setError("")
+
     if((inputs1.fullName.length === 0) || (inputs1.email.length === 0) || (inputs1.phone.length === 0) || (inputs1.subject.length === 0) || (inputs1.message.length === 0) ){
+        setLoading(false)
       setError("field must not be empty")
        setTimeout(()=>{
            setError("")
         },3000)
     }else if(validator.isEmail(inputs1.email) === false){
+         setLoading(false)
 setError("invalid Email")
  setTimeout(()=>{
            setError("")
         },3000)
     }else if (validator.isMobilePhone(inputs1.phone,'en-NG',{strictMode:false}) === false){
+         setLoading(false)
  setError("invalid phone number")
   setTimeout(()=>{
            setError("")
         },3000)
     }else{
-
-       axios.post("https://adanebackend.onrender.com/api/post/form",inputs1).then((response)=>{
+ try{
+    // const response = await axios.post("http://localhost:8080/api/post/form",inputs1);
+    const response = axios.post("https://adanebackend.onrender.com/api/post/form",inputs1);
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
-        setMessage("Successful Registration")
-        setTimeout(()=>{
-           setMessage("")
+
+                  if (response.status === 201) {
+        setSuccessMessage('Form submitted successfully!');
+
+         setTimeout(()=>{
            setInputs1({
             fullName:"",
     email:"",
@@ -63,11 +76,19 @@ setError("invalid Email")
     subject:"",
     message:""
            })
-          
+          setSuccessMessage("")
         },3000)
-      }).catch((err)=>{
-       console.log(err)
-      })
+      } else {
+        throw new Error('Submission failed!');
+      }
+        // setMessage("Successful Registration")
+       
+      
+    }catch(error){
+    setError(error.response ? error.response.data : 'Submission failed!');
+      }finally {
+      setLoading(false);
+    }
     } 
   }
 
@@ -121,7 +142,7 @@ setError("invalid Email")
                                     </textarea>
                                 </div>
                             </div>
-                            <div className='SumbitConnect' onClick={postInfo}>Submit</div>
+                            <div><button className='SumbitConnect' onClick={postInfo} disabled={loading}> {loading ? 'Submitting...' : 'Submit'}</button></div>
                              
                         </form>
                     </div>
@@ -160,6 +181,11 @@ setError("invalid Email")
 
        <div className='itin'></div>
     </div>
+     <div>
+          {loading && <div className="loade loader"><Loadings/></div>}
+      {successMessage && <div className="loade success">{successMessage}</div>}
+      {error && <div className="loade error">{error}</div>}
+     </div>
     </div>
   )
 }
