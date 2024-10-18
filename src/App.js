@@ -20,6 +20,7 @@ import Policy from "./components/policy"
 import Terms from "./components/termsAndService"
 import AllBlogs from "./components/allBlog"
 import Career from "./components/career"
+import FAQ from "./components/FAQ"
 import BlogDetails from "./components/blogdetails"
 
 const Layout = () => {
@@ -76,6 +77,11 @@ const router = createBrowserRouter([
       {
         path: "/blogDetails",
         element: <BlogDetails />
+      }
+      ,
+      {
+        path: "/faq",
+        element: <FAQ />
       }
     ]
   },
