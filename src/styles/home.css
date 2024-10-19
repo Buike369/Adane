@@ -90,6 +90,7 @@
 
 .rate {
     color: #83c1b8;
+    /* color:#fff; */
 }
 
 .hom {
@@ -249,6 +250,9 @@ position: absolute;
         width: 70%;
         height: 500px
     }
+    .lp9{
+        display:none
+    }
 .sH{
     margin-top: 60px !important;
 }
@@ -369,6 +373,9 @@ position: absolute;
         position: absolute;
         top: -46px;
         transform: translate(-60%, 10%);
+
+        /* transform: translate(-43%, 10%); */
+        /* display: none; */
     }
          .hjhj562 {
                     position: absolute;
@@ -409,8 +416,9 @@ position: absolute;
 @media(min-width:769px) {
 
     .fastInU,
-    .aHom,.hjhj562 {
+    .aHom,.hjhj562,.lp10 {
         display: none
     }
+
 
 }
