@@ -16,9 +16,11 @@ const Header = () => {
 
 
   const [isChecked,setIsChecked] = useState(false)
+    const [isChecked2,setIsChecked2] = useState(false)
   const [dropdown,setDropdown] = useState(false)
   const tr = window.location.pathname;
   const [addRight, setAddRight] = useState("")
+  const [addRight1, setAddRight1] = useState("")
 
    const [feed,setFeed] = useState("header")
 
@@ -48,6 +50,16 @@ const Header = () => {
        document.body.classList.add('cac')
    }else{
       setAddRight('da');
+       document.body.classList.remove('cac')
+   }
+      }
+       const handleCheckboxChange2 = ()=>{
+   setIsChecked2(!isChecked2)
+   if(!isChecked){
+   setAddRight1('da1');
+       document.body.classList.add('cac')
+   }else{
+      setAddRight1('da');
        document.body.classList.remove('cac')
    }
       }
@@ -122,6 +134,43 @@ const Header = () => {
        </li>
               <li><a className="menuItem" href="/career">Career</a></li>
               <li><a className="menuItem" href="/">Industries</a></li>
+      <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
+
+     
+
+       <li><button className='loginButton'><a className="menuItem34" href="/contact">Contact Us</a></button></li>
+       <li> <div className="hotter kil" style={{marginBottom:"60px"}}>
+                <div className="hot">
+                {socialLink.map((app,id)=>(
+                <ul key={id} className="hot">
+                    <li> <div className=''><a href={app.link} target="_blank" className="footerIconDivL um"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor " style={{fontSize:"20px"}} /></a></div></li>
+                </ul>
+                ))}
+                </div>
+            </div></li>
+            <li><div style={{height:"20px",padding:"10px 15px"}}></div></li>
+    </ul>
+     
+    </div>
+     <div className={`menuBox44 ${addRight1}`}>
+    <ul className="menuBox24">
+      <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
+      <li><div className='reff aaFF'><a href="/login"><button className='RegRef' style={{background:"#2e756d"}}>Sign In</button></a><a href="/register"><button className='RegRef'>Register</button></a></div></li>
+            <li><a className="menuItem" href="/about">About Us</a></li>
+       <li><a className="menuItem met" onClick={()=>setDropdown(!dropdown)} >Services <FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#fff",marginRight:"8px"}}  /></a>
+       {dropdown ? 
+          <div>
+             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Software</a></div>
+             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Mobile App Development</a></div>
+              <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />UI/UX design</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Graphic Design</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Front_End Development</a></div>
+                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Backend Development</a></div>
+          </div>
+          :""}
+       </li>
+              <li><a className="menuItem" href="/career">Career</a></li>
+              <li><div className="menuItem"  onClick={handleCheckboxChange2}>Industries</div></li>
       <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
 
      

@@ -91,7 +91,7 @@ const HomeBlog = () => {
             <div className='RW'>
               {card.map((app,id)=>(
                 <div className='blogDivD' key={id}>
-                    <div className='blogImgD F'><a href="/">
+                    <div className='blogImgD F'><a href={`/blog_news/:id`}>
                     <div className='hk'>
     <p className='hk1'>Interview</p>
     <p className='hk2'>{app.subtopic}</p>
@@ -108,8 +108,8 @@ const HomeBlog = () => {
                         <p className='otro'>{app.tech}</p>
                         <p className='comesd'>{app.date}</p>
                     </div>
-                   <a href="/"> <p className='IOP'>{app.caption}</p></a>
-                    <a href="/"><p className='ppL'>{app.text}</p></a>
+                   <a href={`/blog_news/:id`}> <p className='IOP'>{app.caption}</p></a>
+                    <a href={`/blog_news/:id`}><p className='ppL'>{app.text}</p></a>
                 </div>
                 ))}
                

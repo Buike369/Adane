@@ -1,15 +1,17 @@
 .faq-container {
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 15px;
     font-family: Arial, sans-serif;
 }
 
 .faq-item {
-    border-bottom: 1px solid #212b44;
+    border-bottom: 1px solid #212b4470;
     /* border-radius: 5px; */
     margin-bottom: 10px;
     overflow: hidden;
+    transition: all 5s ease;
+   
 }
 .trmen{
     text-align: center;
@@ -23,17 +25,19 @@
 .FaqQ {
     font-size: 1rem;
     color: #fff;
-    line-height: 1.1;
-    font-weight: 500;
+    line-height: 1.4rem;
+    font-weight: 400;
 }
 
 .faq-question {
     /* background-color: #151b2d; */
-    padding: 15px 0;
+    padding: 15px 10px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+   
 }
 
 /* .faq-question:hover {
@@ -41,9 +45,9 @@
 } */
 
 .faq-answer {
-    padding: 15px 0;
- 
+    padding: 15px 10px;
     color: #999a9f;
+    transition: all 10s ease;
    
 }
 .fA{

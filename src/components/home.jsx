@@ -40,7 +40,7 @@ const faqs = [
     
     {
       question: "How do you approach a new project?",
-      answer: "Our process typically involves  Initial consultation to understand your needs,Proposal and project scope definition,Design and development phases,Testing and quality assurance,Launch and post-launch support."
+      answer: "Our process typically involves  Initial consultation to understand your needs, Proposal and project scope definition, Design and development phases,Testing and quality assurance,Launch and post-launch support."
     },
    
     // Add more FAQs as needed
@@ -165,7 +165,7 @@ const toggleFAQ = (index) => {
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
             <div className='FaqQ'>{faq.question}</div>
-            <span style={{color:"#fff"}}>{openIndex === index ? '-' : '+'}</span>
+            <span style={{color:"#fff",marginLeft:"5px",fontSize:"18px"}}>{openIndex === index ? '-' : '+'}</span>
           </div>
           {openIndex === index && (
             <div className="faq-answer">

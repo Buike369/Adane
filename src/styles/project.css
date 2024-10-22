@@ -60,7 +60,7 @@ h2 {
     overflow: hidden;
     border-radius: 0.625rem;
     box-shadow: 0.25rem 0.25rem 0.5rem #080b18e3;
-    border: 2px solid #212b44;
+    border: 1px solid #212b44;
     background: #151b2d;
    
 }
@@ -119,7 +119,7 @@ h2 {
 .card1__title::after {
     content: "";
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: calc(100% + 1.25rem);
     bottom: calc((1.25rem - 0.5rem) * -1);
     left: -1.25rem;
