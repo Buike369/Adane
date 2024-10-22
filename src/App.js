@@ -22,7 +22,8 @@ import AllBlogs from "./components/allBlog"
 import Career from "./components/career"
 import FAQ from "./components/FAQ"
 import BlogDetails from "./components/blogdetails"
-
+import Text from "./components/textLink"
+import Text1 from "./components/textD"
 const Layout = () => {
   return (
     <>
@@ -77,6 +78,16 @@ const router = createBrowserRouter([
       {
         path: "/blogDetails",
         element: <BlogDetails />
+      }
+      ,
+      {
+        path: "/blg",
+        element: <Text />
+      }
+      ,
+      {
+        path: "/blg/:id",
+        element: <Text1 />
       }
       ,
       {

@@ -177,7 +177,8 @@
 .hk3{
         font-size: 18px;
             /* font-variant: small-caps; */
-            letter-spacing: 0.
+            letter-spacing: 0;
+            color:#32cab5;
 }
 .hk4{
     font-size: 14px;

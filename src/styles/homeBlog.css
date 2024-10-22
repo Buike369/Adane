@@ -78,6 +78,7 @@ position: relative;
 
 .blogImgD {
     height: 20rem;
+   
 
 }
 
@@ -104,10 +105,10 @@ position: relative;
 
 .RW {
     display: flex;
-   
     gap: 20px;
     justify-content: space-between;
     margin-top: 20px;
+    padding: 10px 15px;
 }
 .DEfer{
 flex-wrap: wrap;
@@ -126,12 +127,13 @@ flex-wrap: wrap;
     text-overflow: ellipsis;
     overflow: hidden;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
 
 }
 
 .ppL {
-    font-size: 1rem;
+    font-size: 15px;
     color: #999a9f;
     display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -261,8 +263,8 @@ font-weight: 500;
     .WR {
         width: 900px;
         overflow: hidden;
-        padding-left: 15px;
-        padding-right: 15px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
     }
 }
 @media (max-width:1200px){

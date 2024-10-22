@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect,useState} from 'react'
 import "../styles/home.css"
 import OurServices from './ourServices';
 // import GetStarted from './getStarted';
@@ -17,7 +17,37 @@ const Home = () => {
 const title = "Our Services"
 const title1 = "Get In Touch"
 
+const [openIndex, setOpenIndex] = useState(null);
 
+const faqs = [
+    {
+      question: "What services does Adane Technology offer?",
+      answer: "We specializes in web and mobile application development. Our services include custom web development, mobile app development, UI/UX design, consulting and project management, and maintenance and support."
+    },
+    {
+      question: "Why should I choose Adane for my project?",
+      answer: "Adane is known for  its expertise in delivering innovative, high-quality web and mobile app solutions that bridge the virtual and physical worlds, meeting modern business needs efficiently."
+    },
+    {
+      question: "What industries do you serve?",
+      answer: "We work with a diverse range of industries, including e-commerce, healthcare, finance, education, entertainment, startups, and more."
+    },
+    
+    {
+      question: "Can you develop both web and mobile applications?",
+      answer: "Yes! We develop both web applications using React and mobile applications using React Native, allowing for a cohesive user experience across platforms."
+    },
+    
+    {
+      question: "How do you approach a new project?",
+      answer: "Our process typically involves  Initial consultation to understand your needs,Proposal and project scope definition,Design and development phases,Testing and quality assurance,Launch and post-launch support."
+    },
+   
+    // Add more FAQs as needed
+  ];
+const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
 
    useEffect(()=>{
@@ -128,8 +158,24 @@ const title1 = "Get In Touch"
       
       <Testimony/>
  
-
-     
+ <div className='fffA'>
+       <div className="faq-container">
+      <div className='trmen'>Frequently Asked Questions (FAQ)</div>
+      {faqs.map((faq, index) => (
+        <div key={index} className="faq-item">
+          <div className="faq-question" onClick={() => toggleFAQ(index)}>
+            <div className='FaqQ'>{faq.question}</div>
+            <span style={{color:"#fff"}}>{openIndex === index ? '-' : '+'}</span>
+          </div>
+          {openIndex === index && (
+            <div className="faq-answer">
+              <p className='fA'>{faq.answer}</p>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+    </div>
       
      
     </div>
