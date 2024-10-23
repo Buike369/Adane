@@ -67,7 +67,7 @@ font-size: 3rem;
 }
 
 .step-description {
-    font-size: 1rem;
+    font-size: 16px;
     color: #999a9f;
 }
 .bmLi{
@@ -127,7 +127,7 @@ font-size: 3rem;
                 }
 
                                 .step-description {
-                                  
+                                  font-size: 15px;
                                     max-width: 490px;
                                     margin: 0 auto;
                                 }

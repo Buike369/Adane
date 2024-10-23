@@ -13,7 +13,7 @@ background-color: #0b0f1d;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 2px;
+    padding: 30px 15px;
     max-width: 1200px;
     /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
@@ -88,7 +88,7 @@ background-color: #192034;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 5px;
+    padding: 10px 15px;
 }
 
 .subEmail {

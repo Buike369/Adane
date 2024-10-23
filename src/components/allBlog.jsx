@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/allblogs.css"
+import Pag from "./pagination"
 
 const AllBlog = () => {
 
@@ -60,6 +61,7 @@ const AllBlog = () => {
             </div> 
             </div>
             </div>
+            <Pag/>
     </div>
   )
 }

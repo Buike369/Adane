@@ -213,7 +213,7 @@
 }
 
 .graceDay {
-    font-size: 28px;
+    font-size: 18px;
     line-height: 1.6;
     color: #ffffff;
     font-weight: 500;
@@ -242,7 +242,7 @@
 .deed {
     color: #ffffff;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0;
 }
 
@@ -289,7 +289,7 @@
         /* opacity: 0.8; */
     }
 .graceDay {
-    font-size: 20px;
+    font-size: 18px;
         margin: 10px 0 0px 0;
 }
     .coverDiv17 {

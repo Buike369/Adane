@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 2px 15px;
 }
 
 .OuB {
@@ -108,7 +109,7 @@ position: relative;
     gap: 20px;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 10px 15px;
+    padding: 10px 0px;
 }
 .DEfer{
 flex-wrap: wrap;
@@ -218,11 +219,17 @@ flex-wrap: wrap;
         display: none;
         /* Hide scrollbar */
     }
+    .RW{
+            padding: 10px 15px;
+    }
+    .BlogD{
+        padding: 2px 0px;
+    }
     .OuB2{
 flex-direction: column;
     }
     .IOP{
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 10px;
     line-height: 1.4rem;
     font-weight: 500;

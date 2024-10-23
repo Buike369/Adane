@@ -74,15 +74,17 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     border-radius: 10px;
     border: 1px solid #0c1b25;
     position: relative;
+        background-color: #0a0f1d96;
     overflow: hidden;
 }
 .SenR::after{
-    content: "";
+content: "";
     width: 100px;
     height: 100px;
     position: absolute;
-    background-color: #0a0f1d;
+    background-color: #0b1823;
     top: -10px;
+    filter: blur(29px);
     right: -20px;
     transform: rotate(109deg);
 }

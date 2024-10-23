@@ -73,7 +73,7 @@ const Header = () => {
     <div className="" >
       <Slide/>
     <div className={feed}>
-      <div style={{padding:"0 10px"}}>
+      <div>
       <div className="Navbar relativeD">
 
             <div><a href="/" className="Brand">
