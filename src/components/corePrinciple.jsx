@@ -7,11 +7,13 @@ const CareerCore = () => {
   
   return (
     <section className="get-started polo1">
-      <h2 className="title tyred">Core principles that define us</h2>
+      <h2 className="title tyred" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">Core principles that define us</h2>
       {/* <div className='follow'>Follow this steps to get started</div> */}
       <div className='blur'></div>
       <div className="steps steps1">
-        <div className="step">
+        <div className="step" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
          
          <div className='bmLi' >
           <svg fill="#38e3cb" width="60px" height="60px" viewBox="0 0 256 256" id="Layer_1" version="1.1"  xmlns="http://www.w3.org/2000/svg" >
@@ -44,7 +46,8 @@ const CareerCore = () => {
           <h3 className="step-title step-title1">Our experience</h3>
           <p className="step-description">Adane is your trusted technology partner, boasting over 5 years of experience, a team of 10+ professionals, and an impressive average rating of 4.8/5 on Clutch.</p>
         </div>
-        <div className="step">
+        <div className="step" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
         
           <div className='bmLi'>
             <svg fill="#38e3cb" width="60px" height="60px" viewBox="0 0 64 64" id="Layer_1_1_" version="1.1"  xmlns="http://www.w3.org/2000/svg" >
@@ -80,7 +83,8 @@ const CareerCore = () => {
           <p className="step-description">Our team has extensive experience in developing complex solutions across various industries, including e-commerce, retail, IoT, FinTech, cyber security, and more</p>
         </div>
       
-        <div className="step">
+        <div className="step" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
       
         <div className='bmLi'>
           <svg width="60px" height="60px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

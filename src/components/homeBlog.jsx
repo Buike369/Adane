@@ -79,16 +79,19 @@ const HomeBlog = () => {
     <div ref={scrollDivRef}>
         <div className='FaT1'>
         <div className='BlogD'>
-            <p className='OuB' >Our Blog</p>
-            <p  className='OuB1'  >Most recent articles</p>
+            <p className='OuB' data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">Our Blog</p>
+            <p  className='OuB1'  data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">Most recent articles</p>
             <div className='OuB2'>
-                <p className='TL' data-aos="fade-up" data-aos-duration="2000"
+                <p className='TL' data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear">The latest news and updates from us.</p>
                 <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
                 <div className='WR' >
-            <div className='RW'>
+            <div className='RW' data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
               {card.map((app,id)=>(
                 <div className='blogDivD' key={id}>
                     <div className='blogImgD F'><a href={`/blog_news/:id`}>
@@ -125,7 +128,8 @@ const HomeBlog = () => {
  
         <div className='FaT'   ref={scrollDivRef} > 
         <div className='BlogD' >
-               <div className='shaI' >
+               <div className='shaI' data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
             <p className='YFW2'>We're in Number</p>
             <p className='YFW'><span className='TSY'> Key facts </span>and recognitions</p>
             <div className='YF'>

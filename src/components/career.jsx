@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../styles/career.css"
 import Core from  "./corePrinciple"
+import 'aos/dist/aos.css'
+import AOS from 'aos';
 
 const Career = () => {
   const careerInput =[{type:"text",placeholder:"",name:"FirstName"},{type:"text",placeholder:"",name:"LastName"},{type:"email",placeholder:"",name:"Email"},{type:"number",placeholder:"",name:"phone"},{type:"file",placeholder:"",name:"Attach Recume/CV"},{type:"text",placeholder:"",name:"Link to your LinkedIn page"}]
+
+     useEffect(()=>{
+    AOS.init({once: true});
+    // AOS.init();
+  },[])
   return (
     <div className='polo'>
         <div className='gg'>
@@ -21,9 +28,11 @@ const Career = () => {
 </div>
 </div>
 <div className='wd'>
-    <p className='LPE'>Explore Roles<span>,</span>  Discover Your Potential</p>
+    <p className='LPE' data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">Explore Roles<span>,</span>  Discover Your Potential</p>
     <div className='elope'>
-<div className='SenR'>
+<div className='SenR' data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
   <p className='JarB'>Senior Java Developer</p>
 <p className='Nout'>Join our dynamic team as a Senior Java Developer and unleash your potential. Collaborate, innovate, and make a lasting impact!</p>
 </div>
@@ -32,19 +41,23 @@ const Career = () => {
   <p className='JarB'>Frontend Developer</p>
 <p className='Nout'>Join our innovative team as a Frontend Developer. Create stunning user experiences, collaborate with passionate professionals, and elevate your career today!</p>
 </div>
-<div className='SenR'>
+<div className='SenR' data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
   <p className='JarB'>Backend Developer</p>
 <p className='Nout'>Join our talented team as a Backend Developer. Build robust systems, solve complex challenges, and advance your career in a collaborative environment!</p>
 </div>
-<div className='SenR'>
+<div className='SenR' data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
   <p className='JarB'>Flutter Developer</p>
 <p className='Nout'>Join our creative team as a Flutter Developer. Craft beautiful, high-performance applications, collaborate with passionate innovators, and enhance your career journey!"</p>
 </div>
-<div className='SenR'>
+<div className='SenR' data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
   <p className='JarB'>React-native Developer</p>
 <p className='Nout'>Join our innovative team as a React Native Developer. Build cross-platform applications, collaborate with passionate professionals, and advance your career today!</p>
 </div>
-<div className='SenR'>
+<div className='SenR' data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
   <p className='JarB'>React Developer</p>
 <p className='Nout'>Join our dynamic team as a React Developer. Create cutting-edge applications, collaborate with talented peers, and take your career to new heights</p>
 </div>
@@ -71,14 +84,14 @@ const Career = () => {
     <div className='Map'>
       {careerInput.map((app,id)=>(
       <div key={id}>
-        <div className='LabelD'><label className='lUP'>{app.name}</label></div>
-        <input type={app.type} className='cePl' placeholder={app.placeholder}/>
+        <div className='LabelD'><label className='lUP' htmlFor={app.type === "file" ? "file" :""}>{app.name}</label></div>
+        <input type={app.type} className='cePl' placeholder={app.placeholder} />
       </div>
       ))}
      
    
     </div>
-     <div><textarea name="" id="" className='textAr'></textarea></div>
+     <div><textarea name="" id="" className='textAr' placeholder='Type here' style={{padding:"5px 8px"}}></textarea></div>
     <div><button className='SummitDR'>Submit</button></div>
     </div>
       <div>

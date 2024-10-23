@@ -24,6 +24,8 @@ import FAQ from "./components/FAQ"
 import BlogDetails from "./components/blogdetails"
 import Text from "./components/textLink"
 import Text1 from "./components/textD"
+import Write from "./components/write"
+import Apy from "./components/newBlog"
 const Layout = () => {
   return (
     <>
@@ -59,9 +61,18 @@ const router = createBrowserRouter([
         path: "/service",
         element: <Services/>
       },
+       ,
+      {
+        path: "/apy",
+        element: <Apy/>
+      },
       {
         path: "/blogs",
         element: <AllBlogs />
+      },
+        {
+        path: "/write",
+        element: <Write />
       },
       {
         path: "/privacy_policy",

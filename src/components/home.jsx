@@ -22,7 +22,7 @@ const [openIndex, setOpenIndex] = useState(null);
 const faqs = [
     {
       question: "What services does Adane Technology offer?",
-      answer: "We specializes in web and mobile application development. Our services include custom web development, mobile app development, UI/UX design, consulting and project management, and maintenance and support."
+      answer: "We specializes in web  and mobile application development. Our services include creating web development, mobile app development, UI/UX design, consulting and project management, and maintenance and support."
     },
     {
       question: "Why should I choose Adane for my project?",
@@ -101,8 +101,9 @@ const toggleFAQ = (index) => {
 
     
 <div className='hSec' >
-        <div className="addHo1">
-         <div className="heroSection2">
+        <div className="addHo1" >
+         <div className="heroSection2" data-aos="zoom-in" data-aos-duration="500"
+             data-aos-easing="linear">
           <p className='saveSmart fastInU' >We  innovate and transform your idea</p>
           <div className="heroImgHousing rtn">
             {/* <div></div> */}
@@ -112,7 +113,8 @@ const toggleFAQ = (index) => {
           </div>
           </div>
          </div>
-        <div className="heroSection1">
+        <div className="heroSection1" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
           <div className="housingDivForHeroText addHo" >
           <p className='saveSmart fastIn sH' >We Transform Your Idea.</p>
           <p className='saveSmart1'  >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
@@ -160,9 +162,11 @@ const toggleFAQ = (index) => {
  
  <div className='fffA'>
        <div className="faq-container">
-      <div className='trmen'>Frequently Asked Questions (FAQ)</div>
+      <div className='trmen' data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">Frequently Asked Questions (FAQ)</div>
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-item">
+        <div key={index} className="faq-item" data-aos="fade-up" data-aos-duration="500"
+             data-aos-easing="linear">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
             <div className='FaqQ'>{faq.question}</div>
             <span style={{color:"#fff",marginLeft:"5px",fontSize:"18px"}}>{openIndex === index ? '-' : '+'}</span>
