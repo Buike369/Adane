@@ -85,13 +85,14 @@ const FAQ = () => {
   };
 
   return (
+    <div className='Qaf'>
     <div className="faq-container">
-      <h1>Frequently Asked Questions (FAQ)</h1>
+           <div className='trmen' >Frequently Asked Questions (FAQ)</div>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
             <div className='FaqQ'>{faq.question}</div>
-            <span style={{color:"#fff"}}>{openIndex === index ? '-' : '+'}</span>
+            <span style={{color:"#fff",marginLeft:"5px",fontSize:"18px"}}>{openIndex === index ? '-' : '+'}</span>
           </div>
           {openIndex === index && (
             <div className="faq-answer">
@@ -100,6 +101,7 @@ const FAQ = () => {
           )}
         </div>
       ))}
+    </div>
     </div>
   );
 };

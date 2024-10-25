@@ -4,11 +4,12 @@
     padding: 20px 15px;
     font-family: Arial, sans-serif;
 }
+.Qaf{
+background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
+}
 
 .faq-item {
     border-bottom: 1px solid #212b4470;
-    /* border-radius: 5px; */
-    margin-bottom: 10px;
     overflow: hidden;
     transition: all 5s ease;
    

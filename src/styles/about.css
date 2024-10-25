@@ -126,7 +126,7 @@ background: linear-gradient(180deg, #080b18, #080b18, #09101c);
         margin-top: 50px !important;
     }
     .lmki {
-        border-radius: 0;
+        border-radius: 1px;
     }
     .Asu{
         margin-top: 20px !important;
