@@ -11,6 +11,7 @@
 }
 .mkil{
     display:flex;
+    
 
 }
 .lion{
@@ -49,4 +50,9 @@
     line-height: 25px;
     color:#35e1c9;
     letter-spacing: 0.5px;
+}
+.change{
+    color:#fff;
+    font-family: 18px;
+    font-weight: 400;
 }

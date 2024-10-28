@@ -17,6 +17,7 @@ import ContUs from "./components/contactUs"
 import AboutUs from "./components/about"
 import Services from "./components/service"
 import Policy from "./components/policy"
+import CookiePolicy from "./components/cookiePolicy"
 import Terms from "./components/termsAndService"
 import AllBlogs from "./components/allBlog"
 import Career from "./components/career"
@@ -77,6 +78,11 @@ const router = createBrowserRouter([
       {
         path: "/privacy_policy",
         element: <Policy />
+      },
+      
+      {
+        path: "/cookie_policy",
+        element: <CookiePolicy />
       },
       {
         path: "/terms_and_condition",

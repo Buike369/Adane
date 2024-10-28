@@ -106,8 +106,8 @@ const Footer = () => {
                         <li className='pin  pin6'><a href="/" className='then'>AgricBusiness</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Logistics</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>Finance</a></li>
-                                                <li className='pin1  pin6'><a href="/" className='then'>Blog</a></li>
-                                                <li className='pin1  pin6'><a href="/" className='then'>Co-operate</a></li>
+                        <li className='pin1  pin6'><a href="/" className='then'>Blog</a></li>
+                        <li className='pin1  pin6'><a href="/" className='then'>Co-operate</a></li>
                     </ul>
                 </div>
                 <div className='fil'>
@@ -117,7 +117,9 @@ const Footer = () => {
                         <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
                         <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/career" className='then'>Careers</a></li>
-                        <li className='pin1  pin6'><a href="/faq" className='then'>FAQ</a></li>
+                        <li className='pin  pin7'><a href="/career" className='then'>Press</a></li>
+                         <li className='pin  pin7'><a href="/career" className='then'>Testimonials</a></li>
+                        
                     </ul>
                 </div>
                 <div className='fil'>
@@ -125,8 +127,10 @@ const Footer = () => {
                         <li className='pin pin7'><div className="FooterHead">Legal</div></li>
                         <li className='pin pin6'><a href="/privacy_policy" className='then'>Privacy Policy</a></li>
                         <li className='pin pin7'><a href="/terms_and_condition" className='then'>Terms & Conditions</a></li>
-                        {/* <li className='pin  pin6'><a href="/" className='then'>Cookie Policy</a></li> */}
-                        {/* <li className='pin  pin7'><a href="/" className='then'>Disclaimer</a></li> */}
+                         <li className='pin pin7'><a href="/cookie_policy" className='then'>Cookie Policy</a></li>
+                         <li className='pin pin7'><a href="/terms_and_condition" className='then'>Disclaimer</a></li>
+                          <li className='pin pin7'><a href="/terms_and_condition" className='then'>Refund  Policy</a></li>
+
                       
                     </ul>
                 </div>
@@ -134,8 +138,10 @@ const Footer = () => {
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
                         <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
-
-
+                         <li className='pin pin6'><a href="/blogs" className='then'>Case Studies</a></li>
+                          <li className='pin pin6'><a href="/blogs" className='then'>Documentation</a></li>
+                           <li className='pin pin6'><a href="/blogs" className='then'>FAQ</a></li>
+                                                      <li className='pin pin6'><a href="/blogs" className='then'>Customer Support</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>How it works</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
                     </ul>
@@ -189,7 +195,9 @@ const Footer = () => {
                     <a href="/about" className='mnm mmm2'>About Us</a>
                     <a href="mailto:chukwubuikekingsley369@gmail.com" className='mnm mmm2'> Contact Us </a>
                     <a href="/career" className='mnm mmm2'>Career</a>
-                     <a href="/faq" className='mnm mmm2'>FAQ</a>
+                     <a href="/career" className='mnm mmm2'>Press</a>
+                      <a href="/career" className='mnm mmm2'>Testimonials</a>
+                     
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Industries</div>
@@ -209,14 +217,20 @@ const Footer = () => {
                     <div className="R1">Legal</div>
                     <a href="/privacy_policy" className='mnm mmm2'>Privacy Policy </a>
                     <a href="/terms_and_condition" className='mnm mmm2'>Terms of Service</a>
-                    {/* <a href="/" className='mnm mmm2'>Disclaimer</a> */}
-                                        {/* <a href="#" className='mnm mmm2'>Cookie Policy</a> */}
+                        <a href="/cookie_policy" className='mnm mmm2'>Cookie Policy</a>
+                         <a href="/terms_and_condition" className='mnm mmm2'>Disclaimer</a>
+                          <a href="/terms_and_condition" className='mnm mmm2'>Refund  Policy</a>
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
                     <a href="/blogs" className='mnm mmm1 '>Blog</a>
+                    <a href="/faq" className='mnm mmm2'>Case Studies</a>
+                    <a href="/faq" className='mnm mmm2'>Documentation</a>
+                                        <a href="/faq" className='mnm mmm2'>FAQ</a>
+                    <a href="/faq" className='mnm mmm2'>Customer Support</a>
                                       <a href="/" className='mnm mmm1'>How it works</a>
                     <a href="/" className='mnm mmm1'>Pricing</a>
+                            <a href="/" className='mnm mmm1'>Newsletter SignUp</a>
                 </div>
             </div>
         </div>
