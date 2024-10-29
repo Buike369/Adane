@@ -57,8 +57,8 @@ Examples: Facebook Pixel, Google Ads cookies.</p></div>
                
                                 <p className='InfoCollect'>How to Manage Cookies</p>
                 <div className='DivGu'>
-                <div className='toPros mkil'> <span className='lion'>1.</span>  <p className='toPros'><span className="change">Browser Settings : </span> You can manage or disable cookies through your browser settings. For more information on how to do this, visit your browser’s help section.</p></div>
-                <div className=' mkil'> <span className='lion'>2.</span> <p className='toPros'><span className="change"> Mobile App Settings:  </span>Most mobile devices allow you to control cookies through the device settings or within the app itself.</p></div>
+                <div className='toPros mkil'> <span className='lion'>a.</span>  <p className='toPros'><span className="change">Browser Settings : </span> You can manage or disable cookies through your browser settings. For more information on how to do this, visit your browser’s help section.</p></div>
+                <div className=' mkil'> <span className='lion'>b.</span> <p className='toPros'><span className="change"> Mobile App Settings:  </span>Most mobile devices allow you to control cookies through the device settings or within the app itself.</p></div>
                
                 </div>
             </div>

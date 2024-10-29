@@ -69,7 +69,7 @@ const Footer = () => {
 
 
   return (
-    <div>
+    <div className='FooterDiBac'>
 
 
 
@@ -128,8 +128,8 @@ const Footer = () => {
                         <li className='pin pin6'><a href="/privacy_policy" className='then'>Privacy Policy</a></li>
                         <li className='pin pin7'><a href="/terms_and_condition" className='then'>Terms & Conditions</a></li>
                          <li className='pin pin7'><a href="/cookie_policy" className='then'>Cookie Policy</a></li>
-                         <li className='pin pin7'><a href="/terms_and_condition" className='then'>Disclaimer</a></li>
-                          <li className='pin pin7'><a href="/terms_and_condition" className='then'>Refund  Policy</a></li>
+                         <li className='pin pin7'><a href="/disclaimer" className='then'>Disclaimer</a></li>
+                          <li className='pin pin7'><a href="/refund_&_cancellation_policy" className='then'>Refund  Policy</a></li>
 
                       
                     </ul>
@@ -218,8 +218,8 @@ const Footer = () => {
                     <a href="/privacy_policy" className='mnm mmm2'>Privacy Policy </a>
                     <a href="/terms_and_condition" className='mnm mmm2'>Terms of Service</a>
                         <a href="/cookie_policy" className='mnm mmm2'>Cookie Policy</a>
-                         <a href="/terms_and_condition" className='mnm mmm2'>Disclaimer</a>
-                          <a href="/terms_and_condition" className='mnm mmm2'>Refund  Policy</a>
+                         <a href="/disclaimer" className='mnm mmm2'>Disclaimer</a>
+                          <a href="/refund_&_cancellation_policy" className='mnm mmm2'>Refund  Policy</a>
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>

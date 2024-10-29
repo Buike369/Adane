@@ -92,7 +92,7 @@ const FAQ = () => {
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
             <div className='FaqQ'>{faq.question}</div>
-            <span style={{color:"#fff",marginLeft:"5px",fontSize:"18px"}}>{openIndex === index ? '-' : '+'}</span>
+            <span style={{color:"#fff", marginLeft:"5px", fontSize:"18px"}}>{openIndex === index ? '-' : '+'}</span>
           </div>
           {openIndex === index && (
             <div className="faq-answer">

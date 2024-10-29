@@ -27,6 +27,8 @@ import Text from "./components/textLink"
 import Text1 from "./components/textD"
 import Write from "./components/write"
 import Apy from "./components/newBlog"
+import Refund from "./components/refund"
+import Disclaimer from "./components/disclaimer"
 const Layout = () => {
   return (
     <>
@@ -79,10 +81,18 @@ const router = createBrowserRouter([
         path: "/privacy_policy",
         element: <Policy />
       },
+      {
+        path: "/disclaimer",
+        element: <Disclaimer />
+      },
       
       {
         path: "/cookie_policy",
         element: <CookiePolicy />
+      },
+      {
+        path: "/refund_&_cancellation_policy",
+        element: <Refund />
       },
       {
         path: "/terms_and_condition",
