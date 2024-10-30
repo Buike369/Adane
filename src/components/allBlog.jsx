@@ -27,6 +27,9 @@ const AllBlog = () => {
            
 
         </div>
+
+        <div className="LTB">Latest Blog</div>
+
         <div className='lili'>
             <div className='lom'>
              <div className='RW DEfer'>
@@ -61,7 +64,7 @@ const AllBlog = () => {
             </div> 
             </div>
             </div>
-            <Pag/>
+            {/* <Pag/> */}
     </div>
   )
 }

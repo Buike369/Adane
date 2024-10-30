@@ -8,6 +8,7 @@ import Testimony from "./testimony";
 import 'aos/dist/aos.css'
 import AOS from 'aos';
 import Slide from "./slides"
+import Slide1 from "./slide1"
 import HomeBlog from './homeBlog';
 import Project from "./project"
 
@@ -18,7 +19,10 @@ const title = "Our Services"
 const title1 = "Get In Touch"
 
 const [openIndex, setOpenIndex] = useState(null);
-
+const [count3,setCount3] = useState(0)
+const [count4,setCount4] = useState(0)
+const [speed,setSpeed] = useState(100)
+const [speed1,setSpeed1] = useState(100)
 const faqs = [
     {
       question: "What services does Adane Technology offer?",
@@ -54,6 +58,31 @@ const toggleFAQ = (index) => {
     AOS.init({once: true});
     // AOS.init();
   },[])
+
+
+  //count Effect
+
+
+  // useEffect(()=>{
+  // const interval = setInterval(()=>{
+  //      setCount3((prev) =>(prev < 200 ? prev + 1: 0))
+  //     },[speed])
+  //     return ()=>clearInterval(interval)
+  // })
+
+  
+  
+
+
+//   useEffect(()=>{
+// if(count3 === 200){
+//   setSpeed(300)
+// }else if(count3 === 0){
+//   setSpeed(100)
+// }
+//   },[count3])
+
+ 
 
   return (
     <div >
@@ -91,6 +120,7 @@ const toggleFAQ = (index) => {
   
 
   <Slide/>
+   <Slide1/>
   
 
    
@@ -104,7 +134,7 @@ const toggleFAQ = (index) => {
     
 <div className='hSec' >
         <div className="addHo1" >
-         <div className="heroSection2" data-aos="zoom-in" data-aos-duration="500"
+         <div className="heroSection2" data-aos="zoom-in" data-aos-duration="200"
              data-aos-easing="linear">
           <p className='saveSmart fastInU' >We  innovate and transform your idea</p>
           <div className="heroImgHousing rtn">
@@ -115,7 +145,7 @@ const toggleFAQ = (index) => {
           </div>
           </div>
          </div>
-        <div className="heroSection1" data-aos="fade-up" data-aos-duration="500"
+        <div className="heroSection1" data-aos="fade-up" data-aos-duration="200"
              data-aos-easing="linear">
           <div className="housingDivForHeroText addHo" >
           <p className='saveSmart fastIn sH' >We Transform Your Idea.</p>
@@ -161,6 +191,13 @@ const toggleFAQ = (index) => {
       <HomeBlog/>
       
       <Testimony/>
+
+      {/* <div style={{color:"#fff"}}>
+        {count3} 
+      </div>
+      <div style={{color:"#fff"}}>
+        {count4} 
+      </div> */}
  
  <div className='fffA'>
        <div className="faq-container">

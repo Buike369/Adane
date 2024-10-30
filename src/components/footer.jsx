@@ -138,10 +138,10 @@ const Footer = () => {
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
                         <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
-                         <li className='pin pin6'><a href="/blogs" className='then'>Case Studies</a></li>
-                          <li className='pin pin6'><a href="/blogs" className='then'>Documentation</a></li>
-                           <li className='pin pin6'><a href="/blogs" className='then'>FAQ</a></li>
-                                                      <li className='pin pin6'><a href="/blogs" className='then'>Customer Support</a></li>
+                         <li className='pin pin6'><a href="/" className='then'>Case Studies</a></li>
+                          <li className='pin pin6'><a href="/" className='then'>Documentation</a></li>
+                           <li className='pin pin6'><a href="/faq" className='then'>FAQ</a></li>
+                                                      <li className='pin pin6'><a href="/" className='then'>Customer Support</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>How it works</a></li>
                         <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
                     </ul>

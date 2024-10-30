@@ -8,12 +8,12 @@ const AboutInfo = () => {
   return (
     <section className="get-started ghgh">
       <h2 className="title" data-aos="fade-up" data-aos-duration="500"
-             data-aos-easing="linear">Why Choose Us</h2>
+             data-aos-easing="ease-in-sine">Why Choose Us</h2>
       {/* <div className='follow'>Follow this steps to get started</div> */}
       <div className='blur'></div>
       <div className="steps steps1">
         <div className="step" data-aos="fade-up" data-aos-duration="500"
-             data-aos-easing="linear">
+             data-aos-easing="ease-in-sine">
          
          <div className='bmLi' >
           <svg fill="#38e3cb" width="80px" height="80px" viewBox="0 0 256 256" id="Layer_1" version="1.1"  xmlns="http://www.w3.org/2000/svg" >
@@ -47,7 +47,7 @@ const AboutInfo = () => {
           <p className="step-description">Our talented professionals have extensive experience in their respective fields, ensuring that every project is executed with expertise and excellence..</p>
         </div>
         <div className="step" data-aos="fade-up" data-aos-duration="500"
-             data-aos-easing="linear">
+             data-aos-easing="ease-in-sine">
         
           <div className='bmLi'>
    
@@ -60,7 +60,7 @@ const AboutInfo = () => {
         </div>
       
         <div className="step" data-aos="fade-up" data-aos-duration="500"
-             data-aos-easing="linear">
+             data-aos-easing="ease-in-sine">
       
         <div className='bmLi'>
           <svg width="80px" height="80px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -55,8 +55,8 @@ background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
 font-size: 14px !important;
 }
 .fffA{
-
-    background: linear-gradient(360deg, #080b18, #080b18, #141a2c);
+background: linear-gradient(360deg, #0b0e1d, #0a0d1b, #141a2c);
+    /* background: linear-gradient(360deg, #080b18, #080b18, #141a2c); */
 }
 @media (max-width:768px){
     .fffA {
