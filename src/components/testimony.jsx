@@ -5,6 +5,8 @@ import {  faPlus,faMinus} from '@fortawesome/free-solid-svg-icons'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
+
+
 const Testimony = () => {
       const [show,setShow]= useState(false)
   const [show1,setShow1]= useState(false)

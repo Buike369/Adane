@@ -29,6 +29,7 @@ import Write from "./components/write"
 import Apy from "./components/newBlog"
 import Refund from "./components/refund"
 import Disclaimer from "./components/disclaimer"
+import Testimony from "./components/testimonyPage"
 const Layout = () => {
   return (
     <>
@@ -105,6 +106,11 @@ const router = createBrowserRouter([
       {
         path: "/blogDetails",
         element: <BlogDetails />
+      }
+      ,
+      {
+        path: "/testimonies",
+        element: <Testimony />
       }
       ,
       {

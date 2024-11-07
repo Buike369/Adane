@@ -1,0 +1,50 @@
+.ExSucc{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:10px 15px;
+}
+.ExSucc1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:15px
+}
+.ExSucc3{
+ text-align: center;
+ color:#fff;
+ font-size: 24px;
+ font-weight: 600;
+ margin-top: 40px;
+}
+.LHO{
+    text-align: center;
+    color: #999a9f;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.MCST{
+    font-size: 22px;
+    color:#fff;
+    margin: 20px 0;
+}
+.poky1{
+    font-size: 14px;
+    color:aliceblue
+}
+.poky{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+@media(max-width:570px){
+.ExSucc1{
+grid-template-columns: auto 
+}
+}
+
+@media(min-width:571px) and (max-width:768px) {
+    .ExSucc1{
+        grid-template-columns: auto auto
+    }
+}

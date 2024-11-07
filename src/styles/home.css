@@ -183,7 +183,7 @@
 .hk4{
     font-size: 14px;
         font-weight: 300;
-        color: #888;
+        color: #999a9f;
 }
 .llbb{
 width: 165px;
@@ -334,6 +334,7 @@ padding:2px 15px;
     }
 
     .saveSmart1 {
+        font-size: 14px;
         text-align: center;
         padding: 2px 1px;
         max-width: 490px;

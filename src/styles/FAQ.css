@@ -52,7 +52,8 @@ background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
    
 }
 .fA{
-font-size: 14px !important;
+font-size: 16px !important;
+letter-spacing: 0.2px;
 }
 .fffA{
 background: linear-gradient(360deg, #0b0e1d, #0a0d1b, #141a2c);
@@ -63,7 +64,7 @@ background: linear-gradient(360deg, #0b0e1d, #0a0d1b, #141a2c);
             /* background: linear-gradient(180deg, #080b18, #080b18, #0b0e1d); */
                     background: linear-gradient(180deg, #14192b, #080b18, #0b0e1d);
         }
-        /* .fA{
-            text-align: justify;
-        } */
+           .fA {
+               font-size: 14px !important;
+           }
 }

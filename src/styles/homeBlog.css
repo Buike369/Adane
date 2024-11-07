@@ -134,7 +134,8 @@ flex-wrap: wrap;
 }
 
 .ppL {
-    font-size: 15px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
     color: #999a9f;
     display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -218,6 +219,9 @@ flex-wrap: wrap;
     .Mikl::-webkit-scrollbar {
         display: none;
         /* Hide scrollbar */
+    }
+    .ppL{
+        font-size: 14px;
     }
     .RW{
             padding: 10px 15px;
