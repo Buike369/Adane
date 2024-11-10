@@ -152,18 +152,21 @@
 
 }
 .hk{
-        height: 325px;
-            position: relative;
-            overflow: hidden;
-            color: #fff;
-            padding: 20px 20px;
-                box-shadow: 0px 2px 15px 0px #0b1320;
-            /* box-shadow: 0px 2px 15px 0px #0c1e27; */
-            border-radius: 10px;
-    border: 1px solid #212b448c;
+    height: 325px;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        padding: 20px 20px;
+        /* box-shadow: 0px 2px 15px 0px #0b1320; */
+        /* box-shadow: 0px 2px 15px 0px #0c1e27; */
+        border-radius: 10px;
+        /* border: 1px solid #212b448c; */
+        border-left: 1px solid #111627;
         background: linear-gradient(71deg, #151b2d, #151b2d, #080b18);
         /* border-right: 1px solid #0a0d1b; */
-}
+        border-bottom-left-radius: 0px;
+            /* box-shadow: 0px -3px 6px 0px #0b1320; */
+    }
 .hk1{
     font-size: 20px;
         font-variant: small-caps;

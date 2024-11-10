@@ -113,6 +113,7 @@ const HomeBlog = () => {
                     </div>
                    <a href={`/blog_news/:id`}> <p className='IOP'>{app.caption}</p></a>
                     <a href={`/blog_news/:id`}><p className='ppL'>{app.text}</p></a>
+                    <p style={{marginTop:'15px'}}> <span style={{color:"#fff",fontWeight:"600"}}>Read More </span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></p>
                 </div>
                 ))}
                

@@ -30,6 +30,9 @@ import Apy from "./components/newBlog"
 import Refund from "./components/refund"
 import Disclaimer from "./components/disclaimer"
 import Testimony from "./components/testimonyPage"
+import PostList from './components/blogList';
+import PostDetail from './components/blogPostDetails';
+import NewPost from './components/newBlogPost';
 const Layout = () => {
   return (
     <>
@@ -59,6 +62,21 @@ const router = createBrowserRouter([
       {
         path: "/getInTouch",
         element: <ContUs />
+      }
+      ,
+      {
+        path: "/post/:id",
+        element: <PostDetail />
+      }
+      ,
+      {
+        path: "/new",
+        element: <NewPost />
+      }
+      ,
+      {
+        path: "/blogDey",
+        element: <PostList />
       }
       ,
       {

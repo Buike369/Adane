@@ -136,6 +136,7 @@ const Header = () => {
        </li>
               <li><a className="menuItem" href="/career">Career</a></li>
               <li><a className="menuItem"  onClick={handleChange2}>Industries</a></li>
+              <li><a className="menuItem" href="/">How It Works</a></li>
       <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
 
      

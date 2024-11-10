@@ -37,6 +37,39 @@
     margin-bottom: 20px;
     
 }
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    cursor: pointer;
+    width:30px;
+    height: 30px;
+    padding: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.page-item.active .page-link {
+    background-color: #2e756d;
+    border: 1px solid #2e756d;
+    color: white;
+}
+.PageNMe{
+    padding:20px 0;
+}
 @media(max-width:570px){
 .ExSucc1{
 grid-template-columns: auto 

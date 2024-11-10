@@ -3,7 +3,27 @@ import "../styles/testimonyPage.css"
 
 const TestimonyPage = () => {
 
-const testimony =[{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2,name:"kingsley Unegbu",text:"",img:'',position:""},{id:3,name:"kingsley Unegbu",text:"",img:'',position:""},{id:4,name:"kingsley Unegbu",text:"",img:'',position:""},{id:5,name:"kingsley Unegbu",text:"",img:'',position:""},{id:6,name:"kingsley Unegbu",text:"",img:'',position:""},{id:7,name:"kingsley Unegbu",text:"",img:'',position:""},{id:8,name:"kingsley Unegbu",text:"",img:'',position:""},{id:9,name:"kingsley Unegbu",text:"",img:'',position:""}]
+const testimony =[{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2,name:"kingsley Unegbu",text:"",img:'',position:""},{id:3,name:"kingsley Unegbu",text:"",img:'',position:""},{id:4,name:"kingsley Unegbu",text:"",img:'',position:""},{id:5,name:"kingsley Unegbu",text:"",img:'',position:""},{id:6,name:"kingsley Unegbu",text:"",img:'',position:""},{id:7,name:"kingsley Unegbu",text:"",img:'',position:""},{id:8,name:"kingsley Unegbu",text:"",img:'',position:""},{id:9,name:"kingsley Unegbu",text:"",img:'',position:""},{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2,name:"kingsley Unegbu",text:"",img:'',position:""},{id:3,name:"kingsley Unegbu",text:"",img:'',position:""},{id:4,name:"kingsley Unegbu",text:"",img:'',position:""},{id:5,name:"kingsley Unegbu",text:"",img:'',position:""},{id:6,name:"kingsley Unegbu",text:"",img:'',position:""},{id:7,name:"kingsley Unegbu",text:"",img:'',position:""},{id:8,name:"kingsley Unegbu",text:"",img:'',position:""},{id:9,name:"kingsley Unegbu",text:"",img:'',position:""},{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2,name:"kingsley Unegbu",text:"",img:'',position:""}]
+
+ // State to track the current page
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // Define how many items per page
+  const itemsPerPage = 6;
+
+  // Calculate total pages
+  const totalPages = Math.ceil(testimony.length / itemsPerPage);
+
+    // Get the items for the current page
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = testimony.slice(indexOfFirstItem, indexOfLastItem);
+
+    // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+
+
 
       return (
     <div>
@@ -33,7 +53,7 @@ const testimony =[{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2
 
         <div className='MCST'>More Customer Stories</div>
         <div className='ExSucc1'>
-  {testimony.map((app)=>(
+  {currentItems.map((app)=>(
         <div className="earnSayPp" key={app.id}>
   <div className='sHe1'></div>
   <img src="/img/eme1.svg" alt="" className='sHe'/>
@@ -49,7 +69,20 @@ const testimony =[{id:1,name:"kingsley Unegbu",text:"",img:'',position:""},{id:2
 ))}
 </div>
 
+<div className='PageNMe'>  <ul className="pagination">
+          {Array.from({ length: totalPages }, (_, index) => (
+            <li key={index + 1} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
+              <button onClick={() => paginate(index + 1)} className="page-link">
+                {index + 1}
+              </button>
+            </li>
+          ))}
+        </ul></div>
+
+        
 </div>
+
+
 
     </div>
   )
