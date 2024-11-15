@@ -1,0 +1,11 @@
+.NN{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.N1, .N2{
+ width:50%;
+}

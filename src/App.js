@@ -33,6 +33,7 @@ import Testimony from "./components/testimonyPage"
 import PostList from './components/blogList';
 import PostDetail from './components/blogPostDetails';
 import NewPost from './components/newBlogPost';
+import Referral from './components/referral';
 const Layout = () => {
   return (
     <>
@@ -72,6 +73,12 @@ const router = createBrowserRouter([
       {
         path: "/new",
         element: <NewPost />
+      }
+
+      ,
+      {
+        path: "/referral",
+        element: <Referral />
       }
       ,
       {

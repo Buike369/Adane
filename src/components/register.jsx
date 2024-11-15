@@ -7,8 +7,12 @@ import { faGooglePlusG}from '@fortawesome/free-brands-svg-icons'
 import Navbar from "./navbar"
 
 
-
+// KEY=AIzaSyCRKXMIcUH0WQRq1znBz7EF9Oue5TjXJyM
 const Register =()=>{
+
+    const googleLogin = () => {
+    window.open("http://localhost:5000/auth/google", "_self");
+  };
   
     return(
         <div className="BgColor" >
@@ -46,7 +50,7 @@ const Register =()=>{
                          <div className="Or_With"></div>
                      </div>
                    
-                     <div className="Googgle  page12"><FontAwesomeIcon icon={faGooglePlusG} className="gooleI" style={{width:"20%"}}/><div> Sign in with Google</div><div  style={{width:"8%"}}><FontAwesomeIcon  className="goole" /></div></div>
+                     <div className="Googgle  page12"  onClick={googleLogin}><FontAwesomeIcon icon={faGooglePlusG} className="gooleI" style={{width:"20%"}} /><div> Sign in with Google</div><div  style={{width:"8%"}}><FontAwesomeIcon  className="goole" /></div></div>
                      <p className="Already_Account adColor">Already have an account?</p>
                      <div className="LOGIN_HERE_NOW"><Link to="/login" className="p_LoGIn trems1">Login Here</Link></div>
 
