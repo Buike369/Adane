@@ -395,9 +395,9 @@ padding:2px 15px;
         font-size: 30px !important;
     }
 
-    .rtn {
-        height: 450px
-    }
+    /* .rtn {
+        height: auto
+    } */
 }
 
 @media(min-width:769px) and (max-width:1024px) {

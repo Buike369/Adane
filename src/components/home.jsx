@@ -134,8 +134,7 @@ const toggleFAQ = (index) => {
     
 <div className='hSec' >
         <div className="addHo1" >
-         <div className="heroSection2" data-aos="zoom-in" data-aos-duration="200"
-             data-aos-easing="linear">
+         <div className="heroSection2" >
           <p className='saveSmart fastInU' >We  innovate and transform your idea</p>
           <div className="heroImgHousing rtn">
             {/* <div></div> */}
@@ -145,8 +144,7 @@ const toggleFAQ = (index) => {
           </div>
           </div>
          </div>
-        <div className="heroSection1" data-aos="fade-up" data-aos-duration="200"
-             data-aos-easing="linear">
+        <div className="heroSection1" >
           <div className="housingDivForHeroText addHo" >
           <p className='saveSmart fastIn sH' >We Transform Your Idea.</p>
           <p className='saveSmart1'  >We use cutting-edge technology to innovate and transform your ideas into reality. Our team is dedicated to creating impactful solutions, whether it's a new app, a dynamic website, or any tech project. Partner with us to turn your vision into success.</p>
