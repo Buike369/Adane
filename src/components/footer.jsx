@@ -138,12 +138,12 @@ const Footer = () => {
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
                         <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
-                         <li className='pin pin6'><a href="/" className='then'>Case Studies</a></li>
+                         {/* <li className='pin pin6'><a href="/" className='then'>Case Studies</a></li> */}
                           <li className='pin pin6'><a href="/" className='then'>Documentation</a></li>
                            <li className='pin pin6'><a href="/faq" className='then'>FAQ</a></li>
                                                       <li className='pin pin6'><a href="/" className='then'>Customer Support</a></li>
                         <li className='pin1  pin6'><a href="/" className='then'>How it works</a></li>
-                        <li className='pin  pin7'><a href="/" className='then'>Pricing</a></li>
+                        <li className='pin  pin7'><a href="/" className='then'>Newsletter SignUp</a></li>
                     </ul>
                 </div>
             </div>
@@ -224,12 +224,12 @@ const Footer = () => {
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
                     <a href="/blogs" className='mnm mmm1 '>Blog</a>
-                    <a href="/faq" className='mnm mmm2'>Case Studies</a>
+                    {/* <a href="/faq" className='mnm mmm2'>Case Studies</a> */}
                     <a href="/faq" className='mnm mmm2'>Documentation</a>
                                         <a href="/faq" className='mnm mmm2'>FAQ</a>
                     <a href="/faq" className='mnm mmm2'>Customer Support</a>
                                       <a href="/" className='mnm mmm1'>How it works</a>
-                    <a href="/" className='mnm mmm1'>Pricing</a>
+                    {/* <a href="/" className='mnm mmm1'>Pricing</a> */}
                             <a href="/" className='mnm mmm1'>Newsletter SignUp</a>
                 </div>
             </div>

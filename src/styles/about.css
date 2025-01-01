@@ -10,7 +10,8 @@
     max-height: 400px;
 }
 .meetDiv {
-background: linear-gradient(180deg, #080b18, #080b18, #09101c);
+        background: linear-gradient(180deg, #d8dae0, #cad0d5, #ffffff);
+/* background: linear-gradient(180deg, #080b18, #080b18, #09101c); */
 
     padding: 130px 0px 100px 0px !important;
 }
@@ -37,7 +38,7 @@ background: linear-gradient(180deg, #080b18, #080b18, #09101c);
 }
 
 .ThAre {
-    color: #9c9da3;
+color: #2f3a5b;
     font-size: 14px;
     width: 80%;
 }
@@ -45,19 +46,20 @@ background: linear-gradient(180deg, #080b18, #080b18, #09101c);
 .l2 {
 
     padding: 100px 0px 10px 0px;
-    border-radius: 6px;
-    width: 100%;
-    max-width: 98%;
-    background: linear-gradient(71deg, #0a1520, #0e1724, #080b18);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        border-radius: 6px;
+        width: 100%;
+        max-width: 98%;
+        border: 1px solid #dce1e5;
+        background: linear-gradient(71deg, #ffffff, #ebedf1, #e0e3e7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
 }
 
 .OurM {
-    color: #fff;
+    color:#2f3a5b;
     font-size: 18px;
     font-weight: 500;
 }
@@ -73,23 +75,22 @@ background: linear-gradient(180deg, #080b18, #080b18, #09101c);
 }
 
 .MT3 {
-    color: #fff;
+    color: #2f3a5b;
     font-size: 40px;
     line-height: 50px;
 }
 
 .ls {
-    width: 160px;
-    height: 160px;
-    margin-top: -79px;
-    border: 4px solid #38e3cb;
-
-    border-radius: 50%;
-    box-shadow: 0px 0px 29px 3px #091a18;
+        width: 160px;
+            height: 160px;
+            margin-top: -79px;
+            border: 4px solid #d5d8de;
+            border-radius: 50%;
+            box-shadow: 0px 0px 29px 3px #e7ebeb;
 }
 
 .mr {
-    color: #fff;
+    color: #2f3a5b;
     padding: 7px;
     text-align: center;
 
@@ -97,7 +98,7 @@ background: linear-gradient(180deg, #080b18, #080b18, #09101c);
 
 
 .mr1 {
-    color: #9c9da3;
+    color: #666c93;
     padding: 5px;
     text-align: center;
 }

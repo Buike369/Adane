@@ -18,7 +18,8 @@
 .OuB1 {
     font-size: 3rem;
     font-weight: 400;
-    color: #fff;
+    /* color: #fff; */
+    color:#4e5773;
     margin-bottom: 20px;
     letter-spacing: 0.3px;
    
@@ -67,7 +68,7 @@ position: relative;
 
 .TL {
     font-size: 15px;
-    color: #999a9f;
+    color: #4e5773;
     width: 50%;
     
 }
@@ -121,7 +122,8 @@ flex-wrap: wrap;
 }
 
 .IOP {
-    color: #fff;
+    /* color: #fff; */
+    color:#2f3a5b;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -137,7 +139,9 @@ flex-wrap: wrap;
 .ppL {
     font-size: 16px;
     letter-spacing: 0.2px;
-    color: #999a9f;
+    /* color: #999a9f;
+     */
+     color:#4e5773;
     display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
@@ -166,7 +170,8 @@ flex-wrap: wrap;
 }
 
 .YFW2 {
-    color: #999a9f;
+    /* color: #999a9f; */
+    color:#4e5773;
     font-size: 1.3rem;
 }
 
@@ -183,24 +188,28 @@ flex-wrap: wrap;
 
 .YFE45 {
     font-size: 1.5rem;
-    color: #fff;
-    font-weight: 400;
+    /* color: #fff; */
+    color:#2f3a5b;
+    font-weight: 600;
     padding-left: 20px
 }
 
 .YFE1 {
-    color: #999a9f;
+    /* color: #999a9f; */
+    color:#4e5773;
     font-size: 1.2rem;
     line-height: 3rem;
 }
 
 .FaT1 {
-        background: linear-gradient(180deg, #09111d, #151b2d, #151b2d);
+
+        /* background: linear-gradient(180deg, #09111d, #151b2d, #151b2d); */
     padding-top: 5px;
 }
 
 .FaT {
-        background: linear-gradient(180deg, #151b2d, #0b101d, #080b18);
+    /* background: ; */
+        /* background: linear-gradient(180deg, #151b2d, #0b101d, #080b18); */
 }
 .ghg {
     border-bottom-left-radius: 2px !important;

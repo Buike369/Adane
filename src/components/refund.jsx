@@ -9,13 +9,13 @@ const Refund = () => {
             <div className='lico'>Refund and Cancellation Policy</div>
             <div>
               
-                <p className='toPros'>At <a href="/" style={{ color:" rgb(255, 255, 255)"}}>Adane Technology </a>, we strive to deliver high-quality web and mobile app development, as well as UI/UX design services. We aim to ensure that our clients are satisfied with the solutions we provide. However, we understand that there may be circumstances where cancellations or refunds are necessary. This policy outlines the conditions under which refunds and cancellations may be processed.</p>
+                <p className='toPros'>At <a href="/" style={{ color:"#2f3a5b"}}>Adane Technology </a>, we strive to deliver high-quality web and mobile app development, as well as UI/UX design services. We aim to ensure that our clients are satisfied with the solutions we provide. However, we understand that there may be circumstances where cancellations or refunds are necessary. This policy outlines the conditions under which refunds and cancellations may be processed.</p>
             </div>
             <div>
                 
          
                                 <p className='InfoCollect'> <span>1. </span> Project Cancellation</p>
-                                <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>1.1</span> Client-Initiated Cancellations</p>
+                                <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>1.1</span> Client-Initiated Cancellations</p>
                                        <p className='WeUe'>Clients may request a cancellation at any phase of the project. However, refunds will be calculated based on the work completed up to the point of cancellation. The following terms apply:</p>
                 <div className='DivGu'>
                 <div className='toPros mkil'> <span className='lion'>a.</span>  <p className='toPros'><span className="change">Pre-Development Phase (before work starts) : </span> If cancellation is requested before work commences, a full refund will be provided, minus any administrative or consultation fees, if applicable.</p></div>
@@ -23,7 +23,7 @@ const Refund = () => {
                 <div className=' mkil'> <span className='lion'>c.</span><p className='toPros'><span className="change"> Post-Completion Phase (after project delivery): </span> No refunds will be provided once the project has been completed and delivered to the client.</p></div>
                 
                 </div>
-                      <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>1.2</span> Company-Initiated Cancellations</p>
+                      <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>1.2</span> Company-Initiated Cancellations</p>
                                        <p className='WeUe'>Adane Technology reserves the right to cancel any project if:</p>
                 <div className='DivGu'>
                 <div className='toPros mkil'> <span className='lion'>a.</span>  <p className='toPros'>There are irreconcilable differences with the client that affect the project's progress.</p></div>
@@ -36,17 +36,17 @@ const Refund = () => {
                 
          
                                 <p className='InfoCollect'> <span>2. </span> Refund Policy</p>
-                                <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.1</span> Non-Refundable Deposits</p>
+                                <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.1</span> Non-Refundable Deposits</p>
                                        <p className='WeUe'>A deposit is typically required to begin work on any project. This deposit is non-refundable, as it secures our resources and time commitment to the project.</p>
               
-                      <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.2</span> Refund Eligibility</p>
+                      <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.2</span> Refund Eligibility</p>
 
                 <div className='DivGu'>
                  <div className=' mkil'> <span className='lion'>a.</span><p className='toPros'><span className="change"> UI/UX Design Services : </span>Refunds for UI/UX design services will be evaluated based on the work delivered. If the client is unsatisfied with the design, they may request modifications. Refunds will only be considered if no deliverables have been accepted.</p></div>
                  <div className=' mkil'> <span className='lion'>b.</span><p className='toPros'><span className="change"> Web/Mobile App Development : </span> If the client is unsatisfied with the development work, they may request revisions in line with the agreed-upon scope. Refunds will only be processed for portions of the project that have not been completed or delivered.</p></div>
               
                 </div>
-                 <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.3</span>  No Refunds for Approved Work</p>
+                 <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>2.3</span>  No Refunds for Approved Work</p>
                                        <p className='WeUe'>Once a project phase, milestone, or deliverable has been reviewed and approved by the client, no refunds will be issued for that portion of the work.</p>
               
             </div>
@@ -54,13 +54,13 @@ const Refund = () => {
                 
          
                                 <p className='InfoCollect'> <span>3. </span> Service Modifications</p>
-                                <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>3.1</span>  Scope Changes</p>
+                                <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>3.1</span>  Scope Changes</p>
                                        <p className='WeUe'>Any changes in project scope after an agreement is signed may result in additional charges. If the scope of the project changes significantly, we reserve the right to revise the contract and payment structure accordingly.</p>
               
                      
 
                 
-                 <p style={{color:"#fff",fontSize:"18px"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>3.2</span>  Revisions</p>
+                 <p style={{color:"#2f3a5b",fontSize:"16px",fontWeight:"500"}}> <span style={{color:'gray',fontSize:'14px',marginRight:"8px"}}>3.2</span>  Revisions</p>
                                        <p className='WeUe'>Clients are entitled to a limited number of revisions as outlined in their project contract. Additional revisions may incur extra costs. Refunds will not be issued for dissatisfaction arising from an excessive number of revisions requested beyond the agreed limits.</p>
               
             </div>
@@ -93,11 +93,11 @@ const Refund = () => {
           
             <div>
                 <p className='InfoCollect'><span>6. </span> Contact Us</p>
-                <p className='toPros'>For any questions or requests regarding cancellations or refunds,  please Email us at :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#fff"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+                <p className='toPros'>For any questions or requests regarding cancellations or refunds,  please Email us at :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
                
             </div>
             <div>
-                <p className='WeUe' style={{marginTop:"10px"}}> <span style={{color:"#fff", fontWeight:"600"}}>Note:</span> This policy is subject to change. Any updates will be posted on our website, and it is the client's responsibility to review the policy regularly.</p>
+                <p className='WeUe' style={{marginTop:"10px"}}> <span style={{color:"#2f3a5b", fontWeight:"600"}}>Note:</span> This policy is subject to change. Any updates will be posted on our website, and it is the client's responsibility to review the policy regularly.</p>
             </div>
         </div>
     </div>

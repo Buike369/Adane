@@ -34,6 +34,7 @@ import PostList from './components/blogList';
 import PostDetail from './components/blogPostDetails';
 import NewPost from './components/newBlogPost';
 import Referral from './components/referral';
+import { ThemeProvider, useTheme } from "./components/context/context.js";
 const Layout = () => {
   return (
     <>
@@ -55,7 +56,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Cont/>
+        element: <Cont />
       }, {
         path: "/about",
         element: <AboutUs />
@@ -88,18 +89,18 @@ const router = createBrowserRouter([
       ,
       {
         path: "/service",
-        element: <Services/>
+        element: <Services />
       },
-       ,
+      ,
       {
         path: "/apy",
-        element: <Apy/>
+        element: <Apy />
       },
       {
         path: "/blogs",
         element: <AllBlogs />
       },
-        {
+      {
         path: "/write",
         element: <Write />
       },
@@ -111,7 +112,7 @@ const router = createBrowserRouter([
         path: "/disclaimer",
         element: <Disclaimer />
       },
-      
+
       {
         path: "/cookie_policy",
         element: <CookiePolicy />
@@ -154,22 +155,24 @@ const router = createBrowserRouter([
       }
     ]
   },
-  
+
   {
     path: "/register",
-    element: <Register/>,
+    element: <Register />,
   },
   {
     path: "/login",
-    element: <Login/>,
+    element: <Login />,
   },
 ]);
 
 function App() {
   return (
+    <ThemeProvider>
     <div className="App">
       <RouterProvider router={router} />
     </div>
+   </ThemeProvider>
   );
 }
 

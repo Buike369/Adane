@@ -5,18 +5,20 @@
     font-family: Arial, sans-serif;
 }
 .Qaf{
-background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
+    background: linear-gradient(180deg, #ffffff, #e7e9ec, #fcfdfe);
+/* background: linear-gradient(180deg, #080b18, #080b18, #141a2c); */
 }
 
 .faq-item {
-    border-bottom: 1px solid #212b4470;
+    border-bottom: 1px solid #2f3a5b21;
     overflow: hidden;
     transition: all 5s ease;
    
 }
 .trmen{
     text-align: center;
-        color: #fff;
+        /* color: #fff; */
+        color:#2f3a5b;
         margin-top: 60px;
         margin-bottom: 20px;
         font-size: 20px;
@@ -25,7 +27,8 @@ background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
 
 .FaqQ {
     font-size: 1rem;
-    color: #d5d7dd;
+    /* color: #d5d7dd; */
+    color:#2f3a5b;
     line-height: 1.4rem;
     font-weight: 400;
 }
@@ -47,7 +50,7 @@ background: linear-gradient(180deg, #080b18, #080b18, #141a2c);
 
 .faq-answer {
     padding: 15px 10px;
-    color: #999a9f;
+    color: #4e5773;
     transition: all 10s ease;
    
 }
@@ -56,13 +59,13 @@ font-size: 16px !important;
 letter-spacing: 0.2px;
 }
 .fffA{
-background: linear-gradient(360deg, #0b0e1d, #0a0d1b, #141a2c);
+/* background: linear-gradient(360deg, #0b0e1d, #0a0d1b, #141a2c); */
     /* background: linear-gradient(360deg, #080b18, #080b18, #141a2c); */
 }
 @media (max-width:768px){
     .fffA {
             /* background: linear-gradient(180deg, #080b18, #080b18, #0b0e1d); */
-                    background: linear-gradient(180deg, #14192b, #080b18, #0b0e1d);
+                    /* background: linear-gradient(180deg, #14192b, #080b18, #0b0e1d); */
         }
            .fA {
                font-size: 14px !important;

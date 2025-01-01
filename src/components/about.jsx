@@ -82,7 +82,7 @@ useEffect(()=>{
         <div className="heroSection1">
           <div className="housingDivForHeroText addHo hoAdd" >
           <p className='saveSmart fastIn sH sM rrg Usa Asu'>About Us</p>
-          <p className='saveSmart1 sh1 sh6' > Welcome to <a href="/"  style={{color:"#fff"}}>Adane Technology</a>. We specialize in web development, app creation, and graphic design, blending technical expertise with artistic vision to turn your digital dreams into reality.</p>
+          <p className='saveSmart1 sh1 sh6' > Welcome to <a href="/"  style={{color:"#2f3a5b"}}>Adane Technology</a>. We specialize in web development, app creation, and graphic design, blending technical expertise with artistic vision to turn your digital dreams into reality.</p>
            <p className="OurM rrg">Mission</p>
             <p className="saveSmart1 sh6"> Our mission is to empower businesses by crafting innovative web solutions, intuitive mobile apps, and captivating designs. We blend creativity with technology to deliver seamless user experiences and visually striking interfaces, helping our clients thrive in the digital world.</p>
             
@@ -145,7 +145,7 @@ useEffect(()=>{
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
                <p className='mr'>Mr Samuel Dominic</p>
-               <p className='mr1'>Chief Technology Officer (CTO)</p>
+               <p className='mr1'>CTO</p>
                </div>
             </div>
              <div className='l2 go'>

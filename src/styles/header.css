@@ -15,7 +15,8 @@ a {
 }
 
 .AMAd {
-    color: #fff;
+    /* color: #fff; */
+    color:#2f3a5b;
     font-family: "Sofia", cursive;
 }
 .Sapap {
@@ -30,9 +31,13 @@ a {
 
 .subCap {
 /* box-shadow: rgb(8 11 24) 14px -1px 6px -1px, rgb(18 24 40) 0px 2px 4px -1px; */
-        background-color: #10152573;
+        /* background-color: #10152573; */
     /* background-color: #1015259e; */
-        border-bottom: 1px solid #0e272fd1;
+        /* border-bottom: 1px solid #0e272fd1; */
+
+        background-color: #f2f4f466;
+            /* background-color: #1015259e; */
+            border-bottom: 1px solid #d6e5e3;
     position: fixed;
     top: -30px;
         transform: translateY(30px);
@@ -154,7 +159,8 @@ a {
 } */
 
 .navbar1_link {
-    color: #ffffffd1;
+    /* color: #ffffffd1; */
+    color:#000;
 
     font-weight: 500;
     border-radius: 0.5rem;

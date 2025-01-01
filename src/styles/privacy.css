@@ -3,10 +3,10 @@
     width: 100%;
     max-width: 1200px;
     margin:40px auto 0 auto;
-    color:#ffffff99;
+    color:#4e5773;
 }
 .priP{
-    background: linear-gradient(180deg, #080b18, #080b18, #151b2d);
+    /* background: linear-gradient(180deg, #080b18, #080b18, #151b2d); */
         padding: 20px 15px 60px 15px;
 }
 .mkil{
@@ -21,10 +21,10 @@
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color:#fff;
+    color:#2f3a5b;
 }
 .InfoCollect{
-    color:#fff;
+    color:#2f3a5b;
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
@@ -52,9 +52,9 @@
     letter-spacing: 0.5px;
 }
 .change{
-    color:#fff;
+    color:#2f3a5b;
     font-family: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media(min-width:769px){

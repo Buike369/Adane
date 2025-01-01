@@ -86,7 +86,7 @@ const HomeBlog = () => {
             <div className='OuB2'>
                 <p className='TL' data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear">The latest news and updates from us.</p>
-                <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
+                <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#2f3a5b",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
                 <div className='WR' >
@@ -113,7 +113,7 @@ const HomeBlog = () => {
                     </div>
                    <a href={`/blog_news/:id`}> <p className='IOP'>{app.caption}</p></a>
                     <a href={`/blog_news/:id`}><p className='ppL'>{app.text}</p></a>
-                    <p style={{marginTop:'15px'}}> <span style={{color:"#fff",fontWeight:"600"}}>Read More </span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></p>
+                    <p style={{marginTop:'15px'}}> <span style={{color:"#2f3a5b",fontWeight:"600"}}>Read More </span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></p>
                 </div>
                 ))}
                

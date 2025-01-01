@@ -78,15 +78,16 @@ const Projects = () => {
     },[])
   return (
     <div ref={scrollDivRef}>
-        <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(rgb(8 11 24), rgb(9 18 29), rgb(9 17 29))"}}>
+              <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "#fff"}}>
+        {/* <div className='FaT1' style={{paddingBottom:"30px",paddingTop:"20px",background: "linear-gradient(rgb(8 11 24), rgb(9 18 29), rgb(9 17 29))"}}> */}
         <div className='BlogD'>
-            <p className='OuB' style={{color:"#ffffff"}} data-aos="fade-down" data-aos-duration="500"
+            <p className='OuB' style={{color:"#2f3a5b"}} data-aos="fade-down" data-aos-duration="500"
              data-aos-easing="linear">Our Portfolio</p>
             
             <div className='OuB2'>
                 <p className='TL' data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear">Please take a look at the projects we have successfully delivered.</p>
-                <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#fff",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
+                <div className='TLB'><a href="/blogs"><div className='VMD'><span className='Tuy' style={{color:"#2f3a5b",fontWeight:"500",letterSpacing:'1px'}}>View More</span> <FontAwesomeIcon icon={faArrowRight}  className="" style={{fontSize:"15px",color:"#38e3cb"}} /></div></a></div>
             </div>
             <div className='Mikl'>
                 <div className='WR' >

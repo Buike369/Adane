@@ -132,7 +132,7 @@ setError("invalid Email")
                                 <div key={id}>
                             {/* <div className='LabelCon'>{app.label}</div> */}
                             <div className='letGo'>
-                                <FontAwesomeIcon icon={app.icon}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />
+                                <FontAwesomeIcon icon={app.icon}  className=" " style={{fontSize:"20px",color:"#2f3a5b",marginRight:"8px"}}  />
                                 <input type={app.type} className='inputsConnect' name={app.name} onChange={changeHandle} placeholder={app.holder} value={app.value} ref={inputRef}/>
                             </div>
                             </div>
@@ -140,7 +140,7 @@ setError("invalid Email")
 
                          
                             <div>
-                                <div className='messA' style={{paddingLeft:"10px"}}> <FontAwesomeIcon icon={faMessage}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  /> Your Message *</div>
+                                <div className='messA' style={{paddingLeft:"10px"}}> <FontAwesomeIcon icon={faMessage}  className=" " style={{fontSize:"20px",color:"#2f3a5b",marginRight:"8px"}}  /> Your Message *</div>
                                 <div>
                                     <textarea className='textF' name="message" onChange={changeHandle} value={inputs1.message} placeholder=''>
                                     </textarea>
@@ -171,7 +171,7 @@ setError("invalid Email")
                         <div className='graceDay'>
                             Contact Information
                         </div>
-                        <div className='wedDis'>Office Phone:  <a href={`tel:${PhoneNum}`} style={{color:"#fff"}}>+234 906 0243 960</a></div>
+                        <div className='wedDis'>Office Phone:  <a href={`tel:${PhoneNum}`} style={{color:"#303f5e",fontWeight:"600"}}>+234 906 0243 960</a></div>
                         <div className='wedDis'>Email: chukwubuikekingsley@gmail.com</div>
                         <div className='deed'>Mailing Address:</div>
                         <div className='wedDis'>P.O. Box 1639</div>

@@ -10,7 +10,7 @@ font-weight: 600;
     padding: 10px 15px;
     border-radius: 8px;
         
-            background-color: #080b18;
+            background-color: #2f3a5b;
             color: #fff;
             outline: 0;
             border: 0;
@@ -25,7 +25,8 @@ font-weight: 600;
     overflow: hidden !important
 }
 .polo{
-background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
+            background: linear-gradient(180deg, #ffffff, #dadadc, #fafbfc);
+/* background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5); */
 }
 .polo1{
     background-color: inherit;
@@ -46,7 +47,7 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     z-index: 5;
 }
 .gg{
-    color:#fff;
+    color:#2f3a5b;
   
 }
 .LPE{
@@ -66,15 +67,15 @@ background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5);
     min-height: 40px;
     font-size: 22px;
     font-weight: 500;
-    color:#d9d5d5;
+    color:#2f3a5b;
     text-align: center;
 }
 .SenR{
-    padding: 90px 20px 20px 20px;
+padding: 90px 20px 20px 20px;
     border-radius: 10px;
-    border: 1px solid #0c1b25;
+    border: 1px solid #d3dbe1;
     position: relative;
-        background-color: #0a0f1d96;
+    background-color: #f6f6f6;
     overflow: hidden;
 }
 .SenR::after{
@@ -82,7 +83,7 @@ content: "";
     width: 100px;
     height: 100px;
     position: absolute;
-    background-color: #0b1823;
+    background-color: #c8ced3;
     top: -10px;
     filter: blur(29px);
     right: -20px;
@@ -93,7 +94,7 @@ content: "";
             width: 100px;
             height: 100px;
             position: absolute;
-            background-color: #103238b8;
+            background-color: #c8ced3;
             bottom: -10px;
             left: -20px;
             transform: rotate(109deg);
@@ -102,7 +103,7 @@ content: "";
 .Nout{
 font-size: 15px;
 font-weight: 400;
-color:#999a9f;
+color:#2f3a5b;
 text-align: center;
 position: relative;
 z-index: 5;
@@ -113,32 +114,32 @@ z-index: 5;
     gap:20px
 }
 .cePl{
-    width: 100%;
-        padding: 8px 10px;
-        border-radius: 5px;
-        background: #0c1d26;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #102633;
-        color: #fff;
-        outline: 0;
+        width: 100%;
+            padding: 8px 10px;
+            border-radius: 5px;
+            background: #eaebec;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid #cfd3d8;
+            color: #fff;
+            outline: 0;
     
 }
 .lUP{
-    color:#d7d2d2;
+    color:#2f3a5b;
     
 }
 .LabelD{
 margin-bottom: 5px;
 }
 .hK{
-    padding: 20px 10px;
-        border: 1px solid #102633;
-        border-radius: 8px;
-        margin-top: 15px;
-        background: #0a1520;
-        border-radius: 8px;
+        padding: 20px 10px;
+            border: 1px solid #cfd3d8;
+            border-radius: 8px;
+            margin-top: 15px;
+            background: #ffffff;
+            border-radius: 8px;
 }
 .XML{
     position: absolute;
@@ -165,8 +166,8 @@ margin-bottom: 5px;
     width: 100%;
         min-height: 150px;
         border-radius: 5px;
-        border: 1px solid #102633;
-        background-color: #0c1d26;
+        border: 1px solid #cfd3d8;
+            background-color: #eaebec;
         margin-top: 20px;
         color: #fff;
 }

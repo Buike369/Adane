@@ -10,7 +10,7 @@ const  Disclaimer= () => {
 Disclaimer</div>
             <div>
               
-                <p className='toPros'>Welcome to <a href="/" style={{ color:" rgb(255, 255, 255)"}}>Adane Technology </a>. This disclaimer outlines the limitations of liability and responsibilities related to the use of our website, mobile applications, and any services offered by Adane Technology. Please read this disclaimer carefully before using our services or accessing our content. By engaging with us, you agree to the terms outlined here.</p>
+                <p className='toPros'>Welcome to <a href="/" style={{ color:"#2f3a5b"}}>Adane Technology </a>. This disclaimer outlines the limitations of liability and responsibilities related to the use of our website, mobile applications, and any services offered by Adane Technology. Please read this disclaimer carefully before using our services or accessing our content. By engaging with us, you agree to the terms outlined here.</p>
             </div>
             <div>
                 <p className='InfoCollect'><span>1. </span> General Information</p>
@@ -46,7 +46,7 @@ Disclaimer</div>
             </div>
             <div>
                 <p className='InfoCollect'><span>8. </span> Contact Us</p>
-                <p className='toPros'> you have any questions or concerns regarding this disclaimer or our services, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#fff"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+                <p className='toPros'> you have any questions or concerns regarding this disclaimer or our services, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
                
             </div>
         </div>

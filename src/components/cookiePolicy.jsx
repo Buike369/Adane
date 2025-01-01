@@ -9,7 +9,7 @@ const CookiePolicy = () => {
             <div className='lico'>Cookie Policy</div>
             <div>
               
-                <p className='toPros'>At <a href="/" style={{ color:" rgb(255, 255, 255)"}}>Adane Technology </a>, we prioritize transparency, privacy, and the security of our user's data. This Cookie Policy explains how and why we use cookies, what types of cookies we use, and how you can control them when you visit our website or use our mobile applications. By using our website, mobile applications, or other online services, you agree to the use of cookies in accordance with this policy.</p>
+                <p className='toPros'>At <a href="/" style={{ color:"#2f3a5b"}}>Adane Technology </a>, we prioritize transparency, privacy, and the security of our user's data. This Cookie Policy explains how and why we use cookies, what types of cookies we use, and how you can control them when you visit our website or use our mobile applications. By using our website, mobile applications, or other online services, you agree to the use of cookies in accordance with this policy.</p>
             </div>
             <div>
                 <p className='InfoCollect'>What Are Cookies?</p>
@@ -70,7 +70,7 @@ Examples: Facebook Pixel, Google Ads cookies.</p></div>
           
             <div>
                 <p className='InfoCollect'>Contact Us</p>
-                <p className='toPros'>If you have any questions or concerns about our use of cookies,  please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#fff"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+                <p className='toPros'>If you have any questions or concerns about our use of cookies,  please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
                
             </div>
         </div>

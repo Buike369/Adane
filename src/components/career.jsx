@@ -80,7 +80,7 @@ const Career = () => {
  
   <div>
     <div className='hK'>
-       <p style={{marginBottom:"20px",color:'#e9e9e9c2'}}>Ready to Make a Difference? Apply Now!</p>
+       <p style={{marginBottom:"20px",color:'#2f3a5b'}}>Ready to Make a Difference? Apply Now!</p>
     <div className='Map'>
       {careerInput.map((app,id)=>(
       <div key={id}>

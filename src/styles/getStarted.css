@@ -8,7 +8,8 @@
             margin-bottom: 20px;
 }
 .ghgh{
-    background: linear-gradient(180deg, #080b18, #080b18, #080b18);
+        background: linear-gradient(180deg, #ffffff, #f2f4f4, #fafbfb);
+    /* background: linear-gradient(180deg, #080b18, #080b18, #080b18); */
     margin-bottom: 0;
 }
 
@@ -16,7 +17,8 @@
 font-size: 3rem;
     font-weight: 400;
     margin-bottom: 4px;
-    color: #38e3cb;
+    /* color: #38e3cb; */
+    color:#2f3a5b;
     margin-top: 30px;
     letter-spacing: 1px;
 }
@@ -57,7 +59,8 @@ font-size: 3rem;
 .step-title {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #fff;
+    /* color: #fff; */
+    color:#2f3a5b;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -68,7 +71,9 @@ font-size: 3rem;
 
 .step-description {
     font-size: 16px;
-    color: #999a9f;
+    /* color: #999a9f; */
+    color:#4e5773;
+            font-weight: 400;
 }
 .bmLi{
     width:80px;
