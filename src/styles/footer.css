@@ -51,7 +51,7 @@
 }
 
 .Weg {
-    color: #ffffff;
+    color: #2f3a5b;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -303,7 +303,8 @@ border-top: 1px solid #1e263c;
 }
 
 .bh{
-    color:#fff
+    color:#108575;
+    font-weight: 500;
 }
 
 

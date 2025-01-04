@@ -103,7 +103,8 @@ useEffect(()=>{
           <p className='MT'>Meet Our Team</p>
           <p className='MT3'>Awesome  People </p>
            <p className='MT3'>Behinds Us</p>
-           <p className='ThAre'>These are the team behind this wonderful success of this project</p>
+           <p 
+           className='ThAre'>These are the team behind this wonderful success of this project</p>
           <p className=''></p>
         </div>
         <div className='MeetTeam2'>
@@ -118,7 +119,8 @@ useEffect(()=>{
    renderButtonGroupOutside={true}
     customButtonGroup={<ButtonGroup />}
   ssr={true} // means to render carousel on server-side.
-  infinite={true}
+  infinite=
+  {true}
   // autoPlay={this.props.deviceType !== "mobile" ? true : false}
   autoPlay={false}
   autoPlaySpeed={3000}
@@ -134,6 +136,7 @@ useEffect(()=>{
   
 > 
 
+
             <div className=' l2 go'>
               <img src="/img/bkImg.jpeg" alt="learn.PNG" className='ls'/>
               <div className='ran'>
@@ -148,6 +151,7 @@ useEffect(()=>{
                <p className='mr1'>CTO</p>
                </div>
             </div>
+
              <div className='l2 go'>
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
@@ -163,6 +167,7 @@ useEffect(()=>{
                </div>
             </div>
               <div className='l2 go'>
+
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
                <p className='mr'>Mrs Chika Nwaokorie</p>
@@ -178,6 +183,7 @@ useEffect(()=>{
             </div>
                   <div className='l2 go'>
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
+
                <div>
                <p className='mr'>Mrs Chika Nwaokorie</p>
                <p className='mr1'>DevOps Engineer</p>
@@ -193,6 +199,7 @@ useEffect(()=>{
                    <div className='l2 go'>
                <img src="/img/learn.PNG" alt="learn.PNG" className='ls'/>
                <div>
+
                <p className='mr'>Mrs Chika Nwaokorie</p>
                <p className='mr1'>Sales Representative</p>
                </div>
@@ -208,6 +215,7 @@ useEffect(()=>{
             </Carousel>
               {/* </div> */}
         
+
         </div>
      
       </div>
@@ -222,3 +230,113 @@ useEffect(()=>{
 }
 
 export default withTitle(About, 'About Us | Adane Technology');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

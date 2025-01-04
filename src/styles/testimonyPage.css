@@ -11,28 +11,29 @@
 }
 .ExSucc3{
  text-align: center;
- color:#fff;
+ color:#2f3a5b;
  font-size: 24px;
  font-weight: 600;
  margin-top: 40px;
 }
 .LHO{
     text-align: center;
-    color: #999a9f;
+    color:#2f3a5b;
     font-size: 16px;
     margin-bottom: 80px;
 }
 .MCST{
     font-size: 22px;
-    color:#fff;
+    color:#2f3a5b;
     margin: 20px 0;
+    font-weight:600
 }
 .poky1{
     font-size: 14px;
-    color:aliceblue
+    color:#2f3a5b;
 }
 .poky{
-    color: #fff;
+    color: green;
     font-size: 16px;
     margin-bottom: 20px;
     
