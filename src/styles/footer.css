@@ -11,7 +11,8 @@
 }
 
 .FooterDiBac{
-    background: linear-gradient(180deg, #fdfeff, #c8cad1, #ccced7);
+ 
+        background: linear-gradient(180deg, #f7f9fb, #c8cad1, #ccced7);
     /* background: linear-gradient(180deg, #0b0e1d, #080b18, #080b18); */
 }
 .footerMainDiv {

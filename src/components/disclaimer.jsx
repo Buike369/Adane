@@ -46,7 +46,7 @@ Disclaimer</div>
             </div>
             <div>
                 <p className='InfoCollect'><span>8. </span> Contact Us</p>
-                <p className='toPros'> you have any questions or concerns regarding this disclaimer or our services, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+                <p className='toPros'> you have any questions or concerns regarding this disclaimer or our services, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>adanetechnology@gmail.com</a></span> </p>
                
             </div>
         </div>

@@ -91,7 +91,7 @@ const Header = () => {
           <ul className="NavbarUl" >
             <li><a href="/about" className="navbar1_link">About Us</a></li> 
            
-             <li ><a href="/Service" className="navbar1_link">Services</a></li>
+             <li ><a href="/services" className="navbar1_link">Services</a></li>
               <li ><a href="/" className="navbar1_link">Industries</a></li>
                             <li ><a href="/career" className="navbar1_link">Career</a></li>
                <li ><a href="/blogs" className="navbar1_link">Blog</a></li>
@@ -112,11 +112,7 @@ const Header = () => {
             {/* <div><button>O/F</button></div> */}
             <div><FontAwesomeIcon icon={faBars}  className=" " style={{fontSize:"26px",color:"#2f3a5b",marginLeft:"5px",marginTop:"3px"}} onClick={handleCheckboxChange} /></div>
             </div>
-    {/* <input id="menuToggle" type="checkbox"  checked={isChecked}  onChange={handleCheckboxChange}/>
-    <label className="menuBtn" for="menuToggle">
-      <span></span>
-    </label> */}
-    {/* {isChecked ?  */}
+  
     
      <div className={`menuBox ${addRight}`} >
       <div className='baclo' onClick={handleCheckboxChange}></div>
@@ -158,50 +154,18 @@ const Header = () => {
      
     </div>
      <div className={`menuBox44 ${addRight1}`}>
-    {/* <ul className="menuBox242">
-      <li><div className='gFerL'><FontAwesomeIcon icon={faXmark}  className=" " style={{fontSize:"26px",color:"#fff"}} onClick={handleCheckboxChange} /></div></li>
-  
-            <li><a className="menuItem" href="/about">About Us</a></li>
-       <li><a className="menuItem met" onClick={()=>setDropdown(!dropdown)} >Services <FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#fff",marginRight:"8px"}}  /></a>
-       {dropdown ? 
-          <div>
-             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Software</a></div>
-             <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Mobile App Development</a></div>
-              <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />UI/UX design</a></div>
-                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Graphic Design</a></div>
-                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Front_End Development</a></div>
-                <div className='mns41'><a href="" className='mns4'><FontAwesomeIcon icon={faArrowRight}  className=" " style={{fontSize:"20px",color:"#c5c5c5",marginRight:"8px"}}  />Backend Development</a></div>
-          </div>
-          :""}
-       </li>
-              <li><a className="menuItem" href="/career">Career</a></li>
-              <li><div className="menuItem"  >Industries</div></li>
-      <li><a className="menuItem" href="/blogs" style={{marginBottom:"10px"}}>Blog</a></li>
 
-     
-
-       <li><button className='loginButton'><a className="menuItem34" href="/contact">Contact Us</a></button></li>
-       <li> <div className="hotter kil" style={{marginBottom:"60px"}}>
-                <div className="hot">
-                {socialLink.map((app,id)=>(
-                <ul key={id} className="hot">
-                    <li> <div className=''><a href={app.link} target="_blank" className="footerIconDivL um"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor " style={{fontSize:"20px"}} /></a></div></li>
-                </ul>
-                ))}
-                </div>
-            </div></li>
-            <li><div style={{height:"20px",padding:"10px 15px"}}></div></li>
-    </ul> */}
      
     </div>
     {/* :""} */}
   </div>
            <ul className="NavbarUl">
-           {/* <li><FontAwesomeIcon icon={faSearch}  className=""/> Search</li>  */}
-           {/* <li><button className='NowB'>ON</button></li> */}
-           <li><div style={{display:"flex",gap:"10px"}}><a href="/contact" className="navbar1_link loginButton">Contact Us</a><a href="/login" className="navbar1_link loginButton" style={{backgroundColor:'#fff',color:"#000"}}>Login</a></div></li>
+           
+           <li><div style={{display:"flex",gap:"10px"}}><a href="/contact" className="navbar1_link loginButton">Contact Us</a>
+           {/* <a href="/login" className="navbar1_link loginButton" style={{backgroundColor:'#fff',color:"#000"}}>Login</a> */}
+           </div></li>
                      
-           {/* <li><a href="/register" className="navbar1_link ">Join for free <FontAwesomeIcon icon={faArrowRight}  className=""/></a></li> */}
+          
            </ul>
         </div>
         }

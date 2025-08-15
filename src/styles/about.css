@@ -10,10 +10,8 @@
     max-height: 400px;
 }
 .meetDiv {
-        background: linear-gradient(180deg, #d8dae0, #cad0d5, #ffffff);
-/* background: linear-gradient(180deg, #080b18, #080b18, #09101c); */
-
-    padding: 130px 0px 100px 0px !important;
+    background: linear-gradient(180deg, #fafbfb, #eff2f4, #ffffff);
+    padding: 130px 10px 100px 10px !important;
 }
 
 .MeetTeam1 {
@@ -71,6 +69,8 @@ color: #2f3a5b;
 .MT {
     color: #38e3cb;
     margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 600;
 
 }
 
@@ -137,6 +137,9 @@ color: #2f3a5b;
     }
     .jjj{
         margin-top: 0;
+    }
+    .MT{
+        font-size: 24px;
     }
 
     .MeetTeam1,

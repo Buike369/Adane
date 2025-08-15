@@ -41,7 +41,7 @@ const AboutInfo = () => {
 </g>
 
 </svg>
-          {/* <svg className="svg-inline--fa fa-user-plus ggj" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg> */}
+        
           </div>
           <h3 className="step-title step-title1">Expert Team</h3>
           <p className="step-description">Our talented professionals have extensive experience in their respective fields, ensuring that every project is executed with expertise and excellence..</p>
@@ -53,7 +53,7 @@ const AboutInfo = () => {
    
 
 <svg fill="#38e3cb" width="80px" height="80px" viewBox="0 0 64 64" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><rect height="4" width="19" x="35" y="58"/><path d="M54,20.276a7.733,7.733,0,0,0-7.724-7.724h-.484a1,1,0,0,1-.943-.666A7.317,7.317,0,0,0,31.3,11.272a1,1,0,0,1-1.62.286,7.272,7.272,0,0,0-5.21-2.179,7.351,7.351,0,0,0-7.175,5.839.993.993,0,0,1-1.022.8L16,16a6,6,0,0,0,0,12H46.276A7.733,7.733,0,0,0,54,20.276ZM41,18V16a6.006,6.006,0,0,1,6,6H45A4,4,0,0,0,41,18Zm4,6h2v2H45Z"/><path d="M58,13a2,2,0,0,0-2,2V30a1,1,0,0,1-.341.752l-7.977,6.98-4.975,4.975-1.414-1.414,6.5-6.5a1.829,1.829,0,0,0-2.586-2.586l-8.036,8.036A3.974,3.974,0,0,0,36,43.071v7.117a3.99,3.99,0,0,0,.2,1.265L37.721,56H52V47.415a6,6,0,0,1,.89-3.144l6.517-10.59a4,4,0,0,0,.593-2.1V15A2,2,0,0,0,58,13Z"/><path d="M16.207,32.207a1.831,1.831,0,0,0,0,2.586l6.5,6.5-1.414,1.414-4.975-4.975-7.977-6.98A1,1,0,0,1,8,30V15a2,2,0,0,0-4,0V31.585a4,4,0,0,0,.593,2.1l6.517,10.59A6,6,0,0,1,12,47.415V56H26.279L27.8,51.453a3.99,3.99,0,0,0,.2-1.265V43.071a3.974,3.974,0,0,0-1.171-2.828l-8.036-8.036A1.831,1.831,0,0,0,16.207,32.207Z"/><rect height="4" width="19" x="10" y="58"/></svg>
-            {/* <svg className="svg-inline--fa fa-wallet ggj" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wallet" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H80c-8.8 0-16-7.2-16-16s7.2-16 16-16H448c17.7 0 32-14.3 32-32s-14.3-32-32-32H64zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg> */}
+         
             </div>
           <h3 className="step-title step-title1"> Client Approach</h3>
           <p className="step-description">We prioritize your needs and goals, working closely with you throughout the development process to deliver solutions that exceed your expectations.</p>
@@ -72,7 +72,7 @@ const AboutInfo = () => {
     <circle id="primary-4" data-name="primary" cx="7" cy="7" r="7" transform="translate(5 3)" fill="none" stroke="#38e3cb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </g>
 </svg>
-          {/* <svg className="svg-inline--fa fa-chart-line ggj" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"></path></svg> */}
+         
           </div>
           <h3 className="step-title step-title1">Commitment to Quality</h3>
           <p className="step-description">We are dedicated to delivering high-quality results, with a strong focus on detail and functionality to ensure your digital presence shines .</p>

@@ -93,7 +93,7 @@ const Refund = () => {
           
             <div>
                 <p className='InfoCollect'><span>6. </span> Contact Us</p>
-                <p className='toPros'>For any questions or requests regarding cancellations or refunds,  please Email us at :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+                <p className='toPros'>For any questions or requests regarding cancellations or refunds,  please Email us at :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>adanetechnology@gmail.com</a></span> </p>
                
             </div>
             <div>

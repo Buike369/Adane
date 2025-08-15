@@ -26,7 +26,7 @@ font-weight: 600;
 }
 .polo{
             background: linear-gradient(180deg, #ffffff, #dadadc, #fafbfc);
-/* background: linear-gradient(180deg, #080b18, #080b18, #0d242cb5); */
+
 }
 .polo1{
     background-color: inherit;
@@ -60,7 +60,7 @@ font-weight: 600;
 }
 .elope{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 20px;
 }
 .JarB{
@@ -115,15 +115,15 @@ z-index: 5;
 }
 .cePl{
         width: 100%;
-            padding: 8px 10px;
-            border-radius: 5px;
-            background: #eaebec;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            border: 1px solid #cfd3d8;
-            color: #fff;
-            outline: 0;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: #e8e9ea0d;
+   
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid #e9e9eb;
+    color: #000;
+    outline: 0;
     
 }
 .lUP{
@@ -145,31 +145,29 @@ margin-bottom: 5px;
     position: absolute;
     top: 142px;
     left: -83px;
-    /* background-color: #151b2d; */
     width:200px;
     height: 200px;
     z-index: 0;
-    /* filter:blur(40px) */
+    
 }
 .XML1{
     position: absolute;
     top: 294px;
     right: 0px;
-    /* background-color: #151b2d; */
     width: 200px;
     height: 200px;
     z-index: 0;
-    /* filter:blur(40px) */
+   
 }
 
 .textAr{
-    width: 100%;
-        min-height: 150px;
-        border-radius: 5px;
-        border: 1px solid #cfd3d8;
-            background-color: #eaebec;
-        margin-top: 20px;
-        color: #fff;
+        width: 100%;
+    min-height: 150px;
+    border-radius: 5px;
+    border: 1px solid #e9e9eb;
+    background-color: #fefefe;
+    margin-top: 20px;
+    color: #fff;
 }
 @media (max-width:768px){
     .elope{

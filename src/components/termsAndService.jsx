@@ -91,7 +91,7 @@ const TermsAndService = () => {
          </div>
          <div>
             <p className='InfoCollect'>Contact Us</p>
-            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>chukwubuikekingsley369@gmail.com</a></span> </p>
+            <p className='toPros'>For any questions or concerns regarding these Terms and Conditions, please Email us :<span>  <a href="mailto:chukwubuikekingsley369@gmail.com" className='' style={{color:"#2f3a5b"}}>adanetechnology@gmail.com</a></span> </p>
            
          </div>
         </div>

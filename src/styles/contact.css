@@ -10,8 +10,8 @@
     color:#ffffff;
 }
 .contcat{
-    /* background: linear-gradient(180deg, #080b18, #080b18, #151b2d); */
-    background: linear-gradient(180deg, #ffffff, #ccced4, #f9fafc);
+  
+        background: linear-gradient(180deg, #ffffff, #f0f1f5, #f9fafc);
   
         padding:0 15px 20px 15px
       
@@ -32,7 +32,7 @@
     display: flex;
 }
 .itin{
-    background-color: #35e1c9;
+    background-color: #35e1c97d;
     position: absolute;
     width: 600px;
     height: 200px;
@@ -116,18 +116,18 @@
 
 .inputsConnect:-webkit-autofill{
     background-color:transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color:#fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color:#000 !important
 }
 .inputsConnect:-webkit-autofill:focus {
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 .inputsConnect:-webkit-autofill:hover{
     background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0px 1000px #151b2d inset !important;
-    -webkit-text-fill-color: #fff !important
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important
 }
 
 .inputsConnect:active, .inputsConnect:focus, .inputsConnect:active{
@@ -162,8 +162,8 @@
 .fdn   {
         padding: 10px;
         background: #ffffff;
-            /* background: #151b2d; */
             border-radius: 8px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 .visitLC {

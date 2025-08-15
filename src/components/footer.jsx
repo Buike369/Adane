@@ -22,48 +22,7 @@ const Footer = () => {
   }
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faGithub,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faDiscord,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
 
-//    const postInfo1 =(e)=>{
-// e.preventDefault()
-//     if( inputs.email.length === 0 ){
-//       setError("field must not be empty")
-//        setTimeout(()=>{
-//            setError("")
-//         },3000)
-//     }else
-//      if(validator.isEmail(inputs.email) === false){
-// setError("invalid Email")
-//  setTimeout(()=>{
-//            setError("")
-//         },3000)
-//     }else{
 
-//       axios.post("https://maratproject.onrender.com/api/post/form1",inputs).then((response)=>{
-//         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
-//         setMessages("Sent Successfully")
-//          document.body.classList.add("sucMac");
-//         setTimeout(()=>{
-//            setMessages("")
-//            setInputs({
-//             email:""
-//            })
-//             document.body.classList.remove("sucMac");
-          
-//         },5000)
-//       }).catch((err)=>{
-//       //  console.log(err)
-//        setError("Internal Server error")
-//         document.body.classList.add("sucMac");
-
-//          setTimeout(()=>{
-//            setError("")
-          
-//             document.body.classList.remove("sucMac");
-          
-//         },5000)
-//       })
-
-//     } 
-//   }
 
 
 
@@ -117,8 +76,8 @@ const Footer = () => {
                         <li className='pin pin7'><a href="/about" className='then'>About Us</a></li>
                         <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
                         <li className='pin  pin7'><a href="/career" className='then'>Careers</a></li>
-                        {/* <li className='pin  pin7'><a href="/career" className='then'>Press</a></li> */}
-                         <li className='pin  pin7'><a href="/testimonies" className='then'>Testimonials</a></li>
+                       
+                         
                         
                     </ul>
                 </div>
@@ -138,11 +97,11 @@ const Footer = () => {
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
                         <li className='pin pin6'><a href="/blogs" className='then'>Blog</a></li>
-                         {/* <li className='pin pin6'><a href="/" className='then'>Case Studies</a></li> */}
-                          <li className='pin pin6'><a href="/" className='then'>Documentation</a></li>
+                         
+                          
                            <li className='pin pin6'><a href="/faq" className='then'>FAQ</a></li>
                                                       <li className='pin pin6'><a href="/" className='then'>Customer Support</a></li>
-                        <li className='pin1  pin6'><a href="/" className='then'>How it works</a></li>
+                        
                         <li className='pin  pin7'><a href="/" className='then'>Newsletter SignUp</a></li>
                     </ul>
                 </div>
@@ -224,12 +183,12 @@ const Footer = () => {
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
                     <a href="/blogs" className='mnm mmm1 '>Blog</a>
-                    {/* <a href="/faq" className='mnm mmm2'>Case Studies</a> */}
-                    <a href="/faq" className='mnm mmm2'>Documentation</a>
+                   
+                    
                                         <a href="/faq" className='mnm mmm2'>FAQ</a>
                     <a href="/faq" className='mnm mmm2'>Customer Support</a>
-                                      <a href="/" className='mnm mmm1'>How it works</a>
-                    {/* <a href="/" className='mnm mmm1'>Pricing</a> */}
+                                     
+                 
                             <a href="/" className='mnm mmm1'>Newsletter SignUp</a>
                 </div>
             </div>
@@ -257,7 +216,7 @@ const Footer = () => {
         <div className='footerMainDiv'>
           
             <div className='footerName' >
-                © 2024 Adane Technologies limited . All Rights Reserved
+                © {new Date().getFullYear()} Adane Technologies limited . All Rights Reserved
             </div>
             <div className="hotter">
                 <div className="hot">

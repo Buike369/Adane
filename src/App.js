@@ -88,7 +88,7 @@ const router = createBrowserRouter([
       }
       ,
       {
-        path: "/service",
+        path: "/services",
         element: <Services />
       },
       ,
