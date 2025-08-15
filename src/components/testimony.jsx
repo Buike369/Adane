@@ -125,13 +125,12 @@ const ButtonTwo =({onClick})=>{
     <div className="testimonyDiv">
         <div className="WhatD">
          <div className="Rtme">
-        {/* <div className='TheyAre' data-aos="fade-down" data-aos-duration="3000"
-             data-aos-easing="linear">They are talking about us</div> */}
+       
           <div className='DonTake' data-aos="fade-down" data-aos-duration="500"
              data-aos-easing="linear">What Our Customers Say</div>
           <div className='seeWhat' data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear">Discover why our clients love working with us! Read their testimonials and see how we’ve made a difference for them</div>
-         {/* <div className="divUnder1"></div> */}
+         
          <div className=" marginMu fadama " data-aos="fade-up" data-aos-duration="500"
              data-aos-easing="linear">
          <Carousel
@@ -144,8 +143,8 @@ const ButtonTwo =({onClick})=>{
     customButtonGroup={<ButtonGroup />}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
-  // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-  autoPlay={false}
+  
+  autoPlay={true}
   autoPlaySpeed={3000}
   keyBoardControl={true}
   customTransition="all .5"
