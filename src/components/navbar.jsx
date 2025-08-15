@@ -152,7 +152,7 @@ const Header = () => {
            <ul className="NavbarUl">
            
            <li><div style={{display:"flex",gap:"10px"}}><a href="/contact" className="navbar1_link loginButton">Contact Us</a>
-           {/* <a href="/login" className="navbar1_link loginButton" style={{backgroundColor:'#fff',color:"#000"}}>Login</a> */}
+          
            </div></li>
                      
           
