@@ -71,15 +71,16 @@
 }
 
 .footerIconDivL {
-background-color: #192034;
+background-color: #ecf2f3;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid #192034;
-    display: flex;
+    border: 1px solid #ecf2f3;
+    display: flex
+;
     justify-content: center;
     align-items: center;
-    color: #e5e6ed;
+    color: #303a5b;
 }
 
 .footerIconDivL:hover {
@@ -295,12 +296,14 @@ background-color: #192034;
 border-top: 1px solid #1e263c;
     margin-top: 15px;
     padding-top: 10px;
+    position: absolute;
+    bottom: 0;
 }
 .um {
     width: 35px;
     height: 35px;
 
-    border: 1px solid #2b3655;
+    border: 1px solid #ecf2f3;
 }
 
 .bh{
