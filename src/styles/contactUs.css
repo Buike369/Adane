@@ -20,7 +20,7 @@
     justify-content: space-between;
 }
 .ICH{
-    color:#f8fdfe;
+    color:#000;
 }
 .buTNum{
     margin-top: 10px;
@@ -37,7 +37,7 @@ box-shadow: 0px 2px 6px 2px #858a9614;
 padding:30px 15px 20px ;
 text-align: center;
 /* background-color: #1d22493b; */
-    background: linear-gradient(150deg, #2d34513b, #191f334f, #080b1852);
+        background: linear-gradient(150deg, #ecf2f3, #f4f6f9, #f4f5f8);
 /* background: linear-gradient(150deg, #2d3451, #191f33, #080b18); */
     /* border: 1px solid #2d3451; */
   
@@ -47,7 +47,7 @@ text-align: center;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
-    color:#35e1c9;
+    color:#000;
 }
 .helpYou{
         font-weight: 400;
@@ -80,12 +80,13 @@ text-align: center;
     background-color: #2f3a5b59;
 }
 .GoTS{
-    padding:8px 15px;
+        padding: 8px 15px;
     border-radius: 8px;
-    background-color: #2e756d;
+    background-color: #ecf2f3;
     width: 180px;
-    margin:10px auto 0 auto;
-    color:#fff;
+    margin: 10px auto 0 auto;
+    color: #0f0e0e;
+    border: 1px solid #108675;
 }
 
 @media(max-width:768px){
