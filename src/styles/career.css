@@ -33,7 +33,7 @@ font-weight: 600;
 }
 .viB{
     letter-spacing: 0.5px;
-        color: #999a9f;
+        color: #1c1d20;
 }
 .MTEa{
     font-size: 24px;
@@ -135,11 +135,11 @@ margin-bottom: 5px;
 }
 .hK{
         padding: 20px 10px;
-            border: 1px solid #cfd3d8;
-            border-radius: 8px;
-            margin-top: 15px;
-            background: #ffffff;
-            border-radius: 8px;
+    border: 1px solid #f8fdfea1;
+    border-radius: 8px;
+    margin-top: 15px;
+    background: #f3f4f5;
+    border-radius: 8px;
 }
 .XML{
     position: absolute;
@@ -165,7 +165,7 @@ margin-bottom: 5px;
     min-height: 150px;
     border-radius: 5px;
     border: 1px solid #e9e9eb;
-    background-color: #fefefe;
+    background-color: #f3f4f5;
     margin-top: 20px;
     color: #fff;
 }

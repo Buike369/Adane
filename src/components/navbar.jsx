@@ -7,13 +7,13 @@ import Slide from "./avert"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars,faArrowRight,faCircleChevronDown,faCircleChevronUp,faXmark,faSearch} from '@fortawesome/free-solid-svg-icons'
-import {faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
+import {faXTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF,faLinkedinIn} from "@fortawesome/free-brands-svg-icons"
 
 
 const Header = () => {
 
   
-   const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faDiscord,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
+   const socialLink = [{icon:faXTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faTelegram,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faGithub,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faLinkedinIn,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faDiscord,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
 
 
   const [isChecked,setIsChecked] = useState(false)

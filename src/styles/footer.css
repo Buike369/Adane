@@ -28,7 +28,7 @@
     /* background-color: #1217288f; */
 }
 .fil4{
-    border-top: 1px solid #0e1326;
+    border-top: 1px solid #7475791c;
     margin-top: 20px !important;
 }
 .fil5 {
@@ -71,11 +71,11 @@
 }
 
 .footerIconDivL {
-background-color: #ecf2f3;
+/* background-color: #ecf2f3; */
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid #ecf2f3;
+    border: 1px solid #313a5b63;
     display: flex
 ;
     justify-content: center;
